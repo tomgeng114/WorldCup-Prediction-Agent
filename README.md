@@ -1,5 +1,23 @@
 # World Cup AI Predictor Pro
+面向体育赛事分析场景的智能决策 Agent 原型系统。
 
+---
+
+## 系统预览
+
+### 首页
+
+![首页](docs/screenshots/home.png)
+
+### AI预测页
+
+![预测页](docs/screenshots/predict.png)
+
+### 历史回测
+
+![历史回测](docs/screenshots/backtest.png)
+
+---
 专业足球赛事 AI 预测平台，覆盖世界杯、欧洲杯、欧冠、五大联赛以及中国体育彩票竞彩赛事。
 
 ## 数据原则
