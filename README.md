@@ -16,6 +16,33 @@
 ### 历史回测
 
 ![历史回测](docs/screenshots/backtest.png)
+## 系统架构
+
+```text
+中国体育彩票数据源
+        ↓
+    数据同步层
+        ↓
+    特征工程层
+        ↓
+ ┌───────────────┐
+ │   ELO Engine  │
+ ├───────────────┤
+ │  Odds Engine  │
+ ├───────────────┤
+ │ Poisson Model │
+ ├───────────────┤
+ │ Monte Carlo   │
+ ├───────────────┤
+ │ H2H Analysis  │
+ └───────────────┘
+        ↓
+ Decision Layer v3
+        ↓
+ Prediction Output
+        ↓
+ Backtest & ROI
+```
 
 ---
 专业足球赛事 AI 预测平台，覆盖世界杯、欧洲杯、欧冠、五大联赛以及中国体育彩票竞彩赛事。
