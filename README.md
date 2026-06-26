@@ -17,6 +17,45 @@
 
 ![历史回测](docs/screenshots/backtest.png)
 ## 系统架构
+## Agent Framework
+
+本项目不仅是一个足球赛事预测系统，同时也是一个面向复杂决策任务的 Agent 原型系统。
+
+### Multi-Reasoning Architecture
+
+系统通过多个独立推理模块协同完成预测任务：
+
+* ELO Rating Agent
+* Form Analysis Agent
+* Odds Intelligence Agent
+* Poisson Simulation Agent
+* Monte Carlo Scenario Agent
+* Head-to-Head Analysis Agent
+
+每个模块负责不同维度的信息分析，并向决策层输出结构化结果。
+
+### Decision Layer
+
+Decision Layer v3 负责：
+
+* 聚合多模型推理结果
+* 动态调整模型权重
+* 识别高风险赛事
+* 输出最终预测结论
+
+实现从数据分析到决策输出的完整工作流。
+
+### Future Agent Evolution
+
+未来计划探索：
+
+* Tool Calling
+* Long-Term Memory
+* Multi-Agent Collaboration
+* Autonomous Workflow
+* Context Engineering
+
+进一步将系统演进为面向体育赛事分析场景的智能决策 Agent。
 
 ```text
 中国体育彩票数据源
