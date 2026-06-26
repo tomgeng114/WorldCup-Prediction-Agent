@@ -1,0 +1,141 @@
+﻿sample,match_id,match_date,stage,match,predicted_result,actual_result,actual_score,top1_score,top2_score,top3_score,top3_available,result_hit,top1_hit,top2_coverage_hit,top3_coverage_hit
+2018,257,2018-06-14T18:00:00,Group Stage,Russia vs Saudi Arabia,Home Win,Home Win,5-0,4-2,,,False,True,False,False,False
+2018,258,2018-06-15T17:00:00,Group Stage,Egypt vs Uruguay,Away Win,Away Win,0-1,0-2,,,False,True,False,False,False
+2018,263,2018-06-15T18:00:00,Group Stage,Morocco vs Iran,Draw,Away Win,0-1,1-1,,,False,False,False,False,False
+2018,264,2018-06-15T21:00:00,Group Stage,Portugal vs Spain,Away Win,Draw,3-3,0-2,,,False,False,False,False,False
+2018,269,2018-06-16T13:00:00,Group Stage,France vs Australia,Home Win,Home Win,2-1,2-1,,,False,True,True,False,False
+2018,275,2018-06-16T16:00:00,Group Stage,Argentina vs Iceland,Home Win,Draw,1-1,1-0,,,False,False,False,False,False
+2018,270,2018-06-16T19:00:00,Group Stage,Peru vs Denmark,Away Win,Away Win,0-1,2-4,,,False,True,False,False,False
+2018,276,2018-06-16T21:00:00,Group Stage,Croatia vs Nigeria,Home Win,Home Win,2-0,1-0,,,False,True,False,False,False
+2018,281,2018-06-17T16:00:00,Group Stage,Costa Rica vs Serbia,Draw,Away Win,0-1,1-1,,,False,False,False,False,False
+2018,287,2018-06-17T18:00:00,Group Stage,Germany vs Mexico,Home Win,Away Win,0-1,2-1,,,False,False,False,False,False
+2018,282,2018-06-17T21:00:00,Group Stage,Brazil vs Switzerland,Home Win,Draw,1-1,3-1,,,False,False,False,False,False
+2018,288,2018-06-18T15:00:00,Group Stage,Sweden vs South Korea,Home Win,Home Win,1-0,2-1,,,False,True,False,False,False
+2018,293,2018-06-18T18:00:00,Group Stage,Belgium vs Panama,Home Win,Home Win,3-0,1-0,,,False,True,False,False,False
+2018,294,2018-06-18T21:00:00,Group Stage,Tunisia vs England,Away Win,Away Win,1-2,0-1,,,False,True,False,False,False
+2018,299,2018-06-19T15:00:00,Group Stage,Colombia vs Japan,Home Win,Away Win,1-2,2-0,,,False,False,False,False,False
+2018,300,2018-06-19T18:00:00,Group Stage,Poland vs Senegal,Away Win,Away Win,1-2,0-1,,,False,True,False,False,False
+2018,259,2018-06-19T21:00:00,Group Stage,Russia vs Egypt,Home Win,Home Win,3-1,2-0,,,False,True,False,False,False
+2018,265,2018-06-20T15:00:00,Group Stage,Portugal vs Morocco,Home Win,Home Win,1-0,2-0,,,False,True,False,False,False
+2018,260,2018-06-20T18:00:00,Group Stage,Uruguay vs Saudi Arabia,Home Win,Home Win,1-0,4-2,,,False,True,False,False,False
+2018,266,2018-06-20T21:00:00,Group Stage,Iran vs Spain,Away Win,Away Win,0-1,0-1,,,False,True,True,False,False
+2018,271,2018-06-21T16:00:00,Group Stage,Denmark vs Australia,Home Win,Draw,1-1,3-2,,,False,False,False,False,False
+2018,272,2018-06-21T20:00:00,Group Stage,France vs Peru,Home Win,Home Win,1-0,2-1,,,False,True,False,False,False
+2018,277,2018-06-21T21:00:00,Group Stage,Argentina vs Croatia,Home Win,Away Win,0-3,2-0,,,False,False,False,False,False
+2018,283,2018-06-22T15:00:00,Group Stage,Brazil vs Costa Rica,Home Win,Home Win,2-0,3-2,,,False,True,False,False,False
+2018,278,2018-06-22T18:00:00,Group Stage,Nigeria vs Iceland,Away Win,Home Win,2-0,0-1,,,False,False,False,False,False
+2018,284,2018-06-22T20:00:00,Group Stage,Serbia vs Switzerland,Draw,Away Win,1-2,0-0,,,False,False,False,False,False
+2018,295,2018-06-23T15:00:00,Group Stage,Belgium vs Tunisia,Home Win,Home Win,5-2,1-0,,,False,True,False,False,False
+2018,289,2018-06-23T18:00:00,Group Stage,South Korea vs Mexico,Away Win,Away Win,1-2,1-2,,,False,True,True,False,False
+2018,290,2018-06-23T21:00:00,Group Stage,Germany vs Sweden,Home Win,Home Win,2-1,2-1,,,False,True,True,False,False
+2018,296,2018-06-24T15:00:00,Group Stage,England vs Panama,Home Win,Home Win,6-1,2-0,,,False,True,False,False,False
+2018,301,2018-06-24T20:00:00,Group Stage,Japan vs Senegal,Away Win,Draw,2-2,0-1,,,False,False,False,False,False
+2018,302,2018-06-24T21:00:00,Group Stage,Poland vs Colombia,Away Win,Away Win,0-3,1-2,,,False,True,False,False,False
+2018,262,2018-06-25T17:00:00,Group Stage,Saudi Arabia vs Egypt,Away Win,Home Win,2-1,1-2,,,False,False,False,False,False
+2018,261,2018-06-25T18:00:00,Group Stage,Uruguay vs Russia,Home Win,Home Win,3-0,4-2,,,False,True,False,False,False
+2018,268,2018-06-25T20:00:00,Group Stage,Spain vs Morocco,Home Win,Draw,2-2,1-0,,,False,False,False,False,False
+2018,267,2018-06-25T21:00:00,Group Stage,Iran vs Portugal,Away Win,Draw,1-1,0-2,,,False,False,False,False,False
+2018,273,2018-06-26T17:00:00,Group Stage,Denmark vs France,Away Win,Draw,0-0,1-2,,,False,False,False,False,False
+2018,274,2018-06-26T17:00:00,Group Stage,Australia vs Peru,Away Win,Away Win,0-2,1-2,,,False,True,False,False,False
+2018,279,2018-06-26T21:00:00,Group Stage,Nigeria vs Argentina,Away Win,Away Win,1-2,0-1,,,False,True,False,False,False
+2018,280,2018-06-26T21:00:00,Group Stage,Iceland vs Croatia,Draw,Away Win,1-2,1-1,,,False,False,False,False,False
+2018,291,2018-06-27T17:00:00,Group Stage,South Korea vs Germany,Away Win,Home Win,2-0,1-4,,,False,False,False,False,False
+2018,292,2018-06-27T19:00:00,Group Stage,Mexico vs Sweden,Away Win,Away Win,0-3,0-2,,,False,True,False,False,False
+2018,285,2018-06-27T21:00:00,Group Stage,Serbia vs Brazil,Away Win,Away Win,0-2,0-2,,,False,True,True,False,False
+2018,286,2018-06-27T21:00:00,Group Stage,Switzerland vs Costa Rica,Home Win,Draw,2-2,2-0,,,False,False,False,False,False
+2018,303,2018-06-28T17:00:00,Group Stage,Japan vs Poland,Away Win,Away Win,0-1,0-2,,,False,True,False,False,False
+2018,304,2018-06-28T18:00:00,Group Stage,Senegal vs Colombia,Away Win,Away Win,0-1,1-2,,,False,True,False,False,False
+2018,297,2018-06-28T20:00:00,Group Stage,England vs Belgium,Home Win,Away Win,0-1,2-0,,,False,False,False,False,False
+2018,298,2018-06-28T21:00:00,Group Stage,Panama vs Tunisia,Away Win,Away Win,1-2,2-4,,,False,True,False,False,False
+2018,305,2018-06-30T17:00:00,Round of 16,France vs Argentina,Draw,Home Win,4-3,1-1,,,False,False,False,False,False
+2018,306,2018-06-30T21:00:00,Round of 16,Uruguay vs Portugal,Draw,Home Win,2-1,2-2,,,False,False,False,False,False
+2018,307,2018-07-01T17:00:00,Round of 16,Spain vs Russia,Home Win,Draw,1-1,3-2,,,False,False,False,False,False
+2018,308,2018-07-01T21:00:00,Round of 16,Croatia vs Denmark,Draw,Draw,1-1,1-1,,,False,True,True,False,False
+2018,309,2018-07-02T18:00:00,Round of 16,Brazil vs Mexico,Home Win,Home Win,2-0,2-1,,,False,True,False,False,False
+2018,310,2018-07-02T21:00:00,Round of 16,Belgium vs Japan,Home Win,Home Win,3-2,1-0,,,False,True,False,False,False
+2018,311,2018-07-03T17:00:00,Round of 16,Sweden vs Switzerland,Home Win,Home Win,1-0,2-1,,,False,True,False,False,False
+2018,312,2018-07-03T21:00:00,Round of 16,Colombia vs England,Draw,Draw,1-1,1-1,,,False,True,True,False,False
+2018,313,2018-07-06T17:00:00,Quarter-finals,Uruguay vs France,Away Win,Away Win,0-2,1-3,,,False,True,False,False,False
+2018,314,2018-07-06T21:00:00,Quarter-finals,Brazil vs Belgium,Home Win,Away Win,1-2,3-1,,,False,False,False,False,False
+2018,315,2018-07-07T18:00:00,Quarter-finals,Sweden vs England,Draw,Away Win,0-2,1-1,,,False,False,False,False,False
+2018,316,2018-07-07T21:00:00,Quarter-finals,Russia vs Croatia,Away Win,Draw,1-1,1-2,,,False,False,False,False,False
+2018,317,2018-07-10T21:00:00,Semi-finals,France vs Belgium,Draw,Home Win,1-0,1-1,,,False,False,False,False,False
+2018,318,2018-07-11T21:00:00,Semi-finals,Croatia vs England,Draw,Draw,1-1,1-1,,,False,True,True,False,False
+2018,319,2018-07-14T17:00:00,Third-place match,Belgium vs England,Away Win,Home Win,2-0,0-2,,,False,False,False,False,False
+2018,320,2018-07-15T18:00:00,Final,France vs Croatia,Home Win,Home Win,4-2,2-1,,,False,True,False,False,False
+2022,321,2022-11-20T19:00:00,Group Stage,Qatar vs Ecuador,Draw,Away Win,0-2,1-1,,,False,False,False,False,False
+2022,327,2022-11-21T16:00:00,Group Stage,England vs Iran,Home Win,Home Win,6-2,1-0,,,False,True,False,False,False
+2022,322,2022-11-21T19:00:00,Group Stage,Senegal vs Netherlands,Away Win,Away Win,0-2,0-2,,,False,True,True,False,False
+2022,328,2022-11-21T22:00:00,Group Stage,USA vs Wales,Draw,Draw,1-1,0-0,,,False,True,False,False,False
+2022,333,2022-11-22T13:00:00,Group Stage,Argentina vs Saudi Arabia,Home Win,Away Win,1-2,2-1,,,False,False,False,False,False
+2022,339,2022-11-22T16:00:00,Group Stage,Denmark vs Tunisia,Home Win,Draw,0-0,2-0,,,False,False,False,False,False
+2022,334,2022-11-22T19:00:00,Group Stage,Mexico vs Poland,Home Win,Draw,0-0,2-0,,,False,False,False,False,False
+2022,340,2022-11-22T22:00:00,Group Stage,France vs Australia,Home Win,Home Win,4-1,2-1,,,False,True,False,False,False
+2022,351,2022-11-23T13:00:00,Group Stage,Morocco vs Croatia,Away Win,Draw,0-0,0-2,,,False,False,False,False,False
+2022,345,2022-11-23T16:00:00,Group Stage,Germany vs Japan,Home Win,Away Win,1-2,2-1,,,False,False,False,False,False
+2022,346,2022-11-23T19:00:00,Group Stage,Spain vs Costa Rica,Home Win,Home Win,7-0,2-0,,,False,True,False,False,False
+2022,352,2022-11-23T22:00:00,Group Stage,Belgium vs Canada,Home Win,Home Win,1-0,1-0,,,False,True,True,False,False
+2022,357,2022-11-24T13:00:00,Group Stage,Switzerland vs Cameroon,Home Win,Home Win,1-0,2-0,,,False,True,False,False,False
+2022,363,2022-11-24T16:00:00,Group Stage,Uruguay vs South Korea,Home Win,Draw,0-0,2-1,,,False,False,False,False,False
+2022,364,2022-11-24T19:00:00,Group Stage,Portugal vs Ghana,Home Win,Home Win,3-2,2-1,,,False,True,False,False,False
+2022,358,2022-11-24T22:00:00,Group Stage,Brazil vs Serbia,Home Win,Home Win,2-0,2-0,,,False,True,True,False,False
+2022,329,2022-11-25T13:00:00,Group Stage,Wales vs Iran,Draw,Away Win,0-2,0-0,,,False,False,False,False,False
+2022,323,2022-11-25T16:00:00,Group Stage,Qatar vs Senegal,Away Win,Away Win,1-3,0-1,,,False,True,False,False,False
+2022,324,2022-11-25T19:00:00,Group Stage,Netherlands vs Ecuador,Home Win,Draw,1-1,1-0,,,False,False,False,False,False
+2022,330,2022-11-25T22:00:00,Group Stage,England vs USA,Home Win,Draw,0-0,1-0,,,False,False,False,False,False
+2022,341,2022-11-26T13:00:00,Group Stage,Tunisia vs Australia,Home Win,Away Win,0-1,2-1,,,False,False,False,False,False
+2022,335,2022-11-26T16:00:00,Group Stage,Poland vs Saudi Arabia,Home Win,Home Win,2-0,2-1,,,False,True,False,False,False
+2022,342,2022-11-26T19:00:00,Group Stage,France vs Denmark,Home Win,Home Win,2-1,2-1,,,False,True,True,False,False
+2022,336,2022-11-26T22:00:00,Group Stage,Argentina vs Mexico,Home Win,Home Win,2-0,2-0,,,False,True,True,False,False
+2022,347,2022-11-27T13:00:00,Group Stage,Japan vs Costa Rica,Draw,Away Win,0-1,1-1,,,False,False,False,False,False
+2022,353,2022-11-27T16:00:00,Group Stage,Belgium vs Morocco,Home Win,Away Win,0-2,1-0,,,False,False,False,False,False
+2022,354,2022-11-27T19:00:00,Group Stage,Croatia vs Canada,Home Win,Home Win,4-1,1-0,,,False,True,False,False,False
+2022,348,2022-11-27T22:00:00,Group Stage,Spain vs Germany,Away Win,Draw,1-1,1-3,,,False,False,False,False,False
+2022,359,2022-11-28T13:00:00,Group Stage,Cameroon vs Serbia,Draw,Draw,3-3,0-0,,,False,True,False,False,False
+2022,365,2022-11-28T16:00:00,Group Stage,South Korea vs Ghana,Away Win,Away Win,2-3,1-2,,,False,True,False,False,False
+2022,360,2022-11-28T19:00:00,Group Stage,Brazil vs Switzerland,Home Win,Home Win,1-0,3-1,,,False,True,False,False,False
+2022,366,2022-11-28T22:00:00,Group Stage,Portugal vs Uruguay,Draw,Home Win,2-0,1-1,,,False,False,False,False,False
+2022,325,2022-11-29T18:00:00,Group Stage,Ecuador vs Senegal,Away Win,Away Win,1-2,0-1,,,False,True,False,False,False
+2022,326,2022-11-29T18:00:00,Group Stage,Netherlands vs Qatar,Home Win,Home Win,2-0,3-0,,,False,True,False,False,False
+2022,331,2022-11-29T22:00:00,Group Stage,Wales vs England,Away Win,Away Win,0-3,0-1,,,False,True,False,False,False
+2022,332,2022-11-29T22:00:00,Group Stage,Iran vs USA,Draw,Away Win,0-1,1-1,,,False,False,False,False,False
+2022,343,2022-11-30T18:00:00,Group Stage,Australia vs Denmark,Away Win,Home Win,1-0,0-2,,,False,False,False,False,False
+2022,344,2022-11-30T18:00:00,Group Stage,Tunisia vs France,Away Win,Home Win,1-0,1-2,,,False,False,False,False,False
+2022,337,2022-11-30T22:00:00,Group Stage,Poland vs Argentina,Away Win,Away Win,0-2,0-2,,,False,True,True,False,False
+2022,338,2022-11-30T22:00:00,Group Stage,Saudi Arabia vs Mexico,Away Win,Away Win,1-2,0-2,,,False,True,False,False,False
+2022,355,2022-12-01T18:00:00,Group Stage,Croatia vs Belgium,Home Win,Draw,0-0,2-1,,,False,False,False,False,False
+2022,356,2022-12-01T18:00:00,Group Stage,Canada vs Morocco,Draw,Away Win,1-2,0-0,,,False,False,False,False,False
+2022,349,2022-12-01T22:00:00,Group Stage,Japan vs Spain,Away Win,Home Win,2-1,1-2,,,False,False,False,False,False
+2022,350,2022-12-01T22:00:00,Group Stage,Costa Rica vs Germany,Away Win,Away Win,2-4,0-2,,,False,True,False,False,False
+2022,367,2022-12-02T18:00:00,Group Stage,Ghana vs Uruguay,Away Win,Away Win,0-2,0-2,,,False,True,True,False,False
+2022,368,2022-12-02T18:00:00,Group Stage,South Korea vs Portugal,Away Win,Home Win,2-1,1-3,,,False,False,False,False,False
+2022,361,2022-12-02T22:00:00,Group Stage,Serbia vs Switzerland,Away Win,Away Win,2-3,0-2,,,False,True,False,False,False
+2022,362,2022-12-02T22:00:00,Group Stage,Cameroon vs Brazil,Away Win,Home Win,1-0,1-2,,,False,False,False,False,False
+2022,369,2022-12-03T18:00:00,Round of 16,Netherlands vs USA,Home Win,Home Win,3-1,1-0,,,False,True,False,False,False
+2022,370,2022-12-03T22:00:00,Round of 16,Argentina vs Australia,Home Win,Home Win,2-1,2-1,,,False,True,True,False,False
+2022,371,2022-12-04T18:00:00,Round of 16,France vs Poland,Home Win,Home Win,3-1,2-1,,,False,True,False,False,False
+2022,372,2022-12-04T22:00:00,Round of 16,England vs Senegal,Home Win,Home Win,3-0,2-1,,,False,True,False,False,False
+2022,373,2022-12-05T18:00:00,Round of 16,Japan vs Croatia,Away Win,Draw,1-1,0-2,,,False,False,False,False,False
+2022,374,2022-12-05T22:00:00,Round of 16,Brazil vs South Korea,Home Win,Home Win,4-1,2-1,,,False,True,False,False,False
+2022,375,2022-12-06T18:00:00,Round of 16,Morocco vs Spain,Away Win,Draw,0-0,1-2,,,False,False,False,False,False
+2022,376,2022-12-06T22:00:00,Round of 16,Portugal vs Switzerland,Home Win,Home Win,6-1,4-2,,,False,True,False,False,False
+2022,377,2022-12-09T18:00:00,Quarter-finals,Croatia vs Brazil,Away Win,Draw,0-0,1-2,,,False,False,False,False,False
+2022,378,2022-12-09T22:00:00,Quarter-finals,Netherlands vs Argentina,Draw,Draw,2-2,1-1,,,False,True,False,False,False
+2022,379,2022-12-10T18:00:00,Quarter-finals,Morocco vs Portugal,Away Win,Home Win,1-0,1-2,,,False,False,False,False,False
+2022,380,2022-12-10T22:00:00,Quarter-finals,England vs France,Draw,Away Win,1-2,2-2,,,False,False,False,False,False
+2022,381,2022-12-13T22:00:00,Semi-finals,Argentina vs Croatia,Home Win,Home Win,3-0,2-1,,,False,True,False,False,False
+2022,382,2022-12-14T22:00:00,Semi-finals,France vs Morocco,Home Win,Home Win,2-0,2-0,,,False,True,True,False,False
+2022,383,2022-12-17T18:00:00,Third-place match,Croatia vs Morocco,Draw,Home Win,2-1,0-0,,,False,False,False,False,False
+2022,384,2022-12-18T18:00:00,Final,Argentina vs France,Draw,Draw,2-2,3-3,,,False,True,False,False,False
+2026_live,1,2026-06-09T02:45:00,周一201,荷兰 vs 乌兹别克斯坦,Home Win,Home Win,2-1,1-1,1-0,2-0,True,True,False,False,False
+2026_live,22,2026-06-09T03:10:00,周一202,法国 vs 北爱尔兰,Home Win,Home Win,3-1,2-0,1-1,1-0,True,True,False,False,False
+2026_live,23,2026-06-09T10:00:00,周一203,秘鲁 vs 西班牙,Away Win,Away Win,1-3,0-2,0-1,1-1,True,True,False,False,False
+2026_live,28,2026-06-09T19:35:00,周二201,中国 vs 泰国,Away Win,Draw,0-0,1-1,0-1,1-2,True,False,False,False,False
+2026_live,29,2026-06-10T01:00:00,周二202,匈牙利 vs 哈萨克斯坦,Home Win,Home Win,3-1,1-1,1-0,2-1,True,True,False,False,False
+2026_live,30,2026-06-10T08:30:00,周二203,阿根廷 vs 冰岛,Home Win,Home Win,3-0,2-0,2-1,1-0,True,True,False,False,False
+2026_live,32,2026-06-11T03:45:00,周三201,葡萄牙 vs 尼日利亚,Home Win,Home Win,2-1,2-1,3-1,2-0,True,True,True,True,True
+2026_live,33,2026-06-11T04:00:00,周三202,英格兰 vs 哥斯达黎加,Home Win,Home Win,3-0,3-0,2-0,3-1,True,True,True,True,True
+2026_live,2,2026-06-12T03:00:00,周四001,墨西哥 vs 南非,Home Win,Home Win,2-0,2-0,2-1,3-1,True,True,True,True,True
+2026_live,3,2026-06-12T10:00:00,周四002,韩国 vs 捷克,Draw,Home Win,2-1,1-1,0-0,1-2,True,False,False,False,False
+2026_live,4,2026-06-13T03:00:00,周五003,加拿大 vs 波黑,Draw,Draw,1-1,1-1,0-0,1-0,True,True,True,True,True
+2026_live,5,2026-06-13T09:00:00,周五004,美国 vs 巴拉圭,Home Win,Home Win,4-1,2-1,1-0,2-0,True,True,False,False,False

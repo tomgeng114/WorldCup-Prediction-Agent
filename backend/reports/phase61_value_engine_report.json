@@ -1,0 +1,1179 @@
+{
+  "filters": {
+    "min_model_probability": 0.35,
+    "min_market_probability": 0.1,
+    "edge_threshold": 0.15,
+    "ev_thresholds": [
+      0.0,
+      0.05,
+      0.1,
+      0.15
+    ]
+  },
+  "datasets": {
+    "WorldCup": {
+      "dataset": "WorldCup",
+      "sample_size": 128,
+      "filters": {
+        "min_model_probability": 0.35,
+        "min_market_probability": 0.1,
+        "edge_threshold": 0.15,
+        "ev_thresholds": [
+          0.0,
+          0.05,
+          0.1,
+          0.15
+        ]
+      },
+      "strategies": {
+        "edge_15_raw": {
+          "name": "Edge>=15% 原始",
+          "summary": {
+            "bets": 44,
+            "hits": 5,
+            "hit_rate": 11.36,
+            "unit_profit": 9.47,
+            "unit_roi": 21.52,
+            "kelly_profit": 0.2285,
+            "kelly_stake": 2.5098,
+            "kelly_roi": 9.1,
+            "max_drawdown": -21.02,
+            "kelly_max_drawdown": -1.2817
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 17,
+              "hits": 2,
+              "hit_rate": 11.76,
+              "unit_profit": -3.83,
+              "unit_roi": -22.53,
+              "kelly_profit": -0.4216,
+              "kelly_stake": 0.9983,
+              "kelly_roi": -42.24,
+              "max_drawdown": -10.0,
+              "kelly_max_drawdown": -0.6503
+            },
+            "Draw": {
+              "bets": 0,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": 0.0,
+              "unit_roi": null,
+              "kelly_profit": 0.0,
+              "kelly_stake": 0.0,
+              "kelly_roi": null,
+              "max_drawdown": 0.0,
+              "kelly_max_drawdown": 0.0
+            },
+            "Away Win": {
+              "bets": 27,
+              "hits": 3,
+              "hit_rate": 11.11,
+              "unit_profit": 13.3,
+              "unit_roi": 49.26,
+              "kelly_profit": 0.6502,
+              "kelly_stake": 1.5115,
+              "kelly_roi": 43.02,
+              "max_drawdown": -13.0,
+              "kelly_max_drawdown": -0.7436
+            }
+          }
+        },
+        "edge_15_filtered": {
+          "name": "Edge>=15% + 最低概率/市场概率/EV过滤",
+          "summary": {
+            "bets": 12,
+            "hits": 1,
+            "hit_rate": 8.33,
+            "unit_profit": -8.02,
+            "unit_roi": -66.83,
+            "kelly_profit": -0.5893,
+            "kelly_stake": 0.7796,
+            "kelly_roi": -75.59,
+            "max_drawdown": -8.02,
+            "kelly_max_drawdown": -0.5893
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 7,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": -7.0,
+              "unit_roi": -100.0,
+              "kelly_profit": -0.4823,
+              "kelly_stake": 0.4823,
+              "kelly_roi": -100.0,
+              "max_drawdown": -7.0,
+              "kelly_max_drawdown": -0.4823
+            },
+            "Draw": {
+              "bets": 0,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": 0.0,
+              "unit_roi": null,
+              "kelly_profit": 0.0,
+              "kelly_stake": 0.0,
+              "kelly_roi": null,
+              "max_drawdown": 0.0,
+              "kelly_max_drawdown": 0.0
+            },
+            "Away Win": {
+              "bets": 5,
+              "hits": 1,
+              "hit_rate": 20.0,
+              "unit_profit": -1.02,
+              "unit_roi": -20.4,
+              "kelly_profit": -0.107,
+              "kelly_stake": 0.2973,
+              "kelly_roi": -35.99,
+              "max_drawdown": -2.0,
+              "kelly_max_drawdown": -0.1408
+            }
+          }
+        },
+        "ev_gt_0": {
+          "name": "EV>0% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 35,
+            "hits": 11,
+            "hit_rate": 31.43,
+            "unit_profit": -1.78,
+            "unit_roi": -5.09,
+            "kelly_profit": -0.4108,
+            "kelly_stake": 1.3014,
+            "kelly_roi": -31.57,
+            "max_drawdown": -7.0,
+            "kelly_max_drawdown": -0.4144
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 15,
+              "hits": 3,
+              "hit_rate": 20.0,
+              "unit_profit": -6.45,
+              "unit_roi": -43.0,
+              "kelly_profit": -0.5063,
+              "kelly_stake": 0.7006,
+              "kelly_roi": -72.26,
+              "max_drawdown": -6.62,
+              "kelly_max_drawdown": -0.5063
+            },
+            "Draw": {
+              "bets": 2,
+              "hits": 1,
+              "hit_rate": 50.0,
+              "unit_profit": 1.84,
+              "unit_roi": 92.0,
+              "kelly_profit": 0.0656,
+              "kelly_stake": 0.058,
+              "kelly_roi": 113.13,
+              "max_drawdown": -1.0,
+              "kelly_max_drawdown": -0.0258
+            },
+            "Away Win": {
+              "bets": 18,
+              "hits": 7,
+              "hit_rate": 38.89,
+              "unit_profit": 2.83,
+              "unit_roi": 15.72,
+              "kelly_profit": 0.0299,
+              "kelly_stake": 0.5428,
+              "kelly_roi": 5.51,
+              "max_drawdown": -5.0,
+              "kelly_max_drawdown": -0.1525
+            }
+          }
+        },
+        "ev_gt_5": {
+          "name": "EV>5% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 30,
+            "hits": 9,
+            "hit_rate": 30.0,
+            "unit_profit": -1.67,
+            "unit_roi": -5.57,
+            "kelly_profit": -0.3978,
+            "kelly_stake": 1.2781,
+            "kelly_roi": -31.12,
+            "max_drawdown": -6.0,
+            "kelly_max_drawdown": -0.4015
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 13,
+              "hits": 2,
+              "hit_rate": 15.38,
+              "unit_profit": -6.62,
+              "unit_roi": -50.92,
+              "kelly_profit": -0.5014,
+              "kelly_stake": 0.6894,
+              "kelly_roi": -72.72,
+              "max_drawdown": -6.62,
+              "kelly_max_drawdown": -0.5014
+            },
+            "Draw": {
+              "bets": 2,
+              "hits": 1,
+              "hit_rate": 50.0,
+              "unit_profit": 1.84,
+              "unit_roi": 92.0,
+              "kelly_profit": 0.0656,
+              "kelly_stake": 0.058,
+              "kelly_roi": 113.13,
+              "max_drawdown": -1.0,
+              "kelly_max_drawdown": -0.0258
+            },
+            "Away Win": {
+              "bets": 15,
+              "hits": 6,
+              "hit_rate": 40.0,
+              "unit_profit": 3.11,
+              "unit_roi": 20.73,
+              "kelly_profit": 0.038,
+              "kelly_stake": 0.5307,
+              "kelly_roi": 7.16,
+              "max_drawdown": -4.0,
+              "kelly_max_drawdown": -0.1456
+            }
+          }
+        },
+        "ev_gt_10": {
+          "name": "EV>10% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 28,
+            "hits": 8,
+            "hit_rate": 28.57,
+            "unit_profit": -2.22,
+            "unit_roi": -7.93,
+            "kelly_profit": -0.4004,
+            "kelly_stake": 1.2588,
+            "kelly_roi": -31.81,
+            "max_drawdown": -5.0,
+            "kelly_max_drawdown": -0.4004
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 13,
+              "hits": 2,
+              "hit_rate": 15.38,
+              "unit_profit": -6.62,
+              "unit_roi": -50.92,
+              "kelly_profit": -0.5014,
+              "kelly_stake": 0.6894,
+              "kelly_roi": -72.72,
+              "max_drawdown": -6.62,
+              "kelly_max_drawdown": -0.5014
+            },
+            "Draw": {
+              "bets": 2,
+              "hits": 1,
+              "hit_rate": 50.0,
+              "unit_profit": 1.84,
+              "unit_roi": 92.0,
+              "kelly_profit": 0.0656,
+              "kelly_stake": 0.058,
+              "kelly_roi": 113.13,
+              "max_drawdown": -1.0,
+              "kelly_max_drawdown": -0.0258
+            },
+            "Away Win": {
+              "bets": 13,
+              "hits": 5,
+              "hit_rate": 38.46,
+              "unit_profit": 2.56,
+              "unit_roi": 19.69,
+              "kelly_profit": 0.0354,
+              "kelly_stake": 0.5114,
+              "kelly_roi": 6.92,
+              "max_drawdown": -3.0,
+              "kelly_max_drawdown": -0.1348
+            }
+          }
+        },
+        "ev_gt_15": {
+          "name": "EV>15% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 26,
+            "hits": 7,
+            "hit_rate": 26.92,
+            "unit_profit": -2.35,
+            "unit_roi": -9.04,
+            "kelly_profit": -0.4122,
+            "kelly_stake": 1.2132,
+            "kelly_roi": -33.97,
+            "max_drawdown": -5.0,
+            "kelly_max_drawdown": -0.4122
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 13,
+              "hits": 2,
+              "hit_rate": 15.38,
+              "unit_profit": -6.62,
+              "unit_roi": -50.92,
+              "kelly_profit": -0.5014,
+              "kelly_stake": 0.6894,
+              "kelly_roi": -72.72,
+              "max_drawdown": -6.62,
+              "kelly_max_drawdown": -0.5014
+            },
+            "Draw": {
+              "bets": 2,
+              "hits": 1,
+              "hit_rate": 50.0,
+              "unit_profit": 1.84,
+              "unit_roi": 92.0,
+              "kelly_profit": 0.0656,
+              "kelly_stake": 0.058,
+              "kelly_roi": 113.13,
+              "max_drawdown": -1.0,
+              "kelly_max_drawdown": -0.0258
+            },
+            "Away Win": {
+              "bets": 11,
+              "hits": 4,
+              "hit_rate": 36.36,
+              "unit_profit": 2.43,
+              "unit_roi": 22.09,
+              "kelly_profit": 0.0236,
+              "kelly_stake": 0.4658,
+              "kelly_roi": 5.07,
+              "max_drawdown": -3.0,
+              "kelly_max_drawdown": -0.1348
+            }
+          }
+        }
+      },
+      "best_strategy_by_unit_roi": {
+        "name": "Edge>=15% 原始",
+        "summary": {
+          "bets": 44,
+          "hits": 5,
+          "hit_rate": 11.36,
+          "unit_profit": 9.47,
+          "unit_roi": 21.52,
+          "kelly_profit": 0.2285,
+          "kelly_stake": 2.5098,
+          "kelly_roi": 9.1,
+          "max_drawdown": -21.02,
+          "kelly_max_drawdown": -1.2817
+        },
+        "by_outcome": {
+          "Home Win": {
+            "bets": 17,
+            "hits": 2,
+            "hit_rate": 11.76,
+            "unit_profit": -3.83,
+            "unit_roi": -22.53,
+            "kelly_profit": -0.4216,
+            "kelly_stake": 0.9983,
+            "kelly_roi": -42.24,
+            "max_drawdown": -10.0,
+            "kelly_max_drawdown": -0.6503
+          },
+          "Draw": {
+            "bets": 0,
+            "hits": 0,
+            "hit_rate": 0.0,
+            "unit_profit": 0.0,
+            "unit_roi": null,
+            "kelly_profit": 0.0,
+            "kelly_stake": 0.0,
+            "kelly_roi": null,
+            "max_drawdown": 0.0,
+            "kelly_max_drawdown": 0.0
+          },
+          "Away Win": {
+            "bets": 27,
+            "hits": 3,
+            "hit_rate": 11.11,
+            "unit_profit": 13.3,
+            "unit_roi": 49.26,
+            "kelly_profit": 0.6502,
+            "kelly_stake": 1.5115,
+            "kelly_roi": 43.02,
+            "max_drawdown": -13.0,
+            "kelly_max_drawdown": -0.7436
+          }
+        }
+      }
+    },
+    "UEFA": {
+      "dataset": "UEFA",
+      "sample_size": 204,
+      "filters": {
+        "min_model_probability": 0.35,
+        "min_market_probability": 0.1,
+        "edge_threshold": 0.15,
+        "ev_thresholds": [
+          0.0,
+          0.05,
+          0.1,
+          0.15
+        ]
+      },
+      "strategies": {
+        "edge_15_raw": {
+          "name": "Edge>=15% 原始",
+          "summary": {
+            "bets": 101,
+            "hits": 7,
+            "hit_rate": 6.93,
+            "unit_profit": -58.1,
+            "unit_roi": -57.52,
+            "kelly_profit": -3.72,
+            "kelly_stake": 5.9394,
+            "kelly_roi": -62.63,
+            "max_drawdown": -58.98,
+            "kelly_max_drawdown": -3.72
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 19,
+              "hits": 2,
+              "hit_rate": 10.53,
+              "unit_profit": -9.41,
+              "unit_roi": -49.53,
+              "kelly_profit": -0.5757,
+              "kelly_stake": 1.0937,
+              "kelly_roi": -52.63,
+              "max_drawdown": -12.37,
+              "kelly_max_drawdown": -0.7291
+            },
+            "Draw": {
+              "bets": 36,
+              "hits": 1,
+              "hit_rate": 2.78,
+              "unit_profit": -23.53,
+              "unit_roi": -65.36,
+              "kelly_profit": -1.4664,
+              "kelly_stake": 2.0023,
+              "kelly_roi": -73.24,
+              "max_drawdown": -29.0,
+              "kelly_max_drawdown": -1.6602
+            },
+            "Away Win": {
+              "bets": 46,
+              "hits": 4,
+              "hit_rate": 8.7,
+              "unit_profit": -25.16,
+              "unit_roi": -54.7,
+              "kelly_profit": -1.678,
+              "kelly_stake": 2.8434,
+              "kelly_roi": -59.01,
+              "max_drawdown": -25.16,
+              "kelly_max_drawdown": -1.678
+            }
+          }
+        },
+        "edge_15_filtered": {
+          "name": "Edge>=15% + 最低概率/市场概率/EV过滤",
+          "summary": {
+            "bets": 25,
+            "hits": 4,
+            "hit_rate": 16.0,
+            "unit_profit": -9.94,
+            "unit_roi": -39.76,
+            "kelly_profit": -0.6928,
+            "kelly_stake": 1.6097,
+            "kelly_roi": -43.04,
+            "max_drawdown": -10.98,
+            "kelly_max_drawdown": -0.7414
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 7,
+              "hits": 1,
+              "hit_rate": 14.29,
+              "unit_profit": -4.37,
+              "unit_roi": -62.43,
+              "kelly_profit": -0.2905,
+              "kelly_stake": 0.4553,
+              "kelly_roi": -63.81,
+              "max_drawdown": -4.37,
+              "kelly_max_drawdown": -0.2905
+            },
+            "Draw": {
+              "bets": 6,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": -6.0,
+              "unit_roi": -100.0,
+              "kelly_profit": -0.3615,
+              "kelly_stake": 0.3615,
+              "kelly_roi": -100.0,
+              "max_drawdown": -6.0,
+              "kelly_max_drawdown": -0.3615
+            },
+            "Away Win": {
+              "bets": 12,
+              "hits": 3,
+              "hit_rate": 25.0,
+              "unit_profit": 0.43,
+              "unit_roi": 3.58,
+              "kelly_profit": -0.0409,
+              "kelly_stake": 0.793,
+              "kelly_roi": -5.15,
+              "max_drawdown": -4.0,
+              "kelly_max_drawdown": -0.2879
+            }
+          }
+        },
+        "ev_gt_0": {
+          "name": "EV>0% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 41,
+            "hits": 13,
+            "hit_rate": 31.71,
+            "unit_profit": 1.79,
+            "unit_roi": 4.37,
+            "kelly_profit": -0.2685,
+            "kelly_stake": 1.7705,
+            "kelly_roi": -15.17,
+            "max_drawdown": -10.18,
+            "kelly_max_drawdown": -0.5804
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 13,
+              "hits": 4,
+              "hit_rate": 30.77,
+              "unit_profit": -1.14,
+              "unit_roi": -8.77,
+              "kelly_profit": -0.2458,
+              "kelly_stake": 0.565,
+              "kelly_roi": -43.51,
+              "max_drawdown": -5.37,
+              "kelly_max_drawdown": -0.2932
+            },
+            "Draw": {
+              "bets": 6,
+              "hits": 3,
+              "hit_rate": 50.0,
+              "unit_profit": 3.33,
+              "unit_roi": 55.5,
+              "kelly_profit": 0.0567,
+              "kelly_stake": 0.1852,
+              "kelly_roi": 30.61,
+              "max_drawdown": -2.0,
+              "kelly_max_drawdown": -0.0759
+            },
+            "Away Win": {
+              "bets": 22,
+              "hits": 6,
+              "hit_rate": 27.27,
+              "unit_profit": -0.4,
+              "unit_roi": -1.82,
+              "kelly_profit": -0.0794,
+              "kelly_stake": 1.0203,
+              "kelly_roi": -7.78,
+              "max_drawdown": -8.0,
+              "kelly_max_drawdown": -0.3571
+            }
+          }
+        },
+        "ev_gt_5": {
+          "name": "EV>5% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 39,
+            "hits": 13,
+            "hit_rate": 33.33,
+            "unit_profit": 3.79,
+            "unit_roi": 9.72,
+            "kelly_profit": -0.2618,
+            "kelly_stake": 1.7638,
+            "kelly_roi": -14.84,
+            "max_drawdown": -8.18,
+            "kelly_max_drawdown": -0.5737
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 12,
+              "hits": 4,
+              "hit_rate": 33.33,
+              "unit_profit": -0.14,
+              "unit_roi": -1.17,
+              "kelly_profit": -0.2432,
+              "kelly_stake": 0.5624,
+              "kelly_roi": -43.24,
+              "max_drawdown": -4.37,
+              "kelly_max_drawdown": -0.2905
+            },
+            "Draw": {
+              "bets": 6,
+              "hits": 3,
+              "hit_rate": 50.0,
+              "unit_profit": 3.33,
+              "unit_roi": 55.5,
+              "kelly_profit": 0.0567,
+              "kelly_stake": 0.1852,
+              "kelly_roi": 30.61,
+              "max_drawdown": -2.0,
+              "kelly_max_drawdown": -0.0759
+            },
+            "Away Win": {
+              "bets": 21,
+              "hits": 6,
+              "hit_rate": 28.57,
+              "unit_profit": 0.6,
+              "unit_roi": 2.86,
+              "kelly_profit": -0.0754,
+              "kelly_stake": 1.0163,
+              "kelly_roi": -7.42,
+              "max_drawdown": -7.0,
+              "kelly_max_drawdown": -0.353
+            }
+          }
+        },
+        "ev_gt_10": {
+          "name": "EV>10% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 34,
+            "hits": 10,
+            "hit_rate": 29.41,
+            "unit_profit": 0.29,
+            "unit_roi": 0.85,
+            "kelly_profit": -0.2918,
+            "kelly_stake": 1.6952,
+            "kelly_roi": -17.21,
+            "max_drawdown": -9.18,
+            "kelly_max_drawdown": -0.5946
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 10,
+              "hits": 2,
+              "hit_rate": 20.0,
+              "unit_profit": -3.86,
+              "unit_roi": -38.6,
+              "kelly_profit": -0.2852,
+              "kelly_stake": 0.5395,
+              "kelly_roi": -52.87,
+              "max_drawdown": -5.37,
+              "kelly_max_drawdown": -0.3078
+            },
+            "Draw": {
+              "bets": 6,
+              "hits": 3,
+              "hit_rate": 50.0,
+              "unit_profit": 3.33,
+              "unit_roi": 55.5,
+              "kelly_profit": 0.0567,
+              "kelly_stake": 0.1852,
+              "kelly_roi": 30.61,
+              "max_drawdown": -2.0,
+              "kelly_max_drawdown": -0.0759
+            },
+            "Away Win": {
+              "bets": 18,
+              "hits": 5,
+              "hit_rate": 27.78,
+              "unit_profit": 0.82,
+              "unit_roi": 4.56,
+              "kelly_profit": -0.0633,
+              "kelly_stake": 0.9705,
+              "kelly_roi": -6.52,
+              "max_drawdown": -6.0,
+              "kelly_max_drawdown": -0.3389
+            }
+          }
+        },
+        "ev_gt_15": {
+          "name": "EV>15% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 33,
+            "hits": 10,
+            "hit_rate": 30.3,
+            "unit_profit": 1.29,
+            "unit_roi": 3.91,
+            "kelly_profit": -0.2745,
+            "kelly_stake": 1.6778,
+            "kelly_roi": -16.36,
+            "max_drawdown": -8.18,
+            "kelly_max_drawdown": -0.5773
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 9,
+              "hits": 2,
+              "hit_rate": 22.22,
+              "unit_profit": -2.86,
+              "unit_roi": -31.78,
+              "kelly_profit": -0.2679,
+              "kelly_stake": 0.5221,
+              "kelly_roi": -51.31,
+              "max_drawdown": -4.37,
+              "kelly_max_drawdown": -0.2905
+            },
+            "Draw": {
+              "bets": 6,
+              "hits": 3,
+              "hit_rate": 50.0,
+              "unit_profit": 3.33,
+              "unit_roi": 55.5,
+              "kelly_profit": 0.0567,
+              "kelly_stake": 0.1852,
+              "kelly_roi": 30.61,
+              "max_drawdown": -2.0,
+              "kelly_max_drawdown": -0.0759
+            },
+            "Away Win": {
+              "bets": 18,
+              "hits": 5,
+              "hit_rate": 27.78,
+              "unit_profit": 0.82,
+              "unit_roi": 4.56,
+              "kelly_profit": -0.0633,
+              "kelly_stake": 0.9705,
+              "kelly_roi": -6.52,
+              "max_drawdown": -6.0,
+              "kelly_max_drawdown": -0.3389
+            }
+          }
+        }
+      },
+      "best_strategy_by_unit_roi": {
+        "name": "EV>5% + 最低概率/市场概率过滤",
+        "summary": {
+          "bets": 39,
+          "hits": 13,
+          "hit_rate": 33.33,
+          "unit_profit": 3.79,
+          "unit_roi": 9.72,
+          "kelly_profit": -0.2618,
+          "kelly_stake": 1.7638,
+          "kelly_roi": -14.84,
+          "max_drawdown": -8.18,
+          "kelly_max_drawdown": -0.5737
+        },
+        "by_outcome": {
+          "Home Win": {
+            "bets": 12,
+            "hits": 4,
+            "hit_rate": 33.33,
+            "unit_profit": -0.14,
+            "unit_roi": -1.17,
+            "kelly_profit": -0.2432,
+            "kelly_stake": 0.5624,
+            "kelly_roi": -43.24,
+            "max_drawdown": -4.37,
+            "kelly_max_drawdown": -0.2905
+          },
+          "Draw": {
+            "bets": 6,
+            "hits": 3,
+            "hit_rate": 50.0,
+            "unit_profit": 3.33,
+            "unit_roi": 55.5,
+            "kelly_profit": 0.0567,
+            "kelly_stake": 0.1852,
+            "kelly_roi": 30.61,
+            "max_drawdown": -2.0,
+            "kelly_max_drawdown": -0.0759
+          },
+          "Away Win": {
+            "bets": 21,
+            "hits": 6,
+            "hit_rate": 28.57,
+            "unit_profit": 0.6,
+            "unit_roi": 2.86,
+            "kelly_profit": -0.0754,
+            "kelly_stake": 1.0163,
+            "kelly_roi": -7.42,
+            "max_drawdown": -7.0,
+            "kelly_max_drawdown": -0.353
+          }
+        }
+      }
+    },
+    "CONMEBOL": {
+      "dataset": "CONMEBOL",
+      "sample_size": 90,
+      "filters": {
+        "min_model_probability": 0.35,
+        "min_market_probability": 0.1,
+        "edge_threshold": 0.15,
+        "ev_thresholds": [
+          0.0,
+          0.05,
+          0.1,
+          0.15
+        ]
+      },
+      "strategies": {
+        "edge_15_raw": {
+          "name": "Edge>=15% 原始",
+          "summary": {
+            "bets": 20,
+            "hits": 2,
+            "hit_rate": 10.0,
+            "unit_profit": 3.65,
+            "unit_roi": 18.25,
+            "kelly_profit": 0.2674,
+            "kelly_stake": 1.0823,
+            "kelly_roi": 24.71,
+            "max_drawdown": -8.0,
+            "kelly_max_drawdown": -0.4489
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 0,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": 0.0,
+              "unit_roi": null,
+              "kelly_profit": 0.0,
+              "kelly_stake": 0.0,
+              "kelly_roi": null,
+              "max_drawdown": 0.0,
+              "kelly_max_drawdown": 0.0
+            },
+            "Draw": {
+              "bets": 2,
+              "hits": 1,
+              "hit_rate": 50.0,
+              "unit_profit": 8.72,
+              "unit_roi": 436.0,
+              "kelly_profit": 0.4035,
+              "kelly_stake": 0.1051,
+              "kelly_roi": 383.91,
+              "max_drawdown": -1.0,
+              "kelly_max_drawdown": -0.0577
+            },
+            "Away Win": {
+              "bets": 18,
+              "hits": 1,
+              "hit_rate": 5.56,
+              "unit_profit": -5.07,
+              "unit_roi": -28.17,
+              "kelly_profit": -0.1361,
+              "kelly_stake": 0.9772,
+              "kelly_roi": -13.92,
+              "max_drawdown": -9.0,
+              "kelly_max_drawdown": -0.4633
+            }
+          }
+        },
+        "edge_15_filtered": {
+          "name": "Edge>=15% + 最低概率/市场概率/EV过滤",
+          "summary": {
+            "bets": 7,
+            "hits": 0,
+            "hit_rate": 0.0,
+            "unit_profit": -7.0,
+            "unit_roi": -100.0,
+            "kelly_profit": -0.4022,
+            "kelly_stake": 0.4022,
+            "kelly_roi": -100.0,
+            "max_drawdown": -7.0,
+            "kelly_max_drawdown": -0.4022
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 0,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": 0.0,
+              "unit_roi": null,
+              "kelly_profit": 0.0,
+              "kelly_stake": 0.0,
+              "kelly_roi": null,
+              "max_drawdown": 0.0,
+              "kelly_max_drawdown": 0.0
+            },
+            "Draw": {
+              "bets": 1,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": -1.0,
+              "unit_roi": -100.0,
+              "kelly_profit": -0.0577,
+              "kelly_stake": 0.0577,
+              "kelly_roi": -100.0,
+              "max_drawdown": -1.0,
+              "kelly_max_drawdown": -0.0577
+            },
+            "Away Win": {
+              "bets": 6,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": -6.0,
+              "unit_roi": -100.0,
+              "kelly_profit": -0.3446,
+              "kelly_stake": 0.3446,
+              "kelly_roi": -100.0,
+              "max_drawdown": -6.0,
+              "kelly_max_drawdown": -0.3446
+            }
+          }
+        },
+        "ev_gt_0": {
+          "name": "EV>0% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 29,
+            "hits": 7,
+            "hit_rate": 24.14,
+            "unit_profit": -10.97,
+            "unit_roi": -37.83,
+            "kelly_profit": -0.516,
+            "kelly_stake": 0.8938,
+            "kelly_roi": -57.74,
+            "max_drawdown": -15.47,
+            "kelly_max_drawdown": -0.659
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 0,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": 0.0,
+              "unit_roi": null,
+              "kelly_profit": 0.0,
+              "kelly_stake": 0.0,
+              "kelly_roi": null,
+              "max_drawdown": 0.0,
+              "kelly_max_drawdown": 0.0
+            },
+            "Draw": {
+              "bets": 4,
+              "hits": 1,
+              "hit_rate": 25.0,
+              "unit_profit": -1.27,
+              "unit_roi": -31.75,
+              "kelly_profit": -0.0692,
+              "kelly_stake": 0.1194,
+              "kelly_roi": -57.95,
+              "max_drawdown": -3.0,
+              "kelly_max_drawdown": -0.101
+            },
+            "Away Win": {
+              "bets": 25,
+              "hits": 6,
+              "hit_rate": 24.0,
+              "unit_profit": -9.7,
+              "unit_roi": -38.8,
+              "kelly_profit": -0.4468,
+              "kelly_stake": 0.7743,
+              "kelly_roi": -57.7,
+              "max_drawdown": -14.2,
+              "kelly_max_drawdown": -0.5898
+            }
+          }
+        },
+        "ev_gt_5": {
+          "name": "EV>5% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 26,
+            "hits": 5,
+            "hit_rate": 19.23,
+            "unit_profit": -11.41,
+            "unit_roi": -43.88,
+            "kelly_profit": -0.5263,
+            "kelly_stake": 0.8782,
+            "kelly_roi": -59.93,
+            "max_drawdown": -15.25,
+            "kelly_max_drawdown": -0.6638
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 0,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": 0.0,
+              "unit_roi": null,
+              "kelly_profit": 0.0,
+              "kelly_stake": 0.0,
+              "kelly_roi": null,
+              "max_drawdown": 0.0,
+              "kelly_max_drawdown": 0.0
+            },
+            "Draw": {
+              "bets": 4,
+              "hits": 1,
+              "hit_rate": 25.0,
+              "unit_profit": -1.27,
+              "unit_roi": -31.75,
+              "kelly_profit": -0.0692,
+              "kelly_stake": 0.1194,
+              "kelly_roi": -57.95,
+              "max_drawdown": -3.0,
+              "kelly_max_drawdown": -0.101
+            },
+            "Away Win": {
+              "bets": 22,
+              "hits": 4,
+              "hit_rate": 18.18,
+              "unit_profit": -10.14,
+              "unit_roi": -46.09,
+              "kelly_profit": -0.4571,
+              "kelly_stake": 0.7588,
+              "kelly_roi": -60.24,
+              "max_drawdown": -13.98,
+              "kelly_max_drawdown": -0.5946
+            }
+          }
+        },
+        "ev_gt_10": {
+          "name": "EV>10% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 20,
+            "hits": 4,
+            "hit_rate": 20.0,
+            "unit_profit": -8.41,
+            "unit_roi": -42.05,
+            "kelly_profit": -0.4904,
+            "kelly_stake": 0.8098,
+            "kelly_roi": -60.56,
+            "max_drawdown": -12.25,
+            "kelly_max_drawdown": -0.6278
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 0,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": 0.0,
+              "unit_roi": null,
+              "kelly_profit": 0.0,
+              "kelly_stake": 0.0,
+              "kelly_roi": null,
+              "max_drawdown": 0.0,
+              "kelly_max_drawdown": 0.0
+            },
+            "Draw": {
+              "bets": 3,
+              "hits": 1,
+              "hit_rate": 33.33,
+              "unit_profit": -0.27,
+              "unit_roi": -9.0,
+              "kelly_profit": -0.0613,
+              "kelly_stake": 0.1115,
+              "kelly_roi": -54.96,
+              "max_drawdown": -2.0,
+              "kelly_max_drawdown": -0.0931
+            },
+            "Away Win": {
+              "bets": 17,
+              "hits": 3,
+              "hit_rate": 17.65,
+              "unit_profit": -8.14,
+              "unit_roi": -47.88,
+              "kelly_profit": -0.4291,
+              "kelly_stake": 0.6983,
+              "kelly_roi": -61.45,
+              "max_drawdown": -11.98,
+              "kelly_max_drawdown": -0.5665
+            }
+          }
+        },
+        "ev_gt_15": {
+          "name": "EV>15% + 最低概率/市场概率过滤",
+          "summary": {
+            "bets": 19,
+            "hits": 3,
+            "hit_rate": 15.79,
+            "unit_profit": -10.14,
+            "unit_roi": -53.37,
+            "kelly_profit": -0.5222,
+            "kelly_stake": 0.7914,
+            "kelly_roi": -65.99,
+            "max_drawdown": -13.98,
+            "kelly_max_drawdown": -0.6597
+          },
+          "by_outcome": {
+            "Home Win": {
+              "bets": 0,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": 0.0,
+              "unit_roi": null,
+              "kelly_profit": 0.0,
+              "kelly_stake": 0.0,
+              "kelly_roi": null,
+              "max_drawdown": 0.0,
+              "kelly_max_drawdown": 0.0
+            },
+            "Draw": {
+              "bets": 2,
+              "hits": 0,
+              "hit_rate": 0.0,
+              "unit_profit": -2.0,
+              "unit_roi": -100.0,
+              "kelly_profit": -0.0931,
+              "kelly_stake": 0.0931,
+              "kelly_roi": -100.0,
+              "max_drawdown": -2.0,
+              "kelly_max_drawdown": -0.0931
+            },
+            "Away Win": {
+              "bets": 17,
+              "hits": 3,
+              "hit_rate": 17.65,
+              "unit_profit": -8.14,
+              "unit_roi": -47.88,
+              "kelly_profit": -0.4291,
+              "kelly_stake": 0.6983,
+              "kelly_roi": -61.45,
+              "max_drawdown": -11.98,
+              "kelly_max_drawdown": -0.5665
+            }
+          }
+        }
+      },
+      "best_strategy_by_unit_roi": {
+        "name": "Edge>=15% 原始",
+        "summary": {
+          "bets": 20,
+          "hits": 2,
+          "hit_rate": 10.0,
+          "unit_profit": 3.65,
+          "unit_roi": 18.25,
+          "kelly_profit": 0.2674,
+          "kelly_stake": 1.0823,
+          "kelly_roi": 24.71,
+          "max_drawdown": -8.0,
+          "kelly_max_drawdown": -0.4489
+        },
+        "by_outcome": {
+          "Home Win": {
+            "bets": 0,
+            "hits": 0,
+            "hit_rate": 0.0,
+            "unit_profit": 0.0,
+            "unit_roi": null,
+            "kelly_profit": 0.0,
+            "kelly_stake": 0.0,
+            "kelly_roi": null,
+            "max_drawdown": 0.0,
+            "kelly_max_drawdown": 0.0
+          },
+          "Draw": {
+            "bets": 2,
+            "hits": 1,
+            "hit_rate": 50.0,
+            "unit_profit": 8.72,
+            "unit_roi": 436.0,
+            "kelly_profit": 0.4035,
+            "kelly_stake": 0.1051,
+            "kelly_roi": 383.91,
+            "max_drawdown": -1.0,
+            "kelly_max_drawdown": -0.0577
+          },
+          "Away Win": {
+            "bets": 18,
+            "hits": 1,
+            "hit_rate": 5.56,
+            "unit_profit": -5.07,
+            "unit_roi": -28.17,
+            "kelly_profit": -0.1361,
+            "kelly_stake": 0.9772,
+            "kelly_roi": -13.92,
+            "max_drawdown": -9.0,
+            "kelly_max_drawdown": -0.4633
+          }
+        }
+      }
+    }
+  }
+}

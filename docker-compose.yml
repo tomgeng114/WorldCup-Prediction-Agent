@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: worldcup-postgres
+    environment:
+      POSTGRES_DB: worldcup_ai
+      POSTGRES_USER: worldcup
+      POSTGRES_PASSWORD: worldcup
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    container_name: worldcup-redis
+    ports:
+      - "6379:6379"
+
+  backend:
+    build:
+      context: ./backend
+    container_name: worldcup-backend
+    environment:
+      DATABASE_URL: postgresql+psycopg://worldcup:worldcup@postgres:5432/worldcup_ai
+      CORS_ORIGINS: http://localhost:3000
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      - postgres
+      - redis
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: worldcup-frontend
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: http://backend:8000
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+
+volumes:
+  postgres_data:

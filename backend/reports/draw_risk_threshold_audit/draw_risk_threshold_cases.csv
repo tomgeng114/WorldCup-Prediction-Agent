@@ -1,0 +1,519 @@
+﻿condition_id,condition,match_id,year,match,actual_result,predicted_result,is_actual_draw,draw_probability,win_probability_gap,predicted_total_goals,upset_probability
+C01,Draw Probability >= 25%,257,2018,Russia vs Saudi Arabia,Home Win,Home Win,False,28.94,16.33,6,54.73
+C01,Draw Probability >= 25%,258,2018,Egypt vs Uruguay,Away Win,Away Win,False,28.53,12.9,2,58.57
+C01,Draw Probability >= 25%,263,2018,Morocco vs Iran,Away Win,Draw,False,31.23,8.83,2,59.94
+C01,Draw Probability >= 25%,264,2018,Portugal vs Spain,Draw,Away Win,True,28.98,7.96,2,63.06
+C01,Draw Probability >= 25%,270,2018,Peru vs Denmark,Away Win,Away Win,False,29.45,11.45,6,59.1
+C01,Draw Probability >= 25%,276,2018,Croatia vs Nigeria,Home Win,Home Win,False,28.4,13.17,1,58.43
+C01,Draw Probability >= 25%,281,2018,Costa Rica vs Serbia,Away Win,Draw,False,30.23,5.52,2,65.99
+C01,Draw Probability >= 25%,293,2018,Belgium vs Panama,Home Win,Home Win,False,28.7,9.05,1,62.25
+C01,Draw Probability >= 25%,294,2018,Tunisia vs England,Away Win,Away Win,False,28.05,18.53,1,53.42
+C01,Draw Probability >= 25%,299,2018,Colombia vs Japan,Away Win,Home Win,False,26.52,18.54,2,54.93
+C01,Draw Probability >= 25%,300,2018,Poland vs Senegal,Away Win,Away Win,False,29.2,7.29,1,65.69
+C01,Draw Probability >= 25%,259,2018,Russia vs Egypt,Home Win,Home Win,False,28.16,13.02,2,58.82
+C01,Draw Probability >= 25%,271,2018,Denmark vs Australia,Draw,Home Win,True,25.8,21.01,5,53.19
+C01,Draw Probability >= 25%,272,2018,France vs Peru,Home Win,Home Win,False,25.51,24.33,3,50.16
+C01,Draw Probability >= 25%,277,2018,Argentina vs Croatia,Away Win,Home Win,False,25.25,19.01,2,55.74
+C01,Draw Probability >= 25%,278,2018,Nigeria vs Iceland,Home Win,Away Win,False,28.64,12.1,1,59.26
+C01,Draw Probability >= 25%,284,2018,Serbia vs Switzerland,Away Win,Draw,False,31.74,3.5,0,64.77
+C01,Draw Probability >= 25%,295,2018,Belgium vs Tunisia,Home Win,Home Win,False,27.7,16.77,1,55.53
+C01,Draw Probability >= 25%,301,2018,Japan vs Senegal,Draw,Away Win,True,27.51,15.32,1,57.17
+C01,Draw Probability >= 25%,302,2018,Poland vs Colombia,Away Win,Away Win,False,29.04,9.0,3,61.95
+C01,Draw Probability >= 25%,262,2018,Saudi Arabia vs Egypt,Home Win,Away Win,False,27.32,17.56,3,55.12
+C01,Draw Probability >= 25%,261,2018,Uruguay vs Russia,Home Win,Home Win,False,27.07,9.65,6,63.78
+C01,Draw Probability >= 25%,273,2018,Denmark vs France,Draw,Away Win,True,27.26,15.84,3,56.91
+C01,Draw Probability >= 25%,274,2018,Australia vs Peru,Away Win,Away Win,False,29.28,7.68,3,63.04
+C01,Draw Probability >= 25%,280,2018,Iceland vs Croatia,Away Win,Draw,False,30.28,13.62,2,56.1
+C01,Draw Probability >= 25%,292,2018,Mexico vs Sweden,Away Win,Away Win,False,29.66,7.12,2,66.45
+C01,Draw Probability >= 25%,286,2018,Switzerland vs Costa Rica,Draw,Home Win,True,28.82,10.24,2,60.95
+C01,Draw Probability >= 25%,303,2018,Japan vs Poland,Away Win,Away Win,False,27.75,10.42,2,65.91
+C01,Draw Probability >= 25%,304,2018,Senegal vs Colombia,Away Win,Away Win,False,29.52,7.11,3,63.37
+C01,Draw Probability >= 25%,297,2018,England vs Belgium,Away Win,Home Win,False,28.65,10.26,2,61.09
+C01,Draw Probability >= 25%,305,2018,France vs Argentina,Home Win,Draw,False,33.75,0.01,2,66.24
+C01,Draw Probability >= 25%,306,2018,Uruguay vs Portugal,Home Win,Draw,False,30.01,8.04,4,61.95
+C01,Draw Probability >= 25%,307,2018,Spain vs Russia,Draw,Home Win,True,25.06,19.19,5,55.76
+C01,Draw Probability >= 25%,308,2018,Croatia vs Denmark,Draw,Draw,True,30.75,6.47,2,62.77
+C01,Draw Probability >= 25%,310,2018,Belgium vs Japan,Home Win,Home Win,False,27.87,16.6,1,55.53
+C01,Draw Probability >= 25%,311,2018,Sweden vs Switzerland,Home Win,Home Win,False,29.28,9.15,3,67.71
+C01,Draw Probability >= 25%,312,2018,Colombia vs England,Draw,Draw,True,31.88,3.79,2,64.33
+C01,Draw Probability >= 25%,313,2018,Uruguay vs France,Away Win,Away Win,False,26.45,16.76,4,56.79
+C01,Draw Probability >= 25%,314,2018,Brazil vs Belgium,Away Win,Home Win,False,27.2,18.58,4,54.22
+C01,Draw Probability >= 25%,315,2018,Sweden vs England,Away Win,Draw,False,30.54,5.53,2,63.93
+C01,Draw Probability >= 25%,316,2018,Russia vs Croatia,Draw,Away Win,True,27.95,13.97,3,58.08
+C01,Draw Probability >= 25%,317,2018,France vs Belgium,Home Win,Draw,False,31.32,8.03,2,60.65
+C01,Draw Probability >= 25%,318,2018,Croatia vs England,Draw,Draw,True,30.77,5.37,2,63.86
+C01,Draw Probability >= 25%,319,2018,Belgium vs England,Home Win,Away Win,False,28.39,9.14,2,65.93
+C01,Draw Probability >= 25%,320,2018,France vs Croatia,Home Win,Home Win,False,28.45,12.85,3,58.7
+C01,Draw Probability >= 25%,321,2022,Qatar vs Ecuador,Away Win,Draw,False,31.02,3.56,2,65.43
+C01,Draw Probability >= 25%,328,2022,USA vs Wales,Draw,Draw,True,34.58,-0.32,0,68.83
+C01,Draw Probability >= 25%,334,2022,Mexico vs Poland,Draw,Home Win,True,29.29,6.84,2,63.87
+C01,Draw Probability >= 25%,351,2022,Morocco vs Croatia,Draw,Away Win,True,28.14,15.77,2,56.1
+C01,Draw Probability >= 25%,346,2022,Spain vs Costa Rica,Home Win,Home Win,False,25.08,21.74,2,53.19
+C01,Draw Probability >= 25%,357,2022,Switzerland vs Cameroon,Home Win,Home Win,False,26.77,18.4,2,54.83
+C01,Draw Probability >= 25%,364,2022,Portugal vs Ghana,Home Win,Home Win,False,26.77,18.24,3,54.99
+C01,Draw Probability >= 25%,329,2022,Wales vs Iran,Away Win,Draw,False,32.92,8.14,0,58.94
+C01,Draw Probability >= 25%,323,2022,Qatar vs Senegal,Away Win,Away Win,False,27.78,17.24,1,54.99
+C01,Draw Probability >= 25%,330,2022,England vs USA,Draw,Home Win,True,25.77,20.73,1,53.5
+C01,Draw Probability >= 25%,341,2022,Tunisia vs Australia,Away Win,Home Win,False,29.63,7.85,3,62.52
+C01,Draw Probability >= 25%,335,2022,Poland vs Saudi Arabia,Home Win,Home Win,False,26.08,20.78,3,53.14
+C01,Draw Probability >= 25%,336,2022,Argentina vs Mexico,Home Win,Home Win,False,26.13,18.61,2,55.26
+C01,Draw Probability >= 25%,347,2022,Japan vs Costa Rica,Away Win,Draw,False,30.2,7.34,2,62.47
+C01,Draw Probability >= 25%,354,2022,Croatia vs Canada,Home Win,Home Win,False,28.28,19.93,1,51.8
+C01,Draw Probability >= 25%,348,2022,Spain vs Germany,Draw,Away Win,True,29.97,7.6,4,67.54
+C01,Draw Probability >= 25%,359,2022,Cameroon vs Serbia,Draw,Draw,True,30.92,9.43,0,59.65
+C01,Draw Probability >= 25%,365,2022,South Korea vs Ghana,Away Win,Away Win,False,27.51,11.52,3,66.53
+C01,Draw Probability >= 25%,366,2022,Portugal vs Uruguay,Home Win,Draw,False,30.44,6.25,2,63.31
+C01,Draw Probability >= 25%,325,2022,Ecuador vs Senegal,Away Win,Away Win,False,28.9,7.36,1,65.17
+C01,Draw Probability >= 25%,331,2022,Wales vs England,Away Win,Away Win,False,28.35,17.08,1,54.57
+C01,Draw Probability >= 25%,332,2022,Iran vs USA,Away Win,Draw,False,31.6,7.06,2,61.34
+C01,Draw Probability >= 25%,343,2022,Australia vs Denmark,Home Win,Away Win,False,26.54,18.56,2,54.89
+C01,Draw Probability >= 25%,355,2022,Croatia vs Belgium,Draw,Home Win,True,28.91,7.06,3,64.89
+C01,Draw Probability >= 25%,356,2022,Canada vs Morocco,Away Win,Draw,False,30.45,12.62,0,56.92
+C01,Draw Probability >= 25%,367,2022,Ghana vs Uruguay,Away Win,Away Win,False,27.34,13.68,2,58.98
+C01,Draw Probability >= 25%,361,2022,Serbia vs Switzerland,Away Win,Away Win,False,29.39,8.97,2,67.75
+C01,Draw Probability >= 25%,372,2022,England vs Senegal,Home Win,Home Win,False,28.72,13.32,3,57.97
+C01,Draw Probability >= 25%,373,2022,Japan vs Croatia,Draw,Away Win,True,28.85,14.29,2,56.86
+C01,Draw Probability >= 25%,375,2022,Morocco vs Spain,Draw,Away Win,True,26.11,18.96,3,54.93
+C01,Draw Probability >= 25%,376,2022,Portugal vs Switzerland,Home Win,Home Win,False,29.09,10.54,6,60.37
+C01,Draw Probability >= 25%,377,2022,Croatia vs Brazil,Draw,Away Win,True,26.35,19.47,3,54.18
+C01,Draw Probability >= 25%,378,2022,Netherlands vs Argentina,Draw,Draw,True,30.81,9.71,2,71.34
+C01,Draw Probability >= 25%,379,2022,Morocco vs Portugal,Home Win,Away Win,False,28.38,15.0,3,56.62
+C01,Draw Probability >= 25%,380,2022,England vs France,Away Win,Draw,False,32.23,3.97,4,63.8
+C01,Draw Probability >= 25%,381,2022,Argentina vs Croatia,Home Win,Home Win,False,29.47,9.54,3,60.99
+C01,Draw Probability >= 25%,382,2022,France vs Morocco,Home Win,Home Win,False,25.45,23.95,2,50.6
+C01,Draw Probability >= 25%,383,2022,Croatia vs Morocco,Home Win,Draw,False,31.38,6.08,0,62.55
+C01,Draw Probability >= 25%,384,2022,Argentina vs France,Draw,Draw,True,31.24,6.33,6,68.81
+C02,Draw Probability >= 27%,257,2018,Russia vs Saudi Arabia,Home Win,Home Win,False,28.94,16.33,6,54.73
+C02,Draw Probability >= 27%,258,2018,Egypt vs Uruguay,Away Win,Away Win,False,28.53,12.9,2,58.57
+C02,Draw Probability >= 27%,263,2018,Morocco vs Iran,Away Win,Draw,False,31.23,8.83,2,59.94
+C02,Draw Probability >= 27%,264,2018,Portugal vs Spain,Draw,Away Win,True,28.98,7.96,2,63.06
+C02,Draw Probability >= 27%,270,2018,Peru vs Denmark,Away Win,Away Win,False,29.45,11.45,6,59.1
+C02,Draw Probability >= 27%,276,2018,Croatia vs Nigeria,Home Win,Home Win,False,28.4,13.17,1,58.43
+C02,Draw Probability >= 27%,281,2018,Costa Rica vs Serbia,Away Win,Draw,False,30.23,5.52,2,65.99
+C02,Draw Probability >= 27%,293,2018,Belgium vs Panama,Home Win,Home Win,False,28.7,9.05,1,62.25
+C02,Draw Probability >= 27%,294,2018,Tunisia vs England,Away Win,Away Win,False,28.05,18.53,1,53.42
+C02,Draw Probability >= 27%,300,2018,Poland vs Senegal,Away Win,Away Win,False,29.2,7.29,1,65.69
+C02,Draw Probability >= 27%,259,2018,Russia vs Egypt,Home Win,Home Win,False,28.16,13.02,2,58.82
+C02,Draw Probability >= 27%,278,2018,Nigeria vs Iceland,Home Win,Away Win,False,28.64,12.1,1,59.26
+C02,Draw Probability >= 27%,284,2018,Serbia vs Switzerland,Away Win,Draw,False,31.74,3.5,0,64.77
+C02,Draw Probability >= 27%,295,2018,Belgium vs Tunisia,Home Win,Home Win,False,27.7,16.77,1,55.53
+C02,Draw Probability >= 27%,301,2018,Japan vs Senegal,Draw,Away Win,True,27.51,15.32,1,57.17
+C02,Draw Probability >= 27%,302,2018,Poland vs Colombia,Away Win,Away Win,False,29.04,9.0,3,61.95
+C02,Draw Probability >= 27%,262,2018,Saudi Arabia vs Egypt,Home Win,Away Win,False,27.32,17.56,3,55.12
+C02,Draw Probability >= 27%,261,2018,Uruguay vs Russia,Home Win,Home Win,False,27.07,9.65,6,63.78
+C02,Draw Probability >= 27%,273,2018,Denmark vs France,Draw,Away Win,True,27.26,15.84,3,56.91
+C02,Draw Probability >= 27%,274,2018,Australia vs Peru,Away Win,Away Win,False,29.28,7.68,3,63.04
+C02,Draw Probability >= 27%,280,2018,Iceland vs Croatia,Away Win,Draw,False,30.28,13.62,2,56.1
+C02,Draw Probability >= 27%,292,2018,Mexico vs Sweden,Away Win,Away Win,False,29.66,7.12,2,66.45
+C02,Draw Probability >= 27%,286,2018,Switzerland vs Costa Rica,Draw,Home Win,True,28.82,10.24,2,60.95
+C02,Draw Probability >= 27%,303,2018,Japan vs Poland,Away Win,Away Win,False,27.75,10.42,2,65.91
+C02,Draw Probability >= 27%,304,2018,Senegal vs Colombia,Away Win,Away Win,False,29.52,7.11,3,63.37
+C02,Draw Probability >= 27%,297,2018,England vs Belgium,Away Win,Home Win,False,28.65,10.26,2,61.09
+C02,Draw Probability >= 27%,305,2018,France vs Argentina,Home Win,Draw,False,33.75,0.01,2,66.24
+C02,Draw Probability >= 27%,306,2018,Uruguay vs Portugal,Home Win,Draw,False,30.01,8.04,4,61.95
+C02,Draw Probability >= 27%,308,2018,Croatia vs Denmark,Draw,Draw,True,30.75,6.47,2,62.77
+C02,Draw Probability >= 27%,310,2018,Belgium vs Japan,Home Win,Home Win,False,27.87,16.6,1,55.53
+C02,Draw Probability >= 27%,311,2018,Sweden vs Switzerland,Home Win,Home Win,False,29.28,9.15,3,67.71
+C02,Draw Probability >= 27%,312,2018,Colombia vs England,Draw,Draw,True,31.88,3.79,2,64.33
+C02,Draw Probability >= 27%,314,2018,Brazil vs Belgium,Away Win,Home Win,False,27.2,18.58,4,54.22
+C02,Draw Probability >= 27%,315,2018,Sweden vs England,Away Win,Draw,False,30.54,5.53,2,63.93
+C02,Draw Probability >= 27%,316,2018,Russia vs Croatia,Draw,Away Win,True,27.95,13.97,3,58.08
+C02,Draw Probability >= 27%,317,2018,France vs Belgium,Home Win,Draw,False,31.32,8.03,2,60.65
+C02,Draw Probability >= 27%,318,2018,Croatia vs England,Draw,Draw,True,30.77,5.37,2,63.86
+C02,Draw Probability >= 27%,319,2018,Belgium vs England,Home Win,Away Win,False,28.39,9.14,2,65.93
+C02,Draw Probability >= 27%,320,2018,France vs Croatia,Home Win,Home Win,False,28.45,12.85,3,58.7
+C02,Draw Probability >= 27%,321,2022,Qatar vs Ecuador,Away Win,Draw,False,31.02,3.56,2,65.43
+C02,Draw Probability >= 27%,328,2022,USA vs Wales,Draw,Draw,True,34.58,-0.32,0,68.83
+C02,Draw Probability >= 27%,334,2022,Mexico vs Poland,Draw,Home Win,True,29.29,6.84,2,63.87
+C02,Draw Probability >= 27%,351,2022,Morocco vs Croatia,Draw,Away Win,True,28.14,15.77,2,56.1
+C02,Draw Probability >= 27%,329,2022,Wales vs Iran,Away Win,Draw,False,32.92,8.14,0,58.94
+C02,Draw Probability >= 27%,323,2022,Qatar vs Senegal,Away Win,Away Win,False,27.78,17.24,1,54.99
+C02,Draw Probability >= 27%,341,2022,Tunisia vs Australia,Away Win,Home Win,False,29.63,7.85,3,62.52
+C02,Draw Probability >= 27%,347,2022,Japan vs Costa Rica,Away Win,Draw,False,30.2,7.34,2,62.47
+C02,Draw Probability >= 27%,354,2022,Croatia vs Canada,Home Win,Home Win,False,28.28,19.93,1,51.8
+C02,Draw Probability >= 27%,348,2022,Spain vs Germany,Draw,Away Win,True,29.97,7.6,4,67.54
+C02,Draw Probability >= 27%,359,2022,Cameroon vs Serbia,Draw,Draw,True,30.92,9.43,0,59.65
+C02,Draw Probability >= 27%,365,2022,South Korea vs Ghana,Away Win,Away Win,False,27.51,11.52,3,66.53
+C02,Draw Probability >= 27%,366,2022,Portugal vs Uruguay,Home Win,Draw,False,30.44,6.25,2,63.31
+C02,Draw Probability >= 27%,325,2022,Ecuador vs Senegal,Away Win,Away Win,False,28.9,7.36,1,65.17
+C02,Draw Probability >= 27%,331,2022,Wales vs England,Away Win,Away Win,False,28.35,17.08,1,54.57
+C02,Draw Probability >= 27%,332,2022,Iran vs USA,Away Win,Draw,False,31.6,7.06,2,61.34
+C02,Draw Probability >= 27%,355,2022,Croatia vs Belgium,Draw,Home Win,True,28.91,7.06,3,64.89
+C02,Draw Probability >= 27%,356,2022,Canada vs Morocco,Away Win,Draw,False,30.45,12.62,0,56.92
+C02,Draw Probability >= 27%,367,2022,Ghana vs Uruguay,Away Win,Away Win,False,27.34,13.68,2,58.98
+C02,Draw Probability >= 27%,361,2022,Serbia vs Switzerland,Away Win,Away Win,False,29.39,8.97,2,67.75
+C02,Draw Probability >= 27%,372,2022,England vs Senegal,Home Win,Home Win,False,28.72,13.32,3,57.97
+C02,Draw Probability >= 27%,373,2022,Japan vs Croatia,Draw,Away Win,True,28.85,14.29,2,56.86
+C02,Draw Probability >= 27%,376,2022,Portugal vs Switzerland,Home Win,Home Win,False,29.09,10.54,6,60.37
+C02,Draw Probability >= 27%,378,2022,Netherlands vs Argentina,Draw,Draw,True,30.81,9.71,2,71.34
+C02,Draw Probability >= 27%,379,2022,Morocco vs Portugal,Home Win,Away Win,False,28.38,15.0,3,56.62
+C02,Draw Probability >= 27%,380,2022,England vs France,Away Win,Draw,False,32.23,3.97,4,63.8
+C02,Draw Probability >= 27%,381,2022,Argentina vs Croatia,Home Win,Home Win,False,29.47,9.54,3,60.99
+C02,Draw Probability >= 27%,383,2022,Croatia vs Morocco,Home Win,Draw,False,31.38,6.08,0,62.55
+C02,Draw Probability >= 27%,384,2022,Argentina vs France,Draw,Draw,True,31.24,6.33,6,68.81
+C03,Draw Probability >= 30%,263,2018,Morocco vs Iran,Away Win,Draw,False,31.23,8.83,2,59.94
+C03,Draw Probability >= 30%,281,2018,Costa Rica vs Serbia,Away Win,Draw,False,30.23,5.52,2,65.99
+C03,Draw Probability >= 30%,284,2018,Serbia vs Switzerland,Away Win,Draw,False,31.74,3.5,0,64.77
+C03,Draw Probability >= 30%,280,2018,Iceland vs Croatia,Away Win,Draw,False,30.28,13.62,2,56.1
+C03,Draw Probability >= 30%,305,2018,France vs Argentina,Home Win,Draw,False,33.75,0.01,2,66.24
+C03,Draw Probability >= 30%,306,2018,Uruguay vs Portugal,Home Win,Draw,False,30.01,8.04,4,61.95
+C03,Draw Probability >= 30%,308,2018,Croatia vs Denmark,Draw,Draw,True,30.75,6.47,2,62.77
+C03,Draw Probability >= 30%,312,2018,Colombia vs England,Draw,Draw,True,31.88,3.79,2,64.33
+C03,Draw Probability >= 30%,315,2018,Sweden vs England,Away Win,Draw,False,30.54,5.53,2,63.93
+C03,Draw Probability >= 30%,317,2018,France vs Belgium,Home Win,Draw,False,31.32,8.03,2,60.65
+C03,Draw Probability >= 30%,318,2018,Croatia vs England,Draw,Draw,True,30.77,5.37,2,63.86
+C03,Draw Probability >= 30%,321,2022,Qatar vs Ecuador,Away Win,Draw,False,31.02,3.56,2,65.43
+C03,Draw Probability >= 30%,328,2022,USA vs Wales,Draw,Draw,True,34.58,-0.32,0,68.83
+C03,Draw Probability >= 30%,329,2022,Wales vs Iran,Away Win,Draw,False,32.92,8.14,0,58.94
+C03,Draw Probability >= 30%,347,2022,Japan vs Costa Rica,Away Win,Draw,False,30.2,7.34,2,62.47
+C03,Draw Probability >= 30%,359,2022,Cameroon vs Serbia,Draw,Draw,True,30.92,9.43,0,59.65
+C03,Draw Probability >= 30%,366,2022,Portugal vs Uruguay,Home Win,Draw,False,30.44,6.25,2,63.31
+C03,Draw Probability >= 30%,332,2022,Iran vs USA,Away Win,Draw,False,31.6,7.06,2,61.34
+C03,Draw Probability >= 30%,356,2022,Canada vs Morocco,Away Win,Draw,False,30.45,12.62,0,56.92
+C03,Draw Probability >= 30%,378,2022,Netherlands vs Argentina,Draw,Draw,True,30.81,9.71,2,71.34
+C03,Draw Probability >= 30%,380,2022,England vs France,Away Win,Draw,False,32.23,3.97,4,63.8
+C03,Draw Probability >= 30%,383,2022,Croatia vs Morocco,Home Win,Draw,False,31.38,6.08,0,62.55
+C03,Draw Probability >= 30%,384,2022,Argentina vs France,Draw,Draw,True,31.24,6.33,6,68.81
+C04,Win Probability Gap <= 5%,284,2018,Serbia vs Switzerland,Away Win,Draw,False,31.74,3.5,0,64.77
+C04,Win Probability Gap <= 5%,305,2018,France vs Argentina,Home Win,Draw,False,33.75,0.01,2,66.24
+C04,Win Probability Gap <= 5%,312,2018,Colombia vs England,Draw,Draw,True,31.88,3.79,2,64.33
+C04,Win Probability Gap <= 5%,321,2022,Qatar vs Ecuador,Away Win,Draw,False,31.02,3.56,2,65.43
+C04,Win Probability Gap <= 5%,328,2022,USA vs Wales,Draw,Draw,True,34.58,-0.32,0,68.83
+C04,Win Probability Gap <= 5%,380,2022,England vs France,Away Win,Draw,False,32.23,3.97,4,63.8
+C05,Win Probability Gap <= 10%,263,2018,Morocco vs Iran,Away Win,Draw,False,31.23,8.83,2,59.94
+C05,Win Probability Gap <= 10%,264,2018,Portugal vs Spain,Draw,Away Win,True,28.98,7.96,2,63.06
+C05,Win Probability Gap <= 10%,281,2018,Costa Rica vs Serbia,Away Win,Draw,False,30.23,5.52,2,65.99
+C05,Win Probability Gap <= 10%,293,2018,Belgium vs Panama,Home Win,Home Win,False,28.7,9.05,1,62.25
+C05,Win Probability Gap <= 10%,300,2018,Poland vs Senegal,Away Win,Away Win,False,29.2,7.29,1,65.69
+C05,Win Probability Gap <= 10%,284,2018,Serbia vs Switzerland,Away Win,Draw,False,31.74,3.5,0,64.77
+C05,Win Probability Gap <= 10%,302,2018,Poland vs Colombia,Away Win,Away Win,False,29.04,9.0,3,61.95
+C05,Win Probability Gap <= 10%,261,2018,Uruguay vs Russia,Home Win,Home Win,False,27.07,9.65,6,63.78
+C05,Win Probability Gap <= 10%,274,2018,Australia vs Peru,Away Win,Away Win,False,29.28,7.68,3,63.04
+C05,Win Probability Gap <= 10%,292,2018,Mexico vs Sweden,Away Win,Away Win,False,29.66,7.12,2,66.45
+C05,Win Probability Gap <= 10%,304,2018,Senegal vs Colombia,Away Win,Away Win,False,29.52,7.11,3,63.37
+C05,Win Probability Gap <= 10%,305,2018,France vs Argentina,Home Win,Draw,False,33.75,0.01,2,66.24
+C05,Win Probability Gap <= 10%,306,2018,Uruguay vs Portugal,Home Win,Draw,False,30.01,8.04,4,61.95
+C05,Win Probability Gap <= 10%,308,2018,Croatia vs Denmark,Draw,Draw,True,30.75,6.47,2,62.77
+C05,Win Probability Gap <= 10%,311,2018,Sweden vs Switzerland,Home Win,Home Win,False,29.28,9.15,3,67.71
+C05,Win Probability Gap <= 10%,312,2018,Colombia vs England,Draw,Draw,True,31.88,3.79,2,64.33
+C05,Win Probability Gap <= 10%,315,2018,Sweden vs England,Away Win,Draw,False,30.54,5.53,2,63.93
+C05,Win Probability Gap <= 10%,317,2018,France vs Belgium,Home Win,Draw,False,31.32,8.03,2,60.65
+C05,Win Probability Gap <= 10%,318,2018,Croatia vs England,Draw,Draw,True,30.77,5.37,2,63.86
+C05,Win Probability Gap <= 10%,319,2018,Belgium vs England,Home Win,Away Win,False,28.39,9.14,2,65.93
+C05,Win Probability Gap <= 10%,321,2022,Qatar vs Ecuador,Away Win,Draw,False,31.02,3.56,2,65.43
+C05,Win Probability Gap <= 10%,328,2022,USA vs Wales,Draw,Draw,True,34.58,-0.32,0,68.83
+C05,Win Probability Gap <= 10%,334,2022,Mexico vs Poland,Draw,Home Win,True,29.29,6.84,2,63.87
+C05,Win Probability Gap <= 10%,329,2022,Wales vs Iran,Away Win,Draw,False,32.92,8.14,0,58.94
+C05,Win Probability Gap <= 10%,341,2022,Tunisia vs Australia,Away Win,Home Win,False,29.63,7.85,3,62.52
+C05,Win Probability Gap <= 10%,347,2022,Japan vs Costa Rica,Away Win,Draw,False,30.2,7.34,2,62.47
+C05,Win Probability Gap <= 10%,348,2022,Spain vs Germany,Draw,Away Win,True,29.97,7.6,4,67.54
+C05,Win Probability Gap <= 10%,359,2022,Cameroon vs Serbia,Draw,Draw,True,30.92,9.43,0,59.65
+C05,Win Probability Gap <= 10%,366,2022,Portugal vs Uruguay,Home Win,Draw,False,30.44,6.25,2,63.31
+C05,Win Probability Gap <= 10%,325,2022,Ecuador vs Senegal,Away Win,Away Win,False,28.9,7.36,1,65.17
+C05,Win Probability Gap <= 10%,332,2022,Iran vs USA,Away Win,Draw,False,31.6,7.06,2,61.34
+C05,Win Probability Gap <= 10%,355,2022,Croatia vs Belgium,Draw,Home Win,True,28.91,7.06,3,64.89
+C05,Win Probability Gap <= 10%,361,2022,Serbia vs Switzerland,Away Win,Away Win,False,29.39,8.97,2,67.75
+C05,Win Probability Gap <= 10%,378,2022,Netherlands vs Argentina,Draw,Draw,True,30.81,9.71,2,71.34
+C05,Win Probability Gap <= 10%,380,2022,England vs France,Away Win,Draw,False,32.23,3.97,4,63.8
+C05,Win Probability Gap <= 10%,381,2022,Argentina vs Croatia,Home Win,Home Win,False,29.47,9.54,3,60.99
+C05,Win Probability Gap <= 10%,383,2022,Croatia vs Morocco,Home Win,Draw,False,31.38,6.08,0,62.55
+C05,Win Probability Gap <= 10%,384,2022,Argentina vs France,Draw,Draw,True,31.24,6.33,6,68.81
+C06,Win Probability Gap <= 15%,258,2018,Egypt vs Uruguay,Away Win,Away Win,False,28.53,12.9,2,58.57
+C06,Win Probability Gap <= 15%,263,2018,Morocco vs Iran,Away Win,Draw,False,31.23,8.83,2,59.94
+C06,Win Probability Gap <= 15%,264,2018,Portugal vs Spain,Draw,Away Win,True,28.98,7.96,2,63.06
+C06,Win Probability Gap <= 15%,270,2018,Peru vs Denmark,Away Win,Away Win,False,29.45,11.45,6,59.1
+C06,Win Probability Gap <= 15%,276,2018,Croatia vs Nigeria,Home Win,Home Win,False,28.4,13.17,1,58.43
+C06,Win Probability Gap <= 15%,281,2018,Costa Rica vs Serbia,Away Win,Draw,False,30.23,5.52,2,65.99
+C06,Win Probability Gap <= 15%,293,2018,Belgium vs Panama,Home Win,Home Win,False,28.7,9.05,1,62.25
+C06,Win Probability Gap <= 15%,300,2018,Poland vs Senegal,Away Win,Away Win,False,29.2,7.29,1,65.69
+C06,Win Probability Gap <= 15%,259,2018,Russia vs Egypt,Home Win,Home Win,False,28.16,13.02,2,58.82
+C06,Win Probability Gap <= 15%,278,2018,Nigeria vs Iceland,Home Win,Away Win,False,28.64,12.1,1,59.26
+C06,Win Probability Gap <= 15%,284,2018,Serbia vs Switzerland,Away Win,Draw,False,31.74,3.5,0,64.77
+C06,Win Probability Gap <= 15%,302,2018,Poland vs Colombia,Away Win,Away Win,False,29.04,9.0,3,61.95
+C06,Win Probability Gap <= 15%,261,2018,Uruguay vs Russia,Home Win,Home Win,False,27.07,9.65,6,63.78
+C06,Win Probability Gap <= 15%,274,2018,Australia vs Peru,Away Win,Away Win,False,29.28,7.68,3,63.04
+C06,Win Probability Gap <= 15%,280,2018,Iceland vs Croatia,Away Win,Draw,False,30.28,13.62,2,56.1
+C06,Win Probability Gap <= 15%,292,2018,Mexico vs Sweden,Away Win,Away Win,False,29.66,7.12,2,66.45
+C06,Win Probability Gap <= 15%,286,2018,Switzerland vs Costa Rica,Draw,Home Win,True,28.82,10.24,2,60.95
+C06,Win Probability Gap <= 15%,303,2018,Japan vs Poland,Away Win,Away Win,False,27.75,10.42,2,65.91
+C06,Win Probability Gap <= 15%,304,2018,Senegal vs Colombia,Away Win,Away Win,False,29.52,7.11,3,63.37
+C06,Win Probability Gap <= 15%,297,2018,England vs Belgium,Away Win,Home Win,False,28.65,10.26,2,61.09
+C06,Win Probability Gap <= 15%,305,2018,France vs Argentina,Home Win,Draw,False,33.75,0.01,2,66.24
+C06,Win Probability Gap <= 15%,306,2018,Uruguay vs Portugal,Home Win,Draw,False,30.01,8.04,4,61.95
+C06,Win Probability Gap <= 15%,308,2018,Croatia vs Denmark,Draw,Draw,True,30.75,6.47,2,62.77
+C06,Win Probability Gap <= 15%,311,2018,Sweden vs Switzerland,Home Win,Home Win,False,29.28,9.15,3,67.71
+C06,Win Probability Gap <= 15%,312,2018,Colombia vs England,Draw,Draw,True,31.88,3.79,2,64.33
+C06,Win Probability Gap <= 15%,315,2018,Sweden vs England,Away Win,Draw,False,30.54,5.53,2,63.93
+C06,Win Probability Gap <= 15%,316,2018,Russia vs Croatia,Draw,Away Win,True,27.95,13.97,3,58.08
+C06,Win Probability Gap <= 15%,317,2018,France vs Belgium,Home Win,Draw,False,31.32,8.03,2,60.65
+C06,Win Probability Gap <= 15%,318,2018,Croatia vs England,Draw,Draw,True,30.77,5.37,2,63.86
+C06,Win Probability Gap <= 15%,319,2018,Belgium vs England,Home Win,Away Win,False,28.39,9.14,2,65.93
+C06,Win Probability Gap <= 15%,320,2018,France vs Croatia,Home Win,Home Win,False,28.45,12.85,3,58.7
+C06,Win Probability Gap <= 15%,321,2022,Qatar vs Ecuador,Away Win,Draw,False,31.02,3.56,2,65.43
+C06,Win Probability Gap <= 15%,328,2022,USA vs Wales,Draw,Draw,True,34.58,-0.32,0,68.83
+C06,Win Probability Gap <= 15%,334,2022,Mexico vs Poland,Draw,Home Win,True,29.29,6.84,2,63.87
+C06,Win Probability Gap <= 15%,329,2022,Wales vs Iran,Away Win,Draw,False,32.92,8.14,0,58.94
+C06,Win Probability Gap <= 15%,341,2022,Tunisia vs Australia,Away Win,Home Win,False,29.63,7.85,3,62.52
+C06,Win Probability Gap <= 15%,347,2022,Japan vs Costa Rica,Away Win,Draw,False,30.2,7.34,2,62.47
+C06,Win Probability Gap <= 15%,348,2022,Spain vs Germany,Draw,Away Win,True,29.97,7.6,4,67.54
+C06,Win Probability Gap <= 15%,359,2022,Cameroon vs Serbia,Draw,Draw,True,30.92,9.43,0,59.65
+C06,Win Probability Gap <= 15%,365,2022,South Korea vs Ghana,Away Win,Away Win,False,27.51,11.52,3,66.53
+C06,Win Probability Gap <= 15%,366,2022,Portugal vs Uruguay,Home Win,Draw,False,30.44,6.25,2,63.31
+C06,Win Probability Gap <= 15%,325,2022,Ecuador vs Senegal,Away Win,Away Win,False,28.9,7.36,1,65.17
+C06,Win Probability Gap <= 15%,332,2022,Iran vs USA,Away Win,Draw,False,31.6,7.06,2,61.34
+C06,Win Probability Gap <= 15%,355,2022,Croatia vs Belgium,Draw,Home Win,True,28.91,7.06,3,64.89
+C06,Win Probability Gap <= 15%,356,2022,Canada vs Morocco,Away Win,Draw,False,30.45,12.62,0,56.92
+C06,Win Probability Gap <= 15%,367,2022,Ghana vs Uruguay,Away Win,Away Win,False,27.34,13.68,2,58.98
+C06,Win Probability Gap <= 15%,361,2022,Serbia vs Switzerland,Away Win,Away Win,False,29.39,8.97,2,67.75
+C06,Win Probability Gap <= 15%,372,2022,England vs Senegal,Home Win,Home Win,False,28.72,13.32,3,57.97
+C06,Win Probability Gap <= 15%,373,2022,Japan vs Croatia,Draw,Away Win,True,28.85,14.29,2,56.86
+C06,Win Probability Gap <= 15%,376,2022,Portugal vs Switzerland,Home Win,Home Win,False,29.09,10.54,6,60.37
+C06,Win Probability Gap <= 15%,378,2022,Netherlands vs Argentina,Draw,Draw,True,30.81,9.71,2,71.34
+C06,Win Probability Gap <= 15%,379,2022,Morocco vs Portugal,Home Win,Away Win,False,28.38,15.0,3,56.62
+C06,Win Probability Gap <= 15%,380,2022,England vs France,Away Win,Draw,False,32.23,3.97,4,63.8
+C06,Win Probability Gap <= 15%,381,2022,Argentina vs Croatia,Home Win,Home Win,False,29.47,9.54,3,60.99
+C06,Win Probability Gap <= 15%,383,2022,Croatia vs Morocco,Home Win,Draw,False,31.38,6.08,0,62.55
+C06,Win Probability Gap <= 15%,384,2022,Argentina vs France,Draw,Draw,True,31.24,6.33,6,68.81
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,258,2018,Egypt vs Uruguay,Away Win,Away Win,False,28.53,12.9,2,58.57
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,263,2018,Morocco vs Iran,Away Win,Draw,False,31.23,8.83,2,59.94
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,264,2018,Portugal vs Spain,Draw,Away Win,True,28.98,7.96,2,63.06
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,270,2018,Peru vs Denmark,Away Win,Away Win,False,29.45,11.45,6,59.1
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,276,2018,Croatia vs Nigeria,Home Win,Home Win,False,28.4,13.17,1,58.43
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,281,2018,Costa Rica vs Serbia,Away Win,Draw,False,30.23,5.52,2,65.99
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,293,2018,Belgium vs Panama,Home Win,Home Win,False,28.7,9.05,1,62.25
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,300,2018,Poland vs Senegal,Away Win,Away Win,False,29.2,7.29,1,65.69
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,259,2018,Russia vs Egypt,Home Win,Home Win,False,28.16,13.02,2,58.82
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,278,2018,Nigeria vs Iceland,Home Win,Away Win,False,28.64,12.1,1,59.26
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,284,2018,Serbia vs Switzerland,Away Win,Draw,False,31.74,3.5,0,64.77
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,302,2018,Poland vs Colombia,Away Win,Away Win,False,29.04,9.0,3,61.95
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,261,2018,Uruguay vs Russia,Home Win,Home Win,False,27.07,9.65,6,63.78
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,274,2018,Australia vs Peru,Away Win,Away Win,False,29.28,7.68,3,63.04
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,280,2018,Iceland vs Croatia,Away Win,Draw,False,30.28,13.62,2,56.1
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,292,2018,Mexico vs Sweden,Away Win,Away Win,False,29.66,7.12,2,66.45
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,286,2018,Switzerland vs Costa Rica,Draw,Home Win,True,28.82,10.24,2,60.95
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,303,2018,Japan vs Poland,Away Win,Away Win,False,27.75,10.42,2,65.91
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,304,2018,Senegal vs Colombia,Away Win,Away Win,False,29.52,7.11,3,63.37
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,297,2018,England vs Belgium,Away Win,Home Win,False,28.65,10.26,2,61.09
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,305,2018,France vs Argentina,Home Win,Draw,False,33.75,0.01,2,66.24
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,306,2018,Uruguay vs Portugal,Home Win,Draw,False,30.01,8.04,4,61.95
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,308,2018,Croatia vs Denmark,Draw,Draw,True,30.75,6.47,2,62.77
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,311,2018,Sweden vs Switzerland,Home Win,Home Win,False,29.28,9.15,3,67.71
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,312,2018,Colombia vs England,Draw,Draw,True,31.88,3.79,2,64.33
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,315,2018,Sweden vs England,Away Win,Draw,False,30.54,5.53,2,63.93
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,316,2018,Russia vs Croatia,Draw,Away Win,True,27.95,13.97,3,58.08
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,317,2018,France vs Belgium,Home Win,Draw,False,31.32,8.03,2,60.65
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,318,2018,Croatia vs England,Draw,Draw,True,30.77,5.37,2,63.86
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,319,2018,Belgium vs England,Home Win,Away Win,False,28.39,9.14,2,65.93
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,320,2018,France vs Croatia,Home Win,Home Win,False,28.45,12.85,3,58.7
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,321,2022,Qatar vs Ecuador,Away Win,Draw,False,31.02,3.56,2,65.43
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,328,2022,USA vs Wales,Draw,Draw,True,34.58,-0.32,0,68.83
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,334,2022,Mexico vs Poland,Draw,Home Win,True,29.29,6.84,2,63.87
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,329,2022,Wales vs Iran,Away Win,Draw,False,32.92,8.14,0,58.94
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,341,2022,Tunisia vs Australia,Away Win,Home Win,False,29.63,7.85,3,62.52
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,347,2022,Japan vs Costa Rica,Away Win,Draw,False,30.2,7.34,2,62.47
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,348,2022,Spain vs Germany,Draw,Away Win,True,29.97,7.6,4,67.54
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,359,2022,Cameroon vs Serbia,Draw,Draw,True,30.92,9.43,0,59.65
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,365,2022,South Korea vs Ghana,Away Win,Away Win,False,27.51,11.52,3,66.53
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,366,2022,Portugal vs Uruguay,Home Win,Draw,False,30.44,6.25,2,63.31
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,325,2022,Ecuador vs Senegal,Away Win,Away Win,False,28.9,7.36,1,65.17
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,332,2022,Iran vs USA,Away Win,Draw,False,31.6,7.06,2,61.34
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,355,2022,Croatia vs Belgium,Draw,Home Win,True,28.91,7.06,3,64.89
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,356,2022,Canada vs Morocco,Away Win,Draw,False,30.45,12.62,0,56.92
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,367,2022,Ghana vs Uruguay,Away Win,Away Win,False,27.34,13.68,2,58.98
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,361,2022,Serbia vs Switzerland,Away Win,Away Win,False,29.39,8.97,2,67.75
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,372,2022,England vs Senegal,Home Win,Home Win,False,28.72,13.32,3,57.97
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,373,2022,Japan vs Croatia,Draw,Away Win,True,28.85,14.29,2,56.86
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,376,2022,Portugal vs Switzerland,Home Win,Home Win,False,29.09,10.54,6,60.37
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,378,2022,Netherlands vs Argentina,Draw,Draw,True,30.81,9.71,2,71.34
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,379,2022,Morocco vs Portugal,Home Win,Away Win,False,28.38,15.0,3,56.62
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,380,2022,England vs France,Away Win,Draw,False,32.23,3.97,4,63.8
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,381,2022,Argentina vs Croatia,Home Win,Home Win,False,29.47,9.54,3,60.99
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,383,2022,Croatia vs Morocco,Home Win,Draw,False,31.38,6.08,0,62.55
+C07,Draw Probability >= 25% AND Win Probability Gap <= 15%,384,2022,Argentina vs France,Draw,Draw,True,31.24,6.33,6,68.81
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,258,2018,Egypt vs Uruguay,Away Win,Away Win,False,28.53,12.9,2,58.57
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,263,2018,Morocco vs Iran,Away Win,Draw,False,31.23,8.83,2,59.94
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,264,2018,Portugal vs Spain,Draw,Away Win,True,28.98,7.96,2,63.06
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,276,2018,Croatia vs Nigeria,Home Win,Home Win,False,28.4,13.17,1,58.43
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,281,2018,Costa Rica vs Serbia,Away Win,Draw,False,30.23,5.52,2,65.99
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,293,2018,Belgium vs Panama,Home Win,Home Win,False,28.7,9.05,1,62.25
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,294,2018,Tunisia vs England,Away Win,Away Win,False,28.05,18.53,1,53.42
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,299,2018,Colombia vs Japan,Away Win,Home Win,False,26.52,18.54,2,54.93
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,300,2018,Poland vs Senegal,Away Win,Away Win,False,29.2,7.29,1,65.69
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,259,2018,Russia vs Egypt,Home Win,Home Win,False,28.16,13.02,2,58.82
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,272,2018,France vs Peru,Home Win,Home Win,False,25.51,24.33,3,50.16
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,277,2018,Argentina vs Croatia,Away Win,Home Win,False,25.25,19.01,2,55.74
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,278,2018,Nigeria vs Iceland,Home Win,Away Win,False,28.64,12.1,1,59.26
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,284,2018,Serbia vs Switzerland,Away Win,Draw,False,31.74,3.5,0,64.77
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,295,2018,Belgium vs Tunisia,Home Win,Home Win,False,27.7,16.77,1,55.53
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,301,2018,Japan vs Senegal,Draw,Away Win,True,27.51,15.32,1,57.17
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,302,2018,Poland vs Colombia,Away Win,Away Win,False,29.04,9.0,3,61.95
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,262,2018,Saudi Arabia vs Egypt,Home Win,Away Win,False,27.32,17.56,3,55.12
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,273,2018,Denmark vs France,Draw,Away Win,True,27.26,15.84,3,56.91
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,274,2018,Australia vs Peru,Away Win,Away Win,False,29.28,7.68,3,63.04
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,280,2018,Iceland vs Croatia,Away Win,Draw,False,30.28,13.62,2,56.1
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,292,2018,Mexico vs Sweden,Away Win,Away Win,False,29.66,7.12,2,66.45
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,286,2018,Switzerland vs Costa Rica,Draw,Home Win,True,28.82,10.24,2,60.95
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,303,2018,Japan vs Poland,Away Win,Away Win,False,27.75,10.42,2,65.91
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,304,2018,Senegal vs Colombia,Away Win,Away Win,False,29.52,7.11,3,63.37
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,297,2018,England vs Belgium,Away Win,Home Win,False,28.65,10.26,2,61.09
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,305,2018,France vs Argentina,Home Win,Draw,False,33.75,0.01,2,66.24
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,308,2018,Croatia vs Denmark,Draw,Draw,True,30.75,6.47,2,62.77
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,310,2018,Belgium vs Japan,Home Win,Home Win,False,27.87,16.6,1,55.53
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,311,2018,Sweden vs Switzerland,Home Win,Home Win,False,29.28,9.15,3,67.71
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,312,2018,Colombia vs England,Draw,Draw,True,31.88,3.79,2,64.33
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,315,2018,Sweden vs England,Away Win,Draw,False,30.54,5.53,2,63.93
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,316,2018,Russia vs Croatia,Draw,Away Win,True,27.95,13.97,3,58.08
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,317,2018,France vs Belgium,Home Win,Draw,False,31.32,8.03,2,60.65
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,318,2018,Croatia vs England,Draw,Draw,True,30.77,5.37,2,63.86
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,319,2018,Belgium vs England,Home Win,Away Win,False,28.39,9.14,2,65.93
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,320,2018,France vs Croatia,Home Win,Home Win,False,28.45,12.85,3,58.7
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,321,2022,Qatar vs Ecuador,Away Win,Draw,False,31.02,3.56,2,65.43
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,328,2022,USA vs Wales,Draw,Draw,True,34.58,-0.32,0,68.83
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,334,2022,Mexico vs Poland,Draw,Home Win,True,29.29,6.84,2,63.87
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,351,2022,Morocco vs Croatia,Draw,Away Win,True,28.14,15.77,2,56.1
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,346,2022,Spain vs Costa Rica,Home Win,Home Win,False,25.08,21.74,2,53.19
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,357,2022,Switzerland vs Cameroon,Home Win,Home Win,False,26.77,18.4,2,54.83
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,364,2022,Portugal vs Ghana,Home Win,Home Win,False,26.77,18.24,3,54.99
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,329,2022,Wales vs Iran,Away Win,Draw,False,32.92,8.14,0,58.94
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,323,2022,Qatar vs Senegal,Away Win,Away Win,False,27.78,17.24,1,54.99
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,330,2022,England vs USA,Draw,Home Win,True,25.77,20.73,1,53.5
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,341,2022,Tunisia vs Australia,Away Win,Home Win,False,29.63,7.85,3,62.52
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,335,2022,Poland vs Saudi Arabia,Home Win,Home Win,False,26.08,20.78,3,53.14
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,336,2022,Argentina vs Mexico,Home Win,Home Win,False,26.13,18.61,2,55.26
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,347,2022,Japan vs Costa Rica,Away Win,Draw,False,30.2,7.34,2,62.47
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,354,2022,Croatia vs Canada,Home Win,Home Win,False,28.28,19.93,1,51.8
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,359,2022,Cameroon vs Serbia,Draw,Draw,True,30.92,9.43,0,59.65
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,365,2022,South Korea vs Ghana,Away Win,Away Win,False,27.51,11.52,3,66.53
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,366,2022,Portugal vs Uruguay,Home Win,Draw,False,30.44,6.25,2,63.31
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,325,2022,Ecuador vs Senegal,Away Win,Away Win,False,28.9,7.36,1,65.17
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,331,2022,Wales vs England,Away Win,Away Win,False,28.35,17.08,1,54.57
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,332,2022,Iran vs USA,Away Win,Draw,False,31.6,7.06,2,61.34
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,343,2022,Australia vs Denmark,Home Win,Away Win,False,26.54,18.56,2,54.89
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,355,2022,Croatia vs Belgium,Draw,Home Win,True,28.91,7.06,3,64.89
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,356,2022,Canada vs Morocco,Away Win,Draw,False,30.45,12.62,0,56.92
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,367,2022,Ghana vs Uruguay,Away Win,Away Win,False,27.34,13.68,2,58.98
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,361,2022,Serbia vs Switzerland,Away Win,Away Win,False,29.39,8.97,2,67.75
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,372,2022,England vs Senegal,Home Win,Home Win,False,28.72,13.32,3,57.97
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,373,2022,Japan vs Croatia,Draw,Away Win,True,28.85,14.29,2,56.86
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,375,2022,Morocco vs Spain,Draw,Away Win,True,26.11,18.96,3,54.93
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,377,2022,Croatia vs Brazil,Draw,Away Win,True,26.35,19.47,3,54.18
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,378,2022,Netherlands vs Argentina,Draw,Draw,True,30.81,9.71,2,71.34
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,379,2022,Morocco vs Portugal,Home Win,Away Win,False,28.38,15.0,3,56.62
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,381,2022,Argentina vs Croatia,Home Win,Home Win,False,29.47,9.54,3,60.99
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,382,2022,France vs Morocco,Home Win,Home Win,False,25.45,23.95,2,50.6
+C08,Draw Probability >= 25% AND Predicted Total Goals <= 3,383,2022,Croatia vs Morocco,Home Win,Draw,False,31.38,6.08,0,62.55
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,258,2018,Egypt vs Uruguay,Away Win,Away Win,False,28.53,12.9,2,58.57
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,263,2018,Morocco vs Iran,Away Win,Draw,False,31.23,8.83,2,59.94
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,264,2018,Portugal vs Spain,Draw,Away Win,True,28.98,7.96,2,63.06
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,270,2018,Peru vs Denmark,Away Win,Away Win,False,29.45,11.45,6,59.1
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,276,2018,Croatia vs Nigeria,Home Win,Home Win,False,28.4,13.17,1,58.43
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,281,2018,Costa Rica vs Serbia,Away Win,Draw,False,30.23,5.52,2,65.99
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,293,2018,Belgium vs Panama,Home Win,Home Win,False,28.7,9.05,1,62.25
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,300,2018,Poland vs Senegal,Away Win,Away Win,False,29.2,7.29,1,65.69
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,259,2018,Russia vs Egypt,Home Win,Home Win,False,28.16,13.02,2,58.82
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,277,2018,Argentina vs Croatia,Away Win,Home Win,False,25.25,19.01,2,55.74
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,278,2018,Nigeria vs Iceland,Home Win,Away Win,False,28.64,12.1,1,59.26
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,284,2018,Serbia vs Switzerland,Away Win,Draw,False,31.74,3.5,0,64.77
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,295,2018,Belgium vs Tunisia,Home Win,Home Win,False,27.7,16.77,1,55.53
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,301,2018,Japan vs Senegal,Draw,Away Win,True,27.51,15.32,1,57.17
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,302,2018,Poland vs Colombia,Away Win,Away Win,False,29.04,9.0,3,61.95
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,262,2018,Saudi Arabia vs Egypt,Home Win,Away Win,False,27.32,17.56,3,55.12
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,261,2018,Uruguay vs Russia,Home Win,Home Win,False,27.07,9.65,6,63.78
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,273,2018,Denmark vs France,Draw,Away Win,True,27.26,15.84,3,56.91
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,274,2018,Australia vs Peru,Away Win,Away Win,False,29.28,7.68,3,63.04
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,280,2018,Iceland vs Croatia,Away Win,Draw,False,30.28,13.62,2,56.1
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,292,2018,Mexico vs Sweden,Away Win,Away Win,False,29.66,7.12,2,66.45
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,286,2018,Switzerland vs Costa Rica,Draw,Home Win,True,28.82,10.24,2,60.95
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,303,2018,Japan vs Poland,Away Win,Away Win,False,27.75,10.42,2,65.91
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,304,2018,Senegal vs Colombia,Away Win,Away Win,False,29.52,7.11,3,63.37
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,297,2018,England vs Belgium,Away Win,Home Win,False,28.65,10.26,2,61.09
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,305,2018,France vs Argentina,Home Win,Draw,False,33.75,0.01,2,66.24
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,306,2018,Uruguay vs Portugal,Home Win,Draw,False,30.01,8.04,4,61.95
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,307,2018,Spain vs Russia,Draw,Home Win,True,25.06,19.19,5,55.76
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,308,2018,Croatia vs Denmark,Draw,Draw,True,30.75,6.47,2,62.77
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,310,2018,Belgium vs Japan,Home Win,Home Win,False,27.87,16.6,1,55.53
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,311,2018,Sweden vs Switzerland,Home Win,Home Win,False,29.28,9.15,3,67.71
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,312,2018,Colombia vs England,Draw,Draw,True,31.88,3.79,2,64.33
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,313,2018,Uruguay vs France,Away Win,Away Win,False,26.45,16.76,4,56.79
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,315,2018,Sweden vs England,Away Win,Draw,False,30.54,5.53,2,63.93
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,316,2018,Russia vs Croatia,Draw,Away Win,True,27.95,13.97,3,58.08
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,317,2018,France vs Belgium,Home Win,Draw,False,31.32,8.03,2,60.65
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,318,2018,Croatia vs England,Draw,Draw,True,30.77,5.37,2,63.86
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,319,2018,Belgium vs England,Home Win,Away Win,False,28.39,9.14,2,65.93
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,320,2018,France vs Croatia,Home Win,Home Win,False,28.45,12.85,3,58.7
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,321,2022,Qatar vs Ecuador,Away Win,Draw,False,31.02,3.56,2,65.43
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,328,2022,USA vs Wales,Draw,Draw,True,34.58,-0.32,0,68.83
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,334,2022,Mexico vs Poland,Draw,Home Win,True,29.29,6.84,2,63.87
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,351,2022,Morocco vs Croatia,Draw,Away Win,True,28.14,15.77,2,56.1
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,329,2022,Wales vs Iran,Away Win,Draw,False,32.92,8.14,0,58.94
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,341,2022,Tunisia vs Australia,Away Win,Home Win,False,29.63,7.85,3,62.52
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,336,2022,Argentina vs Mexico,Home Win,Home Win,False,26.13,18.61,2,55.26
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,347,2022,Japan vs Costa Rica,Away Win,Draw,False,30.2,7.34,2,62.47
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,348,2022,Spain vs Germany,Draw,Away Win,True,29.97,7.6,4,67.54
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,359,2022,Cameroon vs Serbia,Draw,Draw,True,30.92,9.43,0,59.65
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,365,2022,South Korea vs Ghana,Away Win,Away Win,False,27.51,11.52,3,66.53
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,366,2022,Portugal vs Uruguay,Home Win,Draw,False,30.44,6.25,2,63.31
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,325,2022,Ecuador vs Senegal,Away Win,Away Win,False,28.9,7.36,1,65.17
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,332,2022,Iran vs USA,Away Win,Draw,False,31.6,7.06,2,61.34
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,355,2022,Croatia vs Belgium,Draw,Home Win,True,28.91,7.06,3,64.89
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,356,2022,Canada vs Morocco,Away Win,Draw,False,30.45,12.62,0,56.92
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,367,2022,Ghana vs Uruguay,Away Win,Away Win,False,27.34,13.68,2,58.98
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,361,2022,Serbia vs Switzerland,Away Win,Away Win,False,29.39,8.97,2,67.75
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,372,2022,England vs Senegal,Home Win,Home Win,False,28.72,13.32,3,57.97
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,373,2022,Japan vs Croatia,Draw,Away Win,True,28.85,14.29,2,56.86
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,376,2022,Portugal vs Switzerland,Home Win,Home Win,False,29.09,10.54,6,60.37
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,378,2022,Netherlands vs Argentina,Draw,Draw,True,30.81,9.71,2,71.34
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,379,2022,Morocco vs Portugal,Home Win,Away Win,False,28.38,15.0,3,56.62
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,380,2022,England vs France,Away Win,Draw,False,32.23,3.97,4,63.8
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,381,2022,Argentina vs Croatia,Home Win,Home Win,False,29.47,9.54,3,60.99
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,383,2022,Croatia vs Morocco,Home Win,Draw,False,31.38,6.08,0,62.55
+C09,Draw Probability >= 25% AND Upset Probability >= 55%,384,2022,Argentina vs France,Draw,Draw,True,31.24,6.33,6,68.81
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,258,2018,Egypt vs Uruguay,Away Win,Away Win,False,28.53,12.9,2,58.57
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,263,2018,Morocco vs Iran,Away Win,Draw,False,31.23,8.83,2,59.94
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,264,2018,Portugal vs Spain,Draw,Away Win,True,28.98,7.96,2,63.06
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,276,2018,Croatia vs Nigeria,Home Win,Home Win,False,28.4,13.17,1,58.43
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,281,2018,Costa Rica vs Serbia,Away Win,Draw,False,30.23,5.52,2,65.99
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,293,2018,Belgium vs Panama,Home Win,Home Win,False,28.7,9.05,1,62.25
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,300,2018,Poland vs Senegal,Away Win,Away Win,False,29.2,7.29,1,65.69
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,259,2018,Russia vs Egypt,Home Win,Home Win,False,28.16,13.02,2,58.82
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,278,2018,Nigeria vs Iceland,Home Win,Away Win,False,28.64,12.1,1,59.26
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,284,2018,Serbia vs Switzerland,Away Win,Draw,False,31.74,3.5,0,64.77
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,302,2018,Poland vs Colombia,Away Win,Away Win,False,29.04,9.0,3,61.95
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,274,2018,Australia vs Peru,Away Win,Away Win,False,29.28,7.68,3,63.04
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,280,2018,Iceland vs Croatia,Away Win,Draw,False,30.28,13.62,2,56.1
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,292,2018,Mexico vs Sweden,Away Win,Away Win,False,29.66,7.12,2,66.45
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,286,2018,Switzerland vs Costa Rica,Draw,Home Win,True,28.82,10.24,2,60.95
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,303,2018,Japan vs Poland,Away Win,Away Win,False,27.75,10.42,2,65.91
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,304,2018,Senegal vs Colombia,Away Win,Away Win,False,29.52,7.11,3,63.37
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,297,2018,England vs Belgium,Away Win,Home Win,False,28.65,10.26,2,61.09
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,305,2018,France vs Argentina,Home Win,Draw,False,33.75,0.01,2,66.24
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,308,2018,Croatia vs Denmark,Draw,Draw,True,30.75,6.47,2,62.77
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,311,2018,Sweden vs Switzerland,Home Win,Home Win,False,29.28,9.15,3,67.71
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,312,2018,Colombia vs England,Draw,Draw,True,31.88,3.79,2,64.33
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,315,2018,Sweden vs England,Away Win,Draw,False,30.54,5.53,2,63.93
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,316,2018,Russia vs Croatia,Draw,Away Win,True,27.95,13.97,3,58.08
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,317,2018,France vs Belgium,Home Win,Draw,False,31.32,8.03,2,60.65
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,318,2018,Croatia vs England,Draw,Draw,True,30.77,5.37,2,63.86
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,319,2018,Belgium vs England,Home Win,Away Win,False,28.39,9.14,2,65.93
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,320,2018,France vs Croatia,Home Win,Home Win,False,28.45,12.85,3,58.7
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,321,2022,Qatar vs Ecuador,Away Win,Draw,False,31.02,3.56,2,65.43
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,328,2022,USA vs Wales,Draw,Draw,True,34.58,-0.32,0,68.83
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,334,2022,Mexico vs Poland,Draw,Home Win,True,29.29,6.84,2,63.87
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,329,2022,Wales vs Iran,Away Win,Draw,False,32.92,8.14,0,58.94
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,341,2022,Tunisia vs Australia,Away Win,Home Win,False,29.63,7.85,3,62.52
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,347,2022,Japan vs Costa Rica,Away Win,Draw,False,30.2,7.34,2,62.47
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,359,2022,Cameroon vs Serbia,Draw,Draw,True,30.92,9.43,0,59.65
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,365,2022,South Korea vs Ghana,Away Win,Away Win,False,27.51,11.52,3,66.53
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,366,2022,Portugal vs Uruguay,Home Win,Draw,False,30.44,6.25,2,63.31
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,325,2022,Ecuador vs Senegal,Away Win,Away Win,False,28.9,7.36,1,65.17
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,332,2022,Iran vs USA,Away Win,Draw,False,31.6,7.06,2,61.34
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,355,2022,Croatia vs Belgium,Draw,Home Win,True,28.91,7.06,3,64.89
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,356,2022,Canada vs Morocco,Away Win,Draw,False,30.45,12.62,0,56.92
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,367,2022,Ghana vs Uruguay,Away Win,Away Win,False,27.34,13.68,2,58.98
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,361,2022,Serbia vs Switzerland,Away Win,Away Win,False,29.39,8.97,2,67.75
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,372,2022,England vs Senegal,Home Win,Home Win,False,28.72,13.32,3,57.97
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,373,2022,Japan vs Croatia,Draw,Away Win,True,28.85,14.29,2,56.86
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,378,2022,Netherlands vs Argentina,Draw,Draw,True,30.81,9.71,2,71.34
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,379,2022,Morocco vs Portugal,Home Win,Away Win,False,28.38,15.0,3,56.62
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,381,2022,Argentina vs Croatia,Home Win,Home Win,False,29.47,9.54,3,60.99
+C10,Draw Probability >= 25% AND Win Probability Gap <= 15% AND Predicted Total Goals <= 3,383,2022,Croatia vs Morocco,Home Win,Draw,False,31.38,6.08,0,62.55

@@ -1,0 +1,504 @@
+{
+  "total_teams": 48,
+  "completed_teams": 0,
+  "team_completion_rate": 0.0,
+  "field_coverage_rate": 65.05,
+  "elo_coverage_rate": 100.0,
+  "strength_score_coverage_rate": 100.0,
+  "target_field_coverage_rate": 90.0,
+  "target_reached": false,
+  "missing_fields": [
+    {
+      "country": "Algeria",
+      "confederation": "CAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "confederation": "CONMEBOL",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Australia",
+      "confederation": "AFC",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Austria",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Belgium",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "confederation": "UEFA",
+      "present_fields": 5,
+      "missing_fields": [
+        "fifa_ranking",
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "confederation": "CONMEBOL",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Cabo Verde",
+      "confederation": "CAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Canada",
+      "confederation": "CONCACAF",
+      "present_fields": 5,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach",
+        "recent_two_year_rating"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "confederation": "CONMEBOL",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "confederation": "CAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Croatia",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Curacao",
+      "confederation": "CONCACAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Czechia",
+      "confederation": "UEFA",
+      "present_fields": 5,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach",
+        "recent_two_year_rating"
+      ]
+    },
+    {
+      "country": "DR Congo",
+      "confederation": "CAF",
+      "present_fields": 5,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach",
+        "recent_two_year_rating"
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "confederation": "CONMEBOL",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Egypt",
+      "confederation": "CAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "England",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "France",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Germany",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Ghana",
+      "confederation": "CAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Haiti",
+      "confederation": "CONCACAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "IR Iran",
+      "confederation": "AFC",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Iraq",
+      "confederation": "AFC",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Japan",
+      "confederation": "AFC",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Jordan",
+      "confederation": "AFC",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Korea Republic",
+      "confederation": "AFC",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "confederation": "CONCACAF",
+      "present_fields": 5,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach",
+        "recent_two_year_rating"
+      ]
+    },
+    {
+      "country": "Morocco",
+      "confederation": "CAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "confederation": "OFC",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Norway",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Panama",
+      "confederation": "CONCACAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "confederation": "CONMEBOL",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Portugal",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Qatar",
+      "confederation": "AFC",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Saudi Arabia",
+      "confederation": "AFC",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Scotland",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Senegal",
+      "confederation": "CAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "South Africa",
+      "confederation": "CAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Spain",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Sweden",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "confederation": "UEFA",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Tunisia",
+      "confederation": "CAF",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Turkiye",
+      "confederation": "UEFA",
+      "present_fields": 5,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach",
+        "recent_two_year_rating"
+      ]
+    },
+    {
+      "country": "USA",
+      "confederation": "CONCACAF",
+      "present_fields": 5,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach",
+        "recent_two_year_rating"
+      ]
+    },
+    {
+      "country": "Uruguay",
+      "confederation": "CONMEBOL",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    },
+    {
+      "country": "Uzbekistan",
+      "confederation": "AFC",
+      "present_fields": 6,
+      "missing_fields": [
+        "total_caps",
+        "average_caps",
+        "coach"
+      ]
+    }
+  ],
+  "source_status": {
+    "elo_rating": "https://eloratings.net/World.tsv",
+    "elo_team_dictionary": "https://eloratings.net/en.teams.tsv"
+  },
+  "csv_path": "E:\\Tom\\WorldCupAI2026\\backend\\data\\world_cup_team_profiles.csv"
+}

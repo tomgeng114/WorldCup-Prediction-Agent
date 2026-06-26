@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Draw Risk Threshold Audit</title>
+  <style>
+    :root { color-scheme: dark; font-family:'Segoe UI',sans-serif; background:#07111f; color:#e7eef9; }
+    body { margin:0; padding:32px; background:radial-gradient(circle at top left,#164e63,#07111f 44%,#030712); }
+    h1 { margin:0 0 8px; font-size:30px; }
+    h2 { margin-top:30px; color:#67e8f9; }
+    .note { color:#a8b8ca; margin-bottom:24px; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; }
+    .card { border:1px solid rgba(148,163,184,.22); border-radius:18px; padding:18px; background:rgba(15,23,42,.72); }
+    .card span { display:block; color:#9fb3c8; font-size:13px; }
+    .card strong { display:block; margin-top:10px; font-size:23px; color:#f8fafc; }
+    table { width:100%; border-collapse:collapse; margin-top:12px; background:rgba(15,23,42,.68); }
+    th,td { padding:10px 11px; border-bottom:1px solid rgba(148,163,184,.16); text-align:left; font-size:13px; vertical-align:top; }
+    th { color:#cffafe; background:rgba(30,41,59,.92); }
+  </style>
+</head>
+<body>
+  <h1>Draw Risk Threshold Audit</h1>
+  <p class="note">Read-only historical coverage analysis. These conditions are audit labels only and do not change predictions, probabilities, recommendations, or frontend logic.</p>
+  <section class="cards"><div class='card'><span>Total Matches</span><strong>128</strong></div><div class='card'><span>Actual Draws</span><strong>29</strong></div><div class='card'><span>Best Condition</span><strong>C01</strong></div><div class='card'><span>Best Precision</span><strong>26.19%</strong></div><div class='card'><span>Best Recall</span><strong>75.86%</strong></div><div class='card'><span>Best F1</span><strong>38.94</strong></div></section>
+  <h2>Ranking by F1</h2><table><thead><tr><th>condition_id</th><th>condition</th><th>selected_matches</th><th>actual_draws_covered</th><th>coverage</th><th>false_positives</th><th>precision</th><th>recall</th><th>f1</th></tr></thead><tbody><tr><td>C01</td><td>Draw Probability &gt;= 25%</td><td>84</td><td>22</td><td>75.86</td><td>62</td><td>26.19</td><td>75.86</td><td>38.94</td></tr><tr><td>C09</td><td>Draw Probability &gt;= 25% AND Upset Probability &gt;= 55%</td><td>66</td><td>18</td><td>62.07</td><td>48</td><td>27.27</td><td>62.07</td><td>37.89</td></tr><tr><td>C08</td><td>Draw Probability &gt;= 25% AND Predicted Total Goals &lt;= 3</td><td>72</td><td>18</td><td>62.07</td><td>54</td><td>25.0</td><td>62.07</td><td>35.64</td></tr><tr><td>C02</td><td>Draw Probability &gt;= 27%</td><td>68</td><td>17</td><td>58.62</td><td>51</td><td>25.0</td><td>58.62</td><td>35.05</td></tr><tr><td>C06</td><td>Win Probability Gap &lt;= 15%</td><td>56</td><td>14</td><td>48.28</td><td>42</td><td>25.0</td><td>48.28</td><td>32.94</td></tr><tr><td>C07</td><td>Draw Probability &gt;= 25% AND Win Probability Gap &lt;= 15%</td><td>56</td><td>14</td><td>48.28</td><td>42</td><td>25.0</td><td>48.28</td><td>32.94</td></tr><tr><td>C05</td><td>Win Probability Gap &lt;= 10%</td><td>38</td><td>11</td><td>37.93</td><td>27</td><td>28.95</td><td>37.93</td><td>32.84</td></tr><tr><td>C10</td><td>Draw Probability &gt;= 25% AND Win Probability Gap &lt;= 15% AND Predicted Total Goals &lt;= 3</td><td>49</td><td>12</td><td>41.38</td><td>37</td><td>24.49</td><td>41.38</td><td>30.77</td></tr><tr><td>C03</td><td>Draw Probability &gt;= 30%</td><td>23</td><td>7</td><td>24.14</td><td>16</td><td>30.43</td><td>24.14</td><td>26.92</td></tr><tr><td>C04</td><td>Win Probability Gap &lt;= 5%</td><td>6</td><td>2</td><td>6.9</td><td>4</td><td>33.33</td><td>6.9</td><td>11.43</td></tr></tbody></table>
+  <h2>Summary</h2><table><thead><tr><th>total_matches</th><th>actual_draws</th><th>best_condition_by_f1</th></tr></thead><tbody><tr><td>128</td><td>29</td><td>{&#x27;condition_id&#x27;: &#x27;C01&#x27;, &#x27;condition&#x27;: &#x27;Draw Probability &gt;= 25%&#x27;, &#x27;selected_matches&#x27;: 84, &#x27;actual_draws_covered&#x27;: 22, &#x27;coverage&#x27;: 75.86, &#x27;false_positives&#x27;: 62, &#x27;precision&#x27;: 26.19, &#x27;recall&#x27;: 75.86, &#x27;f1&#x27;: 38.94}</td></tr></tbody></table>
+</body>
+</html>

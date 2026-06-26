@@ -1,0 +1,1601 @@
+{
+  "method": "time_split_calibration",
+  "bins": [
+    "50%-55%",
+    "55%-60%",
+    "60%-65%",
+    "65%-70%",
+    "70%-75%",
+    "75%-80%",
+    "80%+"
+  ],
+  "datasets": {
+    "WorldCup": {
+      "dataset": "WorldCup",
+      "sample_size": 128,
+      "train_size": 76,
+      "holdout_size": 52,
+      "raw_full_sample": {
+        "brier_score": 0.6297,
+        "reliability": {
+          "sample_size": 128,
+          "below_50_count": 109,
+          "covered_by_requested_bins": 19,
+          "bins": [
+            {
+              "range": "50%-55%",
+              "sample_size": 13,
+              "actual_hit_rate": 69.23,
+              "avg_predicted_probability": 51.58,
+              "bias": -17.65
+            },
+            {
+              "range": "55%-60%",
+              "sample_size": 5,
+              "actual_hit_rate": 40.0,
+              "avg_predicted_probability": 58.05,
+              "bias": 18.05
+            },
+            {
+              "range": "60%-65%",
+              "sample_size": 1,
+              "actual_hit_rate": 100.0,
+              "avg_predicted_probability": 63.82,
+              "bias": -36.18
+            },
+            {
+              "range": "65%-70%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "70%-75%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "75%-80%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "80%+",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            }
+          ],
+          "ece": 18.73,
+          "mce": 36.18
+        },
+        "edge_15_reliability": {
+          "sample_size": 44,
+          "below_50_count": 44,
+          "covered_by_requested_bins": 0,
+          "bins": [
+            {
+              "range": "50%-55%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "55%-60%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "60%-65%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "65%-70%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "70%-75%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "75%-80%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "80%+",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            }
+          ],
+          "ece": 0.0,
+          "mce": 0.0
+        }
+      },
+      "edge_15_overconfidence": {
+        "sample_size": 44,
+        "avg_probability": 33.02,
+        "actual_hit_rate": 11.36,
+        "bias": 21.66
+      },
+      "holdout_comparison": {
+        "raw": {
+          "probability_metrics": {
+            "brier_score": 0.6255,
+            "reliability": {
+              "sample_size": 52,
+              "below_50_count": 43,
+              "covered_by_requested_bins": 9,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 6,
+                  "actual_hit_rate": 83.33,
+                  "avg_predicted_probability": 51.69,
+                  "bias": -31.65
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 2,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 57.99,
+                  "bias": 57.99
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 63.82,
+                  "bias": -36.18
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 38.0,
+              "mce": 57.99
+            },
+            "edge_15_reliability": {
+              "sample_size": 16,
+              "below_50_count": 16,
+              "covered_by_requested_bins": 0,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 0.0,
+              "mce": 0.0
+            }
+          },
+          "edge_15_roi": {
+            "matches": 16,
+            "hits": 3,
+            "hit_rate": 18.75,
+            "unit_profit": 4.87,
+            "unit_roi": 30.44,
+            "kelly_profit": 0.0834,
+            "kelly_stake": 0.8594,
+            "kelly_roi": 9.71,
+            "max_drawdown": -7.0
+          }
+        },
+        "platt": {
+          "probability_metrics": {
+            "brier_score": 0.6218,
+            "reliability": {
+              "sample_size": 52,
+              "below_50_count": 32,
+              "covered_by_requested_bins": 20,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 12,
+                  "actual_hit_rate": 58.33,
+                  "avg_predicted_probability": 51.81,
+                  "bias": -6.53
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 4,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 56.32,
+                  "bias": -43.68
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 2,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 61.47,
+                  "bias": 61.47
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 65.94,
+                  "bias": 65.94
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 70.65,
+                  "bias": -29.35
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 23.56,
+              "mce": 65.94
+            },
+            "edge_15_reliability": {
+              "sample_size": 14,
+              "below_50_count": 13,
+              "covered_by_requested_bins": 1,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 50.64,
+                  "bias": 50.64
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 50.64,
+              "mce": 50.64
+            }
+          },
+          "edge_15_roi": {
+            "matches": 14,
+            "hits": 1,
+            "hit_rate": 7.14,
+            "unit_profit": -6.3,
+            "unit_roi": -45.0,
+            "kelly_profit": -0.4265,
+            "kelly_stake": 0.7677,
+            "kelly_roi": -55.55,
+            "max_drawdown": -9.0
+          }
+        },
+        "isotonic": {
+          "probability_metrics": {
+            "brier_score": 0.6126,
+            "reliability": {
+              "sample_size": 52,
+              "below_50_count": 37,
+              "covered_by_requested_bins": 15,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 6,
+                  "actual_hit_rate": 83.33,
+                  "avg_predicted_probability": 53.48,
+                  "bias": -29.86
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 4,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 56.38,
+                  "bias": -43.62
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 2,
+                  "actual_hit_rate": 50.0,
+                  "avg_predicted_probability": 63.68,
+                  "bias": 13.68
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 2,
+                  "actual_hit_rate": 50.0,
+                  "avg_predicted_probability": 67.74,
+                  "bias": 17.74
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 76.56,
+                  "bias": 76.56
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 32.87,
+              "mce": 76.56
+            },
+            "edge_15_reliability": {
+              "sample_size": 10,
+              "below_50_count": 9,
+              "covered_by_requested_bins": 1,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 76.56,
+                  "bias": 76.56
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 76.56,
+              "mce": 76.56
+            }
+          },
+          "edge_15_roi": {
+            "matches": 10,
+            "hits": 0,
+            "hit_rate": 0.0,
+            "unit_profit": -10.0,
+            "unit_roi": -100.0,
+            "kelly_profit": -0.5638,
+            "kelly_stake": 0.5638,
+            "kelly_roi": -100.0,
+            "max_drawdown": -10.0
+          }
+        }
+      }
+    },
+    "UEFA": {
+      "dataset": "UEFA",
+      "sample_size": 204,
+      "train_size": 122,
+      "holdout_size": 82,
+      "raw_full_sample": {
+        "brier_score": 0.5209,
+        "reliability": {
+          "sample_size": 204,
+          "below_50_count": 131,
+          "covered_by_requested_bins": 73,
+          "bins": [
+            {
+              "range": "50%-55%",
+              "sample_size": 27,
+              "actual_hit_rate": 70.37,
+              "avg_predicted_probability": 52.26,
+              "bias": -18.11
+            },
+            {
+              "range": "55%-60%",
+              "sample_size": 15,
+              "actual_hit_rate": 80.0,
+              "avg_predicted_probability": 57.47,
+              "bias": -22.53
+            },
+            {
+              "range": "60%-65%",
+              "sample_size": 14,
+              "actual_hit_rate": 85.71,
+              "avg_predicted_probability": 62.84,
+              "bias": -22.87
+            },
+            {
+              "range": "65%-70%",
+              "sample_size": 10,
+              "actual_hit_rate": 100.0,
+              "avg_predicted_probability": 67.37,
+              "bias": -32.63
+            },
+            {
+              "range": "70%-75%",
+              "sample_size": 7,
+              "actual_hit_rate": 100.0,
+              "avg_predicted_probability": 72.53,
+              "bias": -27.47
+            },
+            {
+              "range": "75%-80%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "80%+",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            }
+          ],
+          "ece": 22.82,
+          "mce": 32.63
+        },
+        "edge_15_reliability": {
+          "sample_size": 101,
+          "below_50_count": 98,
+          "covered_by_requested_bins": 3,
+          "bins": [
+            {
+              "range": "50%-55%",
+              "sample_size": 3,
+              "actual_hit_rate": 66.67,
+              "avg_predicted_probability": 52.72,
+              "bias": -13.94
+            },
+            {
+              "range": "55%-60%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "60%-65%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "65%-70%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "70%-75%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "75%-80%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "80%+",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            }
+          ],
+          "ece": 13.94,
+          "mce": 13.94
+        }
+      },
+      "edge_15_overconfidence": {
+        "sample_size": 101,
+        "avg_probability": 31.73,
+        "actual_hit_rate": 6.93,
+        "bias": 24.8
+      },
+      "holdout_comparison": {
+        "raw": {
+          "probability_metrics": {
+            "brier_score": 0.5231,
+            "reliability": {
+              "sample_size": 82,
+              "below_50_count": 46,
+              "covered_by_requested_bins": 36,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 13,
+                  "actual_hit_rate": 76.92,
+                  "avg_predicted_probability": 51.84,
+                  "bias": -25.08
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 9,
+                  "actual_hit_rate": 66.67,
+                  "avg_predicted_probability": 58.03,
+                  "bias": -8.64
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 5,
+                  "actual_hit_rate": 80.0,
+                  "avg_predicted_probability": 62.42,
+                  "bias": -17.58
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 5,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 67.41,
+                  "bias": -32.59
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 4,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 72.18,
+                  "bias": -27.82
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 21.28,
+              "mce": 32.59
+            },
+            "edge_15_reliability": {
+              "sample_size": 32,
+              "below_50_count": 31,
+              "covered_by_requested_bins": 1,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 50.21,
+                  "bias": -49.79
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 49.79,
+              "mce": 49.79
+            }
+          },
+          "edge_15_roi": {
+            "matches": 32,
+            "hits": 4,
+            "hit_rate": 12.5,
+            "unit_profit": -0.97,
+            "unit_roi": -3.03,
+            "kelly_profit": -0.1849,
+            "kelly_stake": 1.7065,
+            "kelly_roi": -10.83,
+            "max_drawdown": -15.0
+          }
+        },
+        "platt": {
+          "probability_metrics": {
+            "brier_score": 0.5045,
+            "reliability": {
+              "sample_size": 82,
+              "below_50_count": 14,
+              "covered_by_requested_bins": 68,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 7,
+                  "actual_hit_rate": 28.57,
+                  "avg_predicted_probability": 52.87,
+                  "bias": 24.3
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 5,
+                  "actual_hit_rate": 40.0,
+                  "avg_predicted_probability": 58.27,
+                  "bias": 18.27
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 5,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 63.0,
+                  "bias": -37.0
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 8,
+                  "actual_hit_rate": 62.5,
+                  "avg_predicted_probability": 68.22,
+                  "bias": 5.72
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 11,
+                  "actual_hit_rate": 63.64,
+                  "avg_predicted_probability": 72.69,
+                  "bias": 9.05
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 5,
+                  "actual_hit_rate": 80.0,
+                  "avg_predicted_probability": 76.82,
+                  "bias": -3.18
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 27,
+                  "actual_hit_rate": 77.78,
+                  "avg_predicted_probability": 88.79,
+                  "bias": 11.01
+                }
+              ],
+              "ece": 13.31,
+              "mce": 37.0
+            },
+            "edge_15_reliability": {
+              "sample_size": 22,
+              "below_50_count": 11,
+              "covered_by_requested_bins": 11,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 54.35,
+                  "bias": 54.35
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 2,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 58.36,
+                  "bias": 58.36
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 69.34,
+                  "bias": -30.66
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 2,
+                  "actual_hit_rate": 50.0,
+                  "avg_predicted_probability": 73.23,
+                  "bias": 23.23
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 75.88,
+                  "bias": -24.12
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 4,
+                  "actual_hit_rate": 25.0,
+                  "avg_predicted_probability": 83.81,
+                  "bias": 58.81
+                }
+              ],
+              "ece": 46.14,
+              "mce": 58.81
+            }
+          },
+          "edge_15_roi": {
+            "matches": 22,
+            "hits": 6,
+            "hit_rate": 27.27,
+            "unit_profit": -7.0,
+            "unit_roi": -31.82,
+            "kelly_profit": -0.5706,
+            "kelly_stake": 2.0458,
+            "kelly_roi": -27.89,
+            "max_drawdown": -7.0
+          }
+        },
+        "isotonic": {
+          "probability_metrics": {
+            "brier_score": 0.5378,
+            "reliability": {
+              "sample_size": 82,
+              "below_50_count": 8,
+              "covered_by_requested_bins": 74,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 8,
+                  "actual_hit_rate": 62.5,
+                  "avg_predicted_probability": 52.72,
+                  "bias": -9.78
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 3,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 58.12,
+                  "bias": -41.88
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 8,
+                  "actual_hit_rate": 62.5,
+                  "avg_predicted_probability": 62.82,
+                  "bias": 0.32
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 19,
+                  "actual_hit_rate": 78.95,
+                  "avg_predicted_probability": 69.06,
+                  "bias": -9.89
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 8,
+                  "actual_hit_rate": 62.5,
+                  "avg_predicted_probability": 73.13,
+                  "bias": 10.63
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 17,
+                  "actual_hit_rate": 64.71,
+                  "avg_predicted_probability": 77.83,
+                  "bias": 13.13
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 11,
+                  "actual_hit_rate": 63.64,
+                  "avg_predicted_probability": 83.77,
+                  "bias": 20.13
+                }
+              ],
+              "ece": 12.49,
+              "mce": 41.88
+            },
+            "edge_15_reliability": {
+              "sample_size": 44,
+              "below_50_count": 24,
+              "covered_by_requested_bins": 20,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 4,
+                  "actual_hit_rate": 75.0,
+                  "avg_predicted_probability": 52.34,
+                  "bias": -22.66
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 57.11,
+                  "bias": -42.89
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 2,
+                  "actual_hit_rate": 50.0,
+                  "avg_predicted_probability": 64.28,
+                  "bias": 14.28
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 4,
+                  "actual_hit_rate": 25.0,
+                  "avg_predicted_probability": 67.89,
+                  "bias": 42.89
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 6,
+                  "actual_hit_rate": 66.67,
+                  "avg_predicted_probability": 78.05,
+                  "bias": 11.38
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 3,
+                  "actual_hit_rate": 33.33,
+                  "avg_predicted_probability": 83.54,
+                  "bias": 50.21
+                }
+              ],
+              "ece": 27.63,
+              "mce": 50.21
+            }
+          },
+          "edge_15_roi": {
+            "matches": 44,
+            "hits": 12,
+            "hit_rate": 27.27,
+            "unit_profit": -14.77,
+            "unit_roi": -33.57,
+            "kelly_profit": -0.9085,
+            "kelly_stake": 3.5301,
+            "kelly_roi": -25.74,
+            "max_drawdown": -17.09
+          }
+        }
+      }
+    },
+    "CONMEBOL": {
+      "dataset": "CONMEBOL",
+      "sample_size": 90,
+      "train_size": 54,
+      "holdout_size": 36,
+      "raw_full_sample": {
+        "brier_score": 0.6187,
+        "reliability": {
+          "sample_size": 90,
+          "below_50_count": 70,
+          "covered_by_requested_bins": 20,
+          "bins": [
+            {
+              "range": "50%-55%",
+              "sample_size": 13,
+              "actual_hit_rate": 61.54,
+              "avg_predicted_probability": 52.95,
+              "bias": -8.59
+            },
+            {
+              "range": "55%-60%",
+              "sample_size": 6,
+              "actual_hit_rate": 100.0,
+              "avg_predicted_probability": 57.05,
+              "bias": -42.95
+            },
+            {
+              "range": "60%-65%",
+              "sample_size": 1,
+              "actual_hit_rate": 100.0,
+              "avg_predicted_probability": 61.58,
+              "bias": -38.42
+            },
+            {
+              "range": "65%-70%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "70%-75%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "75%-80%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "80%+",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            }
+          ],
+          "ece": 20.39,
+          "mce": 42.95
+        },
+        "edge_15_reliability": {
+          "sample_size": 20,
+          "below_50_count": 20,
+          "covered_by_requested_bins": 0,
+          "bins": [
+            {
+              "range": "50%-55%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "55%-60%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "60%-65%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "65%-70%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "70%-75%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "75%-80%",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            },
+            {
+              "range": "80%+",
+              "sample_size": 0,
+              "actual_hit_rate": 0.0,
+              "avg_predicted_probability": 0.0,
+              "bias": 0.0
+            }
+          ],
+          "ece": 0.0,
+          "mce": 0.0
+        }
+      },
+      "edge_15_overconfidence": {
+        "sample_size": 20,
+        "avg_probability": 31.83,
+        "actual_hit_rate": 10.0,
+        "bias": 21.83
+      },
+      "holdout_comparison": {
+        "raw": {
+          "probability_metrics": {
+            "brier_score": 0.6207,
+            "reliability": {
+              "sample_size": 36,
+              "below_50_count": 31,
+              "covered_by_requested_bins": 5,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 54.95,
+                  "bias": 54.95
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 4,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 57.62,
+                  "bias": -42.38
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 44.89,
+              "mce": 54.95
+            },
+            "edge_15_reliability": {
+              "sample_size": 6,
+              "below_50_count": 6,
+              "covered_by_requested_bins": 0,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 0.0,
+              "mce": 0.0
+            }
+          },
+          "edge_15_roi": {
+            "matches": 6,
+            "hits": 0,
+            "hit_rate": 0.0,
+            "unit_profit": -6.0,
+            "unit_roi": -100.0,
+            "kelly_profit": -0.3332,
+            "kelly_stake": 0.3332,
+            "kelly_roi": -100.0,
+            "max_drawdown": -6.0
+          }
+        },
+        "platt": {
+          "probability_metrics": {
+            "brier_score": 0.6173,
+            "reliability": {
+              "sample_size": 36,
+              "below_50_count": 25,
+              "covered_by_requested_bins": 11,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 6,
+                  "actual_hit_rate": 33.33,
+                  "avg_predicted_probability": 52.72,
+                  "bias": 19.39
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 5,
+                  "actual_hit_rate": 80.0,
+                  "avg_predicted_probability": 63.37,
+                  "bias": -16.63
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 18.13,
+              "mce": 19.39
+            },
+            "edge_15_reliability": {
+              "sample_size": 10,
+              "below_50_count": 8,
+              "covered_by_requested_bins": 2,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 51.66,
+                  "bias": 51.66
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 60.93,
+                  "bias": 60.93
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 56.29,
+              "mce": 60.93
+            }
+          },
+          "edge_15_roi": {
+            "matches": 10,
+            "hits": 1,
+            "hit_rate": 10.0,
+            "unit_profit": -6.85,
+            "unit_roi": -68.5,
+            "kelly_profit": -0.3952,
+            "kelly_stake": 0.5526,
+            "kelly_roi": -71.51,
+            "max_drawdown": -9.0
+          }
+        },
+        "isotonic": {
+          "probability_metrics": {
+            "brier_score": 0.6234,
+            "reliability": {
+              "sample_size": 36,
+              "below_50_count": 28,
+              "covered_by_requested_bins": 8,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 3,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 56.92,
+                  "bias": 56.92
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 2,
+                  "actual_hit_rate": 50.0,
+                  "avg_predicted_probability": 61.54,
+                  "bias": 11.54
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 3,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 68.52,
+                  "bias": -31.48
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 36.03,
+              "mce": 56.92
+            },
+            "edge_15_reliability": {
+              "sample_size": 10,
+              "below_50_count": 8,
+              "covered_by_requested_bins": 2,
+              "bins": [
+                {
+                  "range": "50%-55%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "55%-60%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "60%-65%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 62.07,
+                  "bias": 62.07
+                },
+                {
+                  "range": "65%-70%",
+                  "sample_size": 1,
+                  "actual_hit_rate": 100.0,
+                  "avg_predicted_probability": 68.52,
+                  "bias": -31.48
+                },
+                {
+                  "range": "70%-75%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "75%-80%",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                },
+                {
+                  "range": "80%+",
+                  "sample_size": 0,
+                  "actual_hit_rate": 0.0,
+                  "avg_predicted_probability": 0.0,
+                  "bias": 0.0
+                }
+              ],
+              "ece": 46.77,
+              "mce": 62.07
+            }
+          },
+          "edge_15_roi": {
+            "matches": 10,
+            "hits": 1,
+            "hit_rate": 10.0,
+            "unit_profit": -8.22,
+            "unit_roi": -82.2,
+            "kelly_profit": -0.4583,
+            "kelly_stake": 0.5836,
+            "kelly_roi": -78.53,
+            "max_drawdown": -8.22
+          }
+        }
+      }
+    }
+  }
+}

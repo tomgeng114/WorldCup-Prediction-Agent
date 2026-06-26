@@ -1,0 +1,10 @@
+INFO:     127.0.0.1:55602 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /api/market-backtest/odds/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54035 - "GET /api/market-backtest/benchmark HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54036 - "GET /api/market-backtest/roi HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54037 - "GET /api/market-backtest/handicap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/market-backtest/upsets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51066 - "GET /api/market-backtest/odds/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58774 - "GET /api/market-backtest/odds/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58775 - "GET /api/market-backtest/benchmark HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58776 - "GET /api/market-backtest/roi HTTP/1.1" 200 OK

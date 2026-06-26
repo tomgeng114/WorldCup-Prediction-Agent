@@ -1,0 +1,7 @@
+﻿stage,matches,overall_accuracy,conflict_matches,conflict_accuracy,non_conflict_matches,non_conflict_accuracy,accuracy_after_excluding_conflict,accuracy_delta_after_excluding_conflict
+Group Stage,96,55.21,11,72.73,85,52.94,52.94,-2.27
+Round of 16,16,68.75,1,100.0,15,66.67,66.67,-2.08
+Quarter-finals,8,25.0,1,100.0,7,14.29,14.29,-10.71
+Semi-finals,4,75.0,0,0.0,4,75.0,75.0,0.0
+Third-place match,2,0.0,1,0.0,1,0.0,0.0,0.0
+Final,2,100.0,1,100.0,1,100.0,100.0,0.0

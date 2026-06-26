@@ -1,0 +1,36 @@
+﻿section,pattern,bucket,matches,percentage,note,team,market_favorite_matches,actual_draws_as_market_favorite,model_predicted_draws,missed_draws,miss_rate,rule,description,covered_missed_draws,coverage
+draw_probability_distribution,draw_probability_distribution,<20%,0,0.0,,,,,,,,,,,
+draw_probability_distribution,draw_probability_distribution,20-25%,7,31.82,,,,,,,,,,,
+draw_probability_distribution,draw_probability_distribution,25-30%,15,68.18,,,,,,,,,,,
+draw_probability_distribution,draw_probability_distribution,30-35%,0,0.0,,,,,,,,,,,
+draw_probability_distribution,draw_probability_distribution,35%+,0,0.0,,,,,,,,,,,
+top_score_patterns,top3_has_draw_score,Yes,0,0.0,,,,,,,,,,,
+top_score_patterns,top3_has_draw_score,No,22,100.0,,,,,,,,,,,
+top_score_patterns,top1_not_draw_but_top2_or_top3_has_draw,Yes,0,0.0,,,,,,,,,,,
+top_score_patterns,historical_top3_availability,Unavailable,22,100.0,2018/2022 backtest rows store Top1 predicted_score only; Top2/Top3 are not reconstructed.,,,,,,,,,,
+goal_patterns,predicted_total_goals,0 goals,0,0.0,,,,,,,,,,,
+goal_patterns,actual_total_goals,0 goals,9,40.91,,,,,,,,,,,
+goal_patterns,predicted_total_goals,1 goal,5,22.73,,,,,,,,,,,
+goal_patterns,actual_total_goals,1 goal,0,0.0,,,,,,,,,,,
+goal_patterns,predicted_total_goals,2 goals,7,31.82,,,,,,,,,,,
+goal_patterns,actual_total_goals,2 goals,9,40.91,,,,,,,,,,,
+goal_patterns,predicted_total_goals,3 goals,6,27.27,,,,,,,,,,,
+goal_patterns,actual_total_goals,3 goals,0,0.0,,,,,,,,,,,
+goal_patterns,predicted_total_goals,4+ goals,4,18.18,,,,,,,,,,,
+goal_patterns,actual_total_goals,4+ goals,4,18.18,,,,,,,,,,,
+btts_patterns,btts_recommendation,Unavailable,22,100.0,Historical backtest rows do not store BTTS recommendation.,,,,,,,,,,
+btts_patterns,actual_btts,Yes,13,59.09,,,,,,,,,,,
+btts_patterns,actual_btts,No,9,40.91,,,,,,,,,,,
+strong_team_patterns,,,,,,Brazil,10,2,0,2,100.0,,,,
+strong_team_patterns,,,,,,Argentina,10,3,2,1,33.33,,,,
+strong_team_patterns,,,,,,France,13,1,0,1,100.0,,,,
+strong_team_patterns,,,,,,England,10,3,2,1,33.33,,,,
+strong_team_patterns,,,,,,Spain,8,5,0,5,100.0,,,,
+strong_team_patterns,,,,,,Germany,5,0,0,0,0.0,,,,
+strong_team_patterns,,,,,,Portugal,8,1,0,1,100.0,,,,
+strong_team_patterns,,,,,,Netherlands,4,1,0,1,100.0,,,,
+rule_coverage,,,,,,,,,,,,Rule A,Draw Probability >= 25%,15,68.18
+rule_coverage,,,,,,,,,,,,Rule B,Draw Probability >= 30%,0,0.0
+rule_coverage,,,,,,,,,,,,Rule C,Top3 contains draw score,0,0.0
+rule_coverage,,,,,,,,,,,,Rule D,Predicted total goals is 2 or 3,13,59.09
+rule_coverage,,,,,,,,,,,,Rule E,Strong market favorite and upset probability >= 45,12,54.55

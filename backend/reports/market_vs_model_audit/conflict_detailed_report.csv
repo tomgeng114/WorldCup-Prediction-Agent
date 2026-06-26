@@ -1,0 +1,16 @@
+﻿match_id,tournament_year,match_date,stage,match,home_team,away_team,market_favorite,market_favorite_team,model_favorite,model_favorite_team,actual_result,actual_result_team,model_correct,market_correct,confidence_score,upset_probability,odds_home,odds_draw,odds_away
+281,2018,2018-06-17T16:00:00,Group Stage,Costa Rica vs Serbia,Costa Rica,Serbia,Away Win,Serbia,Home Win,Costa Rica,Away Win,Serbia,False,True,35.75,65.99,5.35,3.46,1.86
+300,2018,2018-06-19T18:00:00,Group Stage,Poland vs Senegal,Poland,Senegal,Home Win,Poland,Away Win,Senegal,Away Win,Senegal,True,False,36.49,65.69,2.54,3.1,3.38
+261,2018,2018-06-25T18:00:00,Group Stage,Uruguay vs Russia,Uruguay,Russia,Away Win,Russia,Home Win,Uruguay,Home Win,Uruguay,True,False,36.71,63.78,3.06,3.06,2.61
+292,2018,2018-06-27T19:00:00,Group Stage,Mexico vs Sweden,Mexico,Sweden,Home Win,Mexico,Away Win,Sweden,Away Win,Sweden,True,False,36.79,66.45,2.18,3.36,3.56
+303,2018,2018-06-28T17:00:00,Group Stage,Japan vs Poland,Japan,Poland,Home Win,Japan,Away Win,Poland,Away Win,Poland,True,False,38.16,65.91,2.57,3.03,3.02
+311,2018,2018-07-03T17:00:00,Round of 16,Sweden vs Switzerland,Sweden,Switzerland,Away Win,Switzerland,Home Win,Sweden,Home Win,Sweden,True,False,38.43,67.71,3.3,2.88,2.49
+319,2018,2018-07-14T17:00:00,Third-place match,Belgium vs England,Belgium,England,Home Win,Belgium,Away Win,England,Home Win,Belgium,False,True,37.54,65.93,2.07,3.68,3.36
+328,2022,2022-11-21T22:00:00,Group Stage,USA vs Wales,USA,Wales,Home Win,USA,Draw,Draw,Draw,Draw,True,False,34.58,68.83,2.49,3.12,3.22
+348,2022,2022-11-27T22:00:00,Group Stage,Spain vs Germany,Spain,Germany,Home Win,Spain,Away Win,Germany,Draw,Draw,False,False,37.57,67.54,2.55,3.47,2.84
+365,2022,2022-11-28T16:00:00,Group Stage,South Korea vs Ghana,South Korea,Ghana,Home Win,South Korea,Away Win,Ghana,Away Win,Ghana,True,False,39.03,66.53,2.8,3.12,2.82
+325,2022,2022-11-29T18:00:00,Group Stage,Ecuador vs Senegal,Ecuador,Senegal,Home Win,Ecuador,Away Win,Senegal,Away Win,Senegal,True,False,36.26,65.17,2.46,3.08,3.31
+355,2022,2022-12-01T18:00:00,Group Stage,Croatia vs Belgium,Croatia,Belgium,Away Win,Belgium,Home Win,Croatia,Draw,Draw,False,False,35.98,64.89,3.08,3.43,2.41
+361,2022,2022-12-02T22:00:00,Group Stage,Serbia vs Switzerland,Serbia,Switzerland,Home Win,Serbia,Away Win,Switzerland,Away Win,Switzerland,True,False,38.36,67.75,2.63,3.39,2.82
+378,2022,2022-12-09T22:00:00,Quarter-finals,Netherlands vs Argentina,Netherlands,Argentina,Away Win,Argentina,Home Win,Netherlands,Draw,Draw,False,False,40.53,71.34,3.86,3.15,2.2
+384,2022,2022-12-18T18:00:00,Final,Argentina vs France,Argentina,France,Home Win,Argentina,Away Win,France,Draw,Draw,False,False,37.57,68.81,2.68,3.14,2.93

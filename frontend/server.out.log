@@ -1,0 +1,246 @@
+
+> world-cup-ai-predictor-frontend@1.0.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+   ▲ Next.js 15.5.19
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 12s
+ ○ Compiling / ...
+ ✓ Compiled / in 23.8s (554 modules)
+ GET / 200 in 27153ms
+ GET / 200 in 547ms
+ GET / 200 in 1483ms
+ GET / 200 in 1530ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 659ms (559 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c74be969_43c5_48bf_9431_d8906d7e3257__0 404 in 2484ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__35c7ead0_197a_4f1b_a602_c9b438a13efb__1 404 in 2485ms
+ GET / 200 in 2186ms
+ GET / 200 in 2189ms
+ GET / 200 in 667ms
+ GET / 200 in 1573ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__38ee28ad_9f8a_4221_a032_ac26a6ddaad0__0 404 in 159ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4f63f65b_42bc_48f4_803b_91041ed02408__1 404 in 155ms
+ ✓ Compiled in 192ms (227 modules)
+ ✓ Compiled in 393ms (227 modules)
+ ✓ Compiled in 401ms (227 modules)
+ GET / 200 in 176ms
+ GET / 200 in 134ms
+ GET / 200 in 584ms
+ GET / 200 in 994ms
+ GET / 200 in 1002ms
+ GET / 200 in 608ms
+ ✓ Compiled in 599ms (554 modules)
+ GET / 200 in 1331ms
+ GET / 200 in 1325ms
+ GET / 200 in 1587ms
+ GET / 200 in 1517ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 664ms (559 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__856a0cd0_c039_41f3_a7b8_8da57ea3a56c__0 404 in 2205ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__82fa8f72_59fd_42d6_be48_5a6d239eb839__1 404 in 2202ms
+ GET / 200 in 1962ms
+ GET / 200 in 1966ms
+ GET / 200 in 2468ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9d1e5b00_475e_4f98_bba9_1ee32e0de9df__0 404 in 130ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6d32ff3a_1b17_47de_a021_0556997d0894__1 404 in 126ms
+ GET / 200 in 1458ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__51a7663b_9ac3_4119_a45a_752d872f3f64__0 404 in 105ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__18983fdc_27d7_4dbb_94b3_b5023cd3c63f__1 404 in 99ms
+ GET / 200 in 1797ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__261ef7e1_5172_4b59_8beb_9873621f7015__0 404 in 138ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a6866a31_69bd_4821_9680_d31a414f2e80__1 404 in 133ms
+ GET / 200 in 687ms
+ GET / 200 in 1793ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__498ade4a_18fe_42dd_af88_02b67fbccf8f__0 404 in 135ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__aaf2bd1e_847f_4737_9760_c662283c153d__1 404 in 129ms
+ ✓ Compiled in 567ms (554 modules)
+ ✓ Compiled in 363ms (227 modules)
+ GET / 200 in 398ms
+ GET / 200 in 994ms
+ GET / 200 in 959ms
+ GET / 200 in 429ms
+ GET / 200 in 844ms
+ GET / 200 in 1668ms
+ ✓ Compiled /_not-found in 449ms (545 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7d25a220_47a0_4ca7_9989_07537a41d826__0 404 in 1007ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5fe4c1bd_c061_42b5_b8f2_384ef070963d__1 404 in 1007ms
+ ✓ Compiled in 245ms (554 modules)
+ GET / 200 in 517ms
+ GET / 200 in 502ms
+ GET / 200 in 1983ms
+ ✓ Compiled /_not-found in 379ms (545 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__896df9f1_c83c_436d_a8ff_dd7d93d09f77__0 404 in 800ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1f954f52_cee3_45bd_bc87_209f9ada1353__1 404 in 802ms
+ ✓ Compiled in 336ms (554 modules)
+ GET / 200 in 711ms
+ GET / 200 in 358ms
+ ✓ Compiled in 313ms (554 modules)
+ GET / 200 in 627ms
+ GET / 200 in 628ms
+ GET / 200 in 1943ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 647ms (559 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__04dfac02_cd41_474b_8de6_130863fef0da__0 404 in 1320ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c6813988_9902_4095_8be6_3fa13459d466__1 404 in 1315ms
+ GET / 200 in 1358ms
+ ✓ Compiled in 834ms (554 modules)
+ GET / 200 in 1907ms
+ GET / 200 in 1907ms
+ ✓ Compiled in 358ms (554 modules)
+ GET / 200 in 1840ms
+ GET / 200 in 1843ms
+ GET / 200 in 1946ms
+ ✓ Compiled /_not-found in 412ms (545 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2074a470_8f58_4cff_b4c1_ac28723287e8__1 404 in 734ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3ff084e5_d8f4_45e6_863c_78da330c5825__0 404 in 744ms
+ GET / 200 in 2275ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9445ea83_4e2b_4fba_9f9d_4aa14ddfbb05__1 404 in 208ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__75f0a79d_4a42_42cc_90cc_b3f7ddc8ebba__0 404 in 221ms
+ GET / 200 in 2263ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__57378533_40cc_450c_a12f_cf4f04d4e5e8__0 404 in 110ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5fc7b980_c380_4c3d_b276_2f34932a5268__1 404 in 106ms
+ GET / 200 in 2518ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4ebe423c_1bfe_4699_873e_c2f7e1d06475__0 404 in 123ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__def852f8_e267_4d6a_a26e_39e270d73888__1 404 in 55ms
+ GET / 200 in 1706ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__965cc037_59cc_4aab_ac9e_d2c18c92ce18__0 404 in 126ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1f8172aa_eb46_4bd9_a4a6_9bf086f50a0a__1 404 in 54ms
+ GET / 200 in 1723ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__08415b0d_61d7_4e1f_8214_f7c6db18d1dd__1 404 in 77ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8af78a60_387d_46de_8e9d_ab4171511d3c__0 404 in 85ms
+ ✓ Compiled in 532ms (227 modules)
+ ✓ Compiled in 678ms (227 modules)
+ GET / 200 in 1486ms
+ GET / 200 in 810ms
+ ✓ Compiled in 835ms (554 modules)
+ GET / 200 in 792ms
+ ✓ Compiled in 205ms (554 modules)
+ GET / 200 in 467ms
+ GET / 200 in 1800ms
+ ✓ Compiled /_not-found in 379ms (545 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__66c4a801_3440_4421_a0a5_249174f5e451__0 404 in 826ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b5556fe9_ace4_4505_b9ce_197556402089__1 404 in 825ms
+ GET / 200 in 6249ms
+ GET / 200 in 4717ms
+ GET / 200 in 4555ms
+ GET / 200 in 3834ms
+ GET / 200 in 4006ms
+ GET / 200 in 3868ms
+ GET / 200 in 2033ms
+ GET / 200 in 1538ms
+ GET / 200 in 746ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5fbde31c_63f7_4260_9d14_2164109c2a1b__0 404 in 176ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__45dce978_8b2b_46fd_a180_f3d58e4eb90d__1 404 in 172ms
+ ✓ Compiled in 841ms (554 modules)
+ GET / 200 in 889ms
+ GET / 200 in 1936ms
+ ✓ Compiled /_not-found in 297ms (545 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e961657c_1975_4a92_a392_fd6ab3c658de__0 404 in 624ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d3d89736_3692_4d2d_9561_46749cff89ac__1 404 in 623ms
+ ✓ Compiled in 77ms (231 modules)
+ GET / 200 in 295ms
+ ✓ Compiled in 454ms (554 modules)
+ GET / 200 in 773ms
+ GET / 200 in 1801ms
+ ✓ Compiled /_not-found in 366ms (545 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__519e855e_ee35_441e_95b8_36f0ff0c818a__0 404 in 644ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b7dfd2cf_72a8_43ad_8877_114a65b59c1d__1 404 in 642ms
+ ✓ Compiled in 306ms (227 modules)
+ GET / 200 in 846ms
+ ✓ Compiled in 245ms (554 modules)
+ GET / 200 in 350ms
+ ✓ Compiled in 160ms (554 modules)
+ GET / 200 in 334ms
+ GET / 200 in 1902ms
+ ✓ Compiled /_not-found in 327ms (545 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e386e058_aa54_4b1c_8f57_9ac67629e587__1 404 in 704ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4c5b928d_d080_4c32_b3fa_71e31bf86e64__0 404 in 711ms
+ ✓ Compiled in 119ms (227 modules)
+ GET / 200 in 290ms
+ ✓ Compiled in 380ms (554 modules)
+ GET / 200 in 285ms
+ GET / 200 in 1995ms
+ ✓ Compiled /_not-found in 313ms (545 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__26fb7d05_d348_40f5_9e53_bc54db041e82__0 404 in 723ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__425fb56a_c903_4b1c_ad38_ed61fbfb561e__1 404 in 721ms
+ ✓ Compiled in 174ms (227 modules)
+ ✓ Compiled in 136ms (227 modules)
+ ✓ Compiled in 588ms (227 modules)
+ GET / 200 in 1936ms
+ GET / 200 in 1310ms
+ GET / 200 in 826ms
+ ✓ Compiled in 377ms (554 modules)
+ GET / 200 in 790ms
+ GET / 200 in 3951ms
+ GET / 200 in 2080ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 811ms (559 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4867e0ac_e753_4b67_a586_2d68caf73daa__0 404 in 1910ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3ce0d83e_d746_41ea_989a_6a8a55e89c43__1 404 in 1907ms
+ GET / 200 in 1001ms
+ GET / 200 in 3165ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f2baafbb_9089_42d6_a9ac_c3bc0b1f71a1__0 404 in 138ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2df30682_c4a0_4456_b3ac_d3baa58ccf31__1 404 in 133ms
+ GET / 200 in 2658ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dc5f54be_a5de_47cd_be49_5e7f65e12abf__0 404 in 188ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e41c4aff_0a8a_4128_9ed5_73ebb2962188__1 404 in 175ms
+ GET / 200 in 2565ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b1d7ea20_10ab_44e3_b335_76bfe7656b66__1 404 in 207ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f4e3fa20_95dd_44f2_abf0_6fd67f8eb4db__0 404 in 218ms
+ ✓ Compiled in 4.4s (227 modules)
+ ✓ Compiled in 521ms (227 modules)
+ ✓ Compiled in 920ms (554 modules)
+ ✓ Compiled in 245ms (554 modules)
+ GET / 200 in 3028ms
+ ✓ Compiled /_not-found in 352ms (545 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__52d3c8c8_910a_473f_8242_17c0214a6512__0 404 in 910ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c9cc1019_cd8d_4fa8_acb6_e69515efdc7a__1 404 in 909ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 6.5s (887 modules)
+ GET / 500 in 9235ms
+ GET / 500 in 3253ms
+ ✓ Compiled /_not-found in 409ms (892 modules)
+ GET / 500 in 876ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c488af9b_b7f0_403b_a8e0_ca5156d99caa__0 500 in 48ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__75db1a22_898a_4520_b1fd_04ddf89cc00e__1 500 in 45ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__75db1a22_898a_4520_b1fd_04ddf89cc00e__1 500 in 55ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c488af9b_b7f0_403b_a8e0_ca5156d99caa__0 500 in 58ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__75db1a22_898a_4520_b1fd_04ddf89cc00e__1 500 in 89ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c488af9b_b7f0_403b_a8e0_ca5156d99caa__0 500 in 64ms
+ GET / 500 in 915ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c2fbd0ea_7c81_4a72_be60_e1eb60ef53b5__0 500 in 309ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__164da75f_9a03_4b22_b2e5_78baa214cc2f__1 500 in 295ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c2fbd0ea_7c81_4a72_be60_e1eb60ef53b5__0 500 in 178ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__164da75f_9a03_4b22_b2e5_78baa214cc2f__1 500 in 750ms
+ GET / 500 in 2342ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__86b29171_7f40_435e_b2a3_f029505dd4a6__0 500 in 336ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7dcfe91f_b706_4aad_93e8_19766ecc4e56__1 500 in 317ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__86b29171_7f40_435e_b2a3_f029505dd4a6__0 500 in 373ms
+ GET / 500 in 460ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9c471ecb_871c_4949_80b1_66bd7fbee16c__0 500 in 1871ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6171e0cc_185a_40ba_b901_3acf45bc4334__1 500 in 1854ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9c471ecb_871c_4949_80b1_66bd7fbee16c__0 500 in 133ms
+ GET / 500 in 604ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__18d2152e_1dd9_4502_a60e_2ef1093c0454__0 500 in 1129ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__24808919_b32b_4744_9346_8cc013f27726__1 500 in 1112ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__18d2152e_1dd9_4502_a60e_2ef1093c0454__0 500 in 190ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__24808919_b32b_4744_9346_8cc013f27726__1 500 in 115ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__18d2152e_1dd9_4502_a60e_2ef1093c0454__0 500 in 70ms
+ GET / 500 in 361ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f5aee86c_ce25_4e68_8a46_f234a9c2f823__0 500 in 157ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__92641383_6d34_42ef_83f7_c02b56e287d8__1 500 in 153ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f5aee86c_ce25_4e68_8a46_f234a9c2f823__0 500 in 105ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__92641383_6d34_42ef_83f7_c02b56e287d8__1 500 in 81ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f5aee86c_ce25_4e68_8a46_f234a9c2f823__0 500 in 147ms
+ GET / 500 in 331ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__92641383_6d34_42ef_83f7_c02b56e287d8__1 500 in 139ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c3bab639_a2b0_4549_bbb4_fef98275602e__0 500 in 127ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fc2cebfb_8736_4eea_8ace_1761c471a54a__1 500 in 89ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c3bab639_a2b0_4549_bbb4_fef98275602e__0 500 in 146ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fc2cebfb_8736_4eea_8ace_1761c471a54a__1 500 in 110ms
+ GET / 500 in 1643ms
+ GET / 500 in 1747ms

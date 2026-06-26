@@ -1,0 +1,2 @@
+﻿failed_draw_matches,average_draw_probability,average_confidence_score,average_upset_probability,average_odds_spread,average_elo_diff,average_xg_diff,unavailable_fields_note
+22,26.46,44.35,55.92,4.3014,,,"ELO difference and xG difference are not stored in the current backtest prediction rows, so they are reported as null instead of estimated."

@@ -1,0 +1,129 @@
+﻿match_id,year,match_date,match,prediction_type,actual_result,hit,predicted_score,home_probability,draw_probability,away_probability,confidence_score,upset_probability,odds,return_units,roi
+257,2018,2018-06-14T18:00:00,Russia vs Saudi Arabia,Home Win,Home Win,True,4-2,45.27,28.94,25.79,45.27,54.73,1.48,1.48,48.0
+258,2018,2018-06-15T17:00:00,Egypt vs Uruguay,Away Win,Away Win,True,0-2,30.03,28.53,41.43,41.43,58.57,1.53,1.53,53.0
+263,2018,2018-06-15T18:00:00,Morocco vs Iran,Draw,Away Win,False,1-1,40.06,31.23,28.71,31.23,59.94,3.05,0.0,-100.0
+264,2018,2018-06-15T21:00:00,Portugal vs Spain,Away Win,Draw,False,0-2,34.07,28.98,36.94,36.94,63.06,2.04,0.0,-100.0
+269,2018,2018-06-16T13:00:00,France vs Australia,Home Win,Home Win,True,2-1,53.91,21.96,24.13,53.91,46.09,1.27,1.27,27.0
+275,2018,2018-06-16T16:00:00,Argentina vs Iceland,Home Win,Draw,False,1-0,47.9,24.26,27.84,47.9,52.1,1.34,0.0,-100.0
+270,2018,2018-06-16T19:00:00,Peru vs Denmark,Away Win,Away Win,True,2-4,29.65,29.45,40.9,40.9,59.1,2.32,2.32,132.0
+276,2018,2018-06-16T21:00:00,Croatia vs Nigeria,Home Win,Home Win,True,1-0,41.57,28.4,30.03,41.57,58.43,1.69,1.69,69.0
+281,2018,2018-06-17T16:00:00,Costa Rica vs Serbia,Draw,Away Win,False,1-1,35.75,30.23,34.01,30.23,65.99,3.46,0.0,-100.0
+287,2018,2018-06-17T18:00:00,Germany vs Mexico,Home Win,Away Win,False,2-1,55.34,21.87,22.78,55.34,44.66,1.53,0.0,-100.0
+282,2018,2018-06-17T21:00:00,Brazil vs Switzerland,Home Win,Draw,False,3-1,49.85,24.94,25.21,49.85,50.15,1.48,0.0,-100.0
+288,2018,2018-06-18T15:00:00,Sweden vs South Korea,Home Win,Home Win,True,2-1,51.26,22.53,26.21,51.26,48.74,2.28,2.28,128.0
+293,2018,2018-06-18T18:00:00,Belgium vs Panama,Home Win,Home Win,True,1-0,37.75,28.7,33.55,37.75,62.25,1.25,1.25,25.0
+294,2018,2018-06-18T21:00:00,Tunisia vs England,Away Win,Away Win,True,0-1,25.37,28.05,46.58,46.58,53.42,1.51,1.51,51.0
+299,2018,2018-06-19T15:00:00,Colombia vs Japan,Home Win,Away Win,False,2-0,45.07,26.52,28.41,45.07,54.93,1.86,0.0,-100.0
+300,2018,2018-06-19T18:00:00,Poland vs Senegal,Away Win,Away Win,True,0-1,34.31,29.2,36.49,36.49,65.69,3.38,3.38,238.0
+259,2018,2018-06-19T21:00:00,Russia vs Egypt,Home Win,Home Win,True,2-0,41.18,28.16,30.67,41.18,58.82,1.99,1.99,99.0
+265,2018,2018-06-20T15:00:00,Portugal vs Morocco,Home Win,Home Win,True,2-0,47.01,24.52,28.47,47.01,52.99,1.7,1.7,70.0
+260,2018,2018-06-20T18:00:00,Uruguay vs Saudi Arabia,Home Win,Home Win,True,4-2,55.06,21.58,23.36,55.06,44.94,1.2,1.2,20.0
+266,2018,2018-06-20T21:00:00,Iran vs Spain,Away Win,Away Win,True,0-1,24.12,22.96,52.92,52.92,47.08,1.18,1.18,18.0
+271,2018,2018-06-21T16:00:00,Denmark vs Australia,Home Win,Draw,False,3-2,46.81,25.8,27.4,46.81,53.19,1.9,0.0,-100.0
+272,2018,2018-06-21T20:00:00,France vs Peru,Home Win,Home Win,True,2-1,49.84,25.51,24.65,49.84,50.16,1.55,1.55,55.0
+277,2018,2018-06-21T21:00:00,Argentina vs Croatia,Home Win,Away Win,False,2-0,44.26,25.25,30.49,44.26,55.74,1.98,0.0,-100.0
+283,2018,2018-06-22T15:00:00,Brazil vs Costa Rica,Home Win,Home Win,True,3-2,53.57,22.46,23.97,53.57,46.43,1.19,1.19,19.0
+278,2018,2018-06-22T18:00:00,Nigeria vs Iceland,Away Win,Home Win,False,0-1,30.62,28.64,40.74,40.74,59.26,2.56,0.0,-100.0
+284,2018,2018-06-22T20:00:00,Serbia vs Switzerland,Draw,Away Win,False,0-0,33.03,31.74,35.23,31.74,64.77,2.96,0.0,-100.0
+295,2018,2018-06-23T15:00:00,Belgium vs Tunisia,Home Win,Home Win,True,1-0,44.47,27.7,27.83,44.47,55.53,1.3,1.3,30.0
+289,2018,2018-06-23T18:00:00,South Korea vs Mexico,Away Win,Away Win,True,1-2,27.67,23.21,49.12,49.12,50.88,1.64,1.64,64.0
+290,2018,2018-06-23T21:00:00,Germany vs Sweden,Home Win,Home Win,True,2-1,48.8,23.82,27.38,48.8,51.2,1.41,1.41,41.0
+296,2018,2018-06-24T15:00:00,England vs Panama,Home Win,Home Win,True,2-0,55.91,21.9,22.18,55.91,44.09,1.21,1.21,21.0
+301,2018,2018-06-24T20:00:00,Japan vs Senegal,Away Win,Draw,False,0-1,29.66,27.51,42.83,42.83,57.17,2.47,0.0,-100.0
+302,2018,2018-06-24T21:00:00,Poland vs Colombia,Away Win,Away Win,True,1-2,32.91,29.04,38.05,38.05,61.95,2.13,2.13,113.0
+262,2018,2018-06-25T17:00:00,Saudi Arabia vs Egypt,Away Win,Home Win,False,1-2,27.8,27.32,44.88,44.88,55.12,1.7,0.0,-100.0
+261,2018,2018-06-25T18:00:00,Uruguay vs Russia,Home Win,Home Win,True,4-2,36.71,27.07,36.22,36.71,63.78,3.06,3.06,206.0
+268,2018,2018-06-25T20:00:00,Spain vs Morocco,Home Win,Draw,False,1-0,49.73,23.59,26.68,49.73,50.27,1.31,0.0,-100.0
+267,2018,2018-06-25T21:00:00,Iran vs Portugal,Away Win,Draw,False,0-2,24.56,23.44,51.99,51.99,48.01,1.54,0.0,-100.0
+273,2018,2018-06-26T17:00:00,Denmark vs France,Away Win,Draw,False,1-2,29.65,27.26,43.09,43.09,56.91,1.95,0.0,-100.0
+274,2018,2018-06-26T17:00:00,Australia vs Peru,Away Win,Away Win,True,1-2,33.76,29.28,36.96,36.96,63.04,2.28,2.28,128.0
+279,2018,2018-06-26T21:00:00,Nigeria vs Argentina,Away Win,Away Win,True,0-1,26.91,24.02,49.07,49.07,50.93,1.44,1.44,44.0
+280,2018,2018-06-26T21:00:00,Iceland vs Croatia,Draw,Away Win,False,1-1,25.82,30.28,43.9,30.28,56.1,3.96,0.0,-100.0
+291,2018,2018-06-27T17:00:00,South Korea vs Germany,Away Win,Home Win,False,1-4,17.16,19.82,63.03,63.03,36.97,1.14,0.0,-100.0
+292,2018,2018-06-27T19:00:00,Mexico vs Sweden,Away Win,Away Win,True,0-2,33.55,29.66,36.79,36.79,66.45,3.56,3.56,256.0
+285,2018,2018-06-27T21:00:00,Serbia vs Brazil,Away Win,Away Win,True,0-2,24.09,21.98,53.93,53.93,46.07,1.41,1.41,41.0
+286,2018,2018-06-27T21:00:00,Switzerland vs Costa Rica,Home Win,Draw,False,2-0,39.05,28.82,32.13,39.05,60.95,1.55,0.0,-100.0
+303,2018,2018-06-28T17:00:00,Japan vs Poland,Away Win,Away Win,True,0-2,34.09,27.75,38.16,38.16,65.91,3.02,3.02,202.0
+304,2018,2018-06-28T18:00:00,Senegal vs Colombia,Away Win,Away Win,True,1-2,33.85,29.52,36.63,36.63,63.37,1.67,1.67,67.0
+297,2018,2018-06-28T20:00:00,England vs Belgium,Home Win,Away Win,False,2-0,38.91,28.65,32.44,38.91,61.09,2.63,0.0,-100.0
+298,2018,2018-06-28T21:00:00,Panama vs Tunisia,Away Win,Away Win,True,2-4,30.13,24.88,44.99,44.99,55.01,1.77,1.77,77.0
+305,2018,2018-06-30T17:00:00,France vs Argentina,Draw,Home Win,False,1-1,33.76,33.75,32.49,33.75,66.24,3.03,0.0,-100.0
+306,2018,2018-06-30T21:00:00,Uruguay vs Portugal,Draw,Home Win,False,2-2,31.93,30.01,38.05,30.01,61.95,2.91,0.0,-100.0
+307,2018,2018-07-01T17:00:00,Spain vs Russia,Home Win,Draw,False,3-2,44.24,25.06,30.7,44.24,55.76,1.51,0.0,-100.0
+308,2018,2018-07-01T21:00:00,Croatia vs Denmark,Draw,Draw,True,1-1,37.23,30.75,32.02,30.75,62.77,3.21,3.21,221.0
+309,2018,2018-07-02T18:00:00,Brazil vs Mexico,Home Win,Home Win,True,2-1,51.8,23.82,24.38,51.8,48.2,1.45,1.45,45.0
+310,2018,2018-07-02T21:00:00,Belgium vs Japan,Home Win,Home Win,True,1-0,44.47,27.87,27.65,44.47,55.53,1.35,1.35,35.0
+311,2018,2018-07-03T17:00:00,Sweden vs Switzerland,Home Win,Home Win,True,2-1,38.43,29.28,32.29,38.43,67.71,3.3,3.3,230.0
+312,2018,2018-07-03T21:00:00,Colombia vs England,Draw,Draw,True,1-1,32.44,31.88,35.67,31.88,64.33,3.03,3.03,203.0
+313,2018,2018-07-06T17:00:00,Uruguay vs France,Away Win,Away Win,True,1-3,30.34,26.45,43.21,43.21,56.79,1.89,1.89,89.0
+314,2018,2018-07-06T21:00:00,Brazil vs Belgium,Home Win,Away Win,False,3-1,45.78,27.2,27.02,45.78,54.22,1.96,0.0,-100.0
+315,2018,2018-07-07T18:00:00,Sweden vs England,Draw,Away Win,False,1-1,33.4,30.54,36.07,30.54,63.93,3.25,0.0,-100.0
+316,2018,2018-07-07T21:00:00,Russia vs Croatia,Away Win,Draw,False,1-2,30.12,27.95,41.92,41.92,58.08,2.1,0.0,-100.0
+317,2018,2018-07-10T21:00:00,France vs Belgium,Draw,Home Win,False,1-1,39.35,31.32,29.33,31.32,60.65,3.03,0.0,-100.0
+318,2018,2018-07-11T21:00:00,Croatia vs England,Draw,Draw,True,1-1,33.09,30.77,36.14,30.77,63.86,2.93,2.93,193.0
+319,2018,2018-07-14T17:00:00,Belgium vs England,Away Win,Home Win,False,0-2,34.07,28.39,37.54,37.54,65.93,3.36,0.0,-100.0
+320,2018,2018-07-15T18:00:00,France vs Croatia,Home Win,Home Win,True,2-1,41.3,28.45,30.25,41.3,58.7,1.99,1.99,99.0
+321,2022,2022-11-20T19:00:00,Qatar vs Ecuador,Draw,Away Win,False,1-1,34.41,31.02,34.57,31.02,65.43,3.11,0.0,-100.0
+327,2022,2022-11-21T16:00:00,England vs Iran,Home Win,Home Win,True,1-0,50.97,24.56,24.47,50.97,49.03,1.37,1.37,37.0
+322,2022,2022-11-21T19:00:00,Senegal vs Netherlands,Away Win,Away Win,True,0-2,25.46,23.38,51.16,51.16,48.84,1.65,1.65,65.0
+328,2022,2022-11-21T22:00:00,USA vs Wales,Draw,Draw,True,0-0,31.17,34.58,34.25,34.58,68.83,3.12,3.12,212.0
+333,2022,2022-11-22T13:00:00,Argentina vs Saudi Arabia,Home Win,Away Win,False,2-1,59.77,20.22,20.01,59.77,40.23,1.12,0.0,-100.0
+339,2022,2022-11-22T16:00:00,Denmark vs Tunisia,Home Win,Draw,False,2-0,46.54,24.83,28.63,46.54,53.46,1.57,0.0,-100.0
+334,2022,2022-11-22T19:00:00,Mexico vs Poland,Home Win,Draw,False,2-0,36.13,29.29,34.58,36.13,63.87,2.48,0.0,-100.0
+340,2022,2022-11-22T22:00:00,France vs Australia,Home Win,Home Win,True,2-1,58.57,20.61,20.82,58.57,41.43,1.22,1.22,22.0
+351,2022,2022-11-23T13:00:00,Morocco vs Croatia,Away Win,Draw,False,0-2,27.96,28.14,43.9,43.9,56.1,2.19,0.0,-100.0
+345,2022,2022-11-23T16:00:00,Germany vs Japan,Home Win,Away Win,False,2-1,54.5,22.57,22.92,54.5,45.5,1.43,0.0,-100.0
+346,2022,2022-11-23T19:00:00,Spain vs Costa Rica,Home Win,Home Win,True,2-0,46.81,25.08,28.11,46.81,53.19,1.16,1.16,16.0
+352,2022,2022-11-23T22:00:00,Belgium vs Canada,Home Win,Home Win,True,1-0,52.79,23.28,23.93,52.79,47.21,1.59,1.59,59.0
+357,2022,2022-11-24T13:00:00,Switzerland vs Cameroon,Home Win,Home Win,True,2-0,45.17,26.77,28.06,45.17,54.83,1.82,1.82,82.0
+363,2022,2022-11-24T16:00:00,Uruguay vs South Korea,Home Win,Draw,False,2-1,47.46,24.34,28.2,47.46,52.54,1.79,0.0,-100.0
+364,2022,2022-11-24T19:00:00,Portugal vs Ghana,Home Win,Home Win,True,2-1,45.01,26.77,28.23,45.01,54.99,1.32,1.32,32.0
+358,2022,2022-11-24T22:00:00,Brazil vs Serbia,Home Win,Home Win,True,2-0,54.64,22.41,22.95,54.64,45.36,1.46,1.46,46.0
+329,2022,2022-11-25T13:00:00,Wales vs Iran,Draw,Away Win,False,0-0,41.06,32.92,26.02,32.92,58.94,3.22,0.0,-100.0
+323,2022,2022-11-25T16:00:00,Qatar vs Senegal,Away Win,Away Win,True,0-1,27.21,27.78,45.01,45.01,54.99,1.73,1.73,73.0
+324,2022,2022-11-25T19:00:00,Netherlands vs Ecuador,Home Win,Draw,False,1-0,53.31,22.06,24.63,53.31,46.69,1.83,0.0,-100.0
+330,2022,2022-11-25T22:00:00,England vs USA,Home Win,Draw,False,1-0,46.5,25.77,27.73,46.5,53.5,1.46,0.0,-100.0
+341,2022,2022-11-26T13:00:00,Tunisia vs Australia,Home Win,Away Win,False,2-1,37.48,29.63,32.89,37.48,62.52,2.2,0.0,-100.0
+335,2022,2022-11-26T16:00:00,Poland vs Saudi Arabia,Home Win,Home Win,True,2-1,46.86,26.08,27.06,46.86,53.14,1.73,1.73,73.0
+342,2022,2022-11-26T19:00:00,France vs Denmark,Home Win,Home Win,True,2-1,48.19,24.44,27.37,48.19,51.81,1.79,1.79,79.0
+336,2022,2022-11-26T22:00:00,Argentina vs Mexico,Home Win,Home Win,True,2-0,44.74,26.13,29.12,44.74,55.26,1.54,1.54,54.0
+347,2022,2022-11-27T13:00:00,Japan vs Costa Rica,Draw,Away Win,False,1-1,37.53,30.2,32.27,30.2,62.47,4.37,0.0,-100.0
+353,2022,2022-11-27T16:00:00,Belgium vs Morocco,Home Win,Away Win,False,1-0,47.27,24.88,27.85,47.27,52.73,1.88,0.0,-100.0
+354,2022,2022-11-27T19:00:00,Croatia vs Canada,Home Win,Home Win,True,1-0,48.2,28.28,23.52,48.2,51.8,2.17,2.17,117.0
+348,2022,2022-11-27T22:00:00,Spain vs Germany,Away Win,Draw,False,1-3,32.46,29.97,37.57,37.57,67.54,2.84,0.0,-100.0
+359,2022,2022-11-28T13:00:00,Cameroon vs Serbia,Draw,Draw,True,0-0,28.74,30.92,40.35,30.92,59.65,3.84,3.84,284.0
+365,2022,2022-11-28T16:00:00,South Korea vs Ghana,Away Win,Away Win,True,1-2,33.47,27.51,39.03,39.03,66.53,2.82,2.82,182.0
+360,2022,2022-11-28T19:00:00,Brazil vs Switzerland,Home Win,Home Win,True,3-1,51.81,22.38,25.8,51.81,48.19,1.49,1.49,49.0
+366,2022,2022-11-28T22:00:00,Portugal vs Uruguay,Draw,Home Win,False,1-1,36.69,30.44,32.88,30.44,63.31,3.37,0.0,-100.0
+325,2022,2022-11-29T18:00:00,Ecuador vs Senegal,Away Win,Away Win,True,0-1,34.83,28.9,36.26,36.26,65.17,3.31,3.31,231.0
+326,2022,2022-11-29T18:00:00,Netherlands vs Qatar,Home Win,Home Win,True,3-0,63.04,19.1,17.86,63.04,36.96,1.2,1.2,20.0
+331,2022,2022-11-29T22:00:00,Wales vs England,Away Win,Away Win,True,0-1,26.21,28.35,45.43,45.43,54.57,1.43,1.43,43.0
+332,2022,2022-11-29T22:00:00,Iran vs USA,Draw,Away Win,False,1-1,29.74,31.6,38.66,31.6,61.34,3.49,0.0,-100.0
+343,2022,2022-11-30T18:00:00,Australia vs Denmark,Away Win,Home Win,False,0-2,28.35,26.54,45.11,45.11,54.89,1.45,0.0,-100.0
+344,2022,2022-11-30T18:00:00,Tunisia vs France,Away Win,Home Win,False,1-2,20.96,21.27,57.77,57.77,42.23,1.6,0.0,-100.0
+337,2022,2022-11-30T22:00:00,Poland vs Argentina,Away Win,Away Win,True,0-2,29.84,24.77,45.39,45.39,54.61,1.45,1.45,45.0
+338,2022,2022-11-30T22:00:00,Saudi Arabia vs Mexico,Away Win,Away Win,True,0-2,28.06,23.92,48.02,48.02,51.98,1.63,1.63,63.0
+355,2022,2022-12-01T18:00:00,Croatia vs Belgium,Home Win,Draw,False,2-1,35.98,28.91,35.11,35.98,64.89,3.08,0.0,-100.0
+356,2022,2022-12-01T18:00:00,Canada vs Morocco,Draw,Away Win,False,0-0,26.47,30.45,43.08,30.45,56.92,3.49,0.0,-100.0
+349,2022,2022-12-01T22:00:00,Japan vs Spain,Away Win,Home Win,False,1-2,26.35,24.23,49.42,49.42,50.58,1.47,0.0,-100.0
+350,2022,2022-12-01T22:00:00,Costa Rica vs Germany,Away Win,Away Win,True,0-2,23.81,22.64,53.55,53.55,46.45,1.09,1.09,9.0
+367,2022,2022-12-02T18:00:00,Ghana vs Uruguay,Away Win,Away Win,True,0-2,31.64,27.34,41.02,41.02,58.98,1.83,1.83,83.0
+368,2022,2022-12-02T18:00:00,South Korea vs Portugal,Away Win,Home Win,False,1-3,25.82,23.45,50.73,50.73,49.27,1.83,0.0,-100.0
+361,2022,2022-12-02T22:00:00,Serbia vs Switzerland,Away Win,Away Win,True,0-2,32.25,29.39,38.36,38.36,67.75,2.82,2.82,182.0
+362,2022,2022-12-02T22:00:00,Cameroon vs Brazil,Away Win,Home Win,False,1-2,18.67,20.4,60.93,60.93,39.07,1.37,0.0,-100.0
+369,2022,2022-12-03T18:00:00,Netherlands vs USA,Home Win,Home Win,True,1-0,52.57,24.89,22.54,52.57,47.43,1.91,1.91,91.0
+370,2022,2022-12-03T22:00:00,Argentina vs Australia,Home Win,Home Win,True,2-1,52.6,23.28,24.12,52.6,47.4,1.3,1.3,30.0
+371,2022,2022-12-04T18:00:00,France vs Poland,Home Win,Home Win,True,2-1,50.03,24.37,25.61,50.03,49.97,1.39,1.39,39.0
+372,2022,2022-12-04T22:00:00,England vs Senegal,Home Win,Home Win,True,2-1,42.03,28.72,29.25,42.03,57.97,1.62,1.62,62.0
+373,2022,2022-12-05T18:00:00,Japan vs Croatia,Away Win,Draw,False,0-2,28.01,28.85,43.14,43.14,56.86,2.11,0.0,-100.0
+374,2022,2022-12-05T22:00:00,Brazil vs South Korea,Home Win,Home Win,True,2-1,55.27,23.53,21.19,55.27,44.73,1.23,1.23,23.0
+375,2022,2022-12-06T18:00:00,Morocco vs Spain,Away Win,Draw,False,1-2,28.82,26.11,45.07,45.07,54.93,1.63,0.0,-100.0
+376,2022,2022-12-06T22:00:00,Portugal vs Switzerland,Home Win,Home Win,True,4-2,39.63,29.09,31.27,39.63,60.37,1.88,1.88,88.0
+377,2022,2022-12-09T18:00:00,Croatia vs Brazil,Away Win,Draw,False,1-2,27.83,26.35,45.82,45.82,54.18,1.41,0.0,-100.0
+378,2022,2022-12-09T22:00:00,Netherlands vs Argentina,Draw,Draw,True,1-1,40.53,30.81,28.66,30.81,71.34,3.15,3.15,215.0
+379,2022,2022-12-10T18:00:00,Morocco vs Portugal,Away Win,Home Win,False,1-2,28.24,28.38,43.38,43.38,56.62,1.63,0.0,-100.0
+380,2022,2022-12-10T22:00:00,England vs France,Draw,Away Win,False,2-2,31.57,32.23,36.2,32.23,63.8,3.14,0.0,-100.0
+381,2022,2022-12-13T22:00:00,Argentina vs Croatia,Home Win,Home Win,True,2-1,39.01,29.47,31.53,39.01,60.99,2.0,2.0,100.0
+382,2022,2022-12-14T22:00:00,France vs Morocco,Home Win,Home Win,True,2-0,49.4,25.45,25.15,49.4,50.6,1.6,1.6,60.0
+383,2022,2022-12-17T18:00:00,Croatia vs Morocco,Draw,Home Win,False,0-0,37.45,31.38,31.17,31.38,62.55,3.58,0.0,-100.0
+384,2022,2022-12-18T18:00:00,Argentina vs France,Draw,Draw,True,3-3,31.19,31.24,37.57,31.24,68.81,3.14,3.14,214.0

@@ -1,0 +1,12 @@
+﻿section,total_matches,result_hits,result_accuracy,score_hits,score_accuracy,handicap_matches,handicap_hits,handicap_accuracy,average_roi,cumulative_roi,profit_units,win_rate,loss_rate,roi_sample_size,time_safe_invalid_matches,upset_bucket,matches,draw_accuracy,predicted_draws,actual_draws,roi,strategy,filter_rule,overall_ai_result_accuracy,cautious_45_55_accuracy,cautious_45_55_matches,cautious_45_55_obviously_below_overall,upset_55_plus_matches,upset_55_plus_accuracy,filter_55_plus_recommended,best_roi_bucket,best_roi,roi_note
+summary,128,71,55.47,17,13.28,0,0,0.0,,,0,55.47,44.53,0,128,,,,,,,,,,,,,,,,,,
+upset_bucket,,,0.0,,0.0,,,,,,0,,,0,,0-30,0,0.0,0,0,,,,,,,,,,,,,
+upset_bucket,,,33.33,,0.0,,,,,,0,,,0,,30-40,3,0.0,0,0,,,,,,,,,,,,,
+upset_bucket,,,57.14,,0.0,,,,,,0,,,0,,40-45,7,0.0,0,0,,,,,,,,,,,,,
+upset_bucket,,,64.71,,23.53,,,,,,0,,,0,,45-55,51,0.0,0,11,,,,,,,,,,,,,
+upset_bucket,,,44.23,,9.62,,,,,,0,,,0,,55-65,52,23.53,17,14,,,,,,,,,,,,,
+upset_bucket,,,66.67,,0.0,,,,,,0,,,0,,65+,15,50.0,6,4,,,,,,,,,,,,,
+filter,,,55.47,,13.28,,,,,,0,,,0,,,128,30.43,,,,AI_all_recommendations,none,,,,,,,,,,
+filter,,,62.3,,19.67,,,,,,0,,,0,,,61,0.0,,,,filter_upset_gte_55,upset_probability < 55,,,,,,,,,,
+filter,,,53.98,,15.04,,,,,,0,,,0,,,113,23.53,,,,filter_upset_gte_65,upset_probability < 65,,,,,,,,,,
+conclusion,,,,,,,,,,,,,,,,,,,,,,,,55.47,64.71,51,False,67,49.25,True,,,ROI is unavailable when no rows pass time-safe pre-match odds validation.

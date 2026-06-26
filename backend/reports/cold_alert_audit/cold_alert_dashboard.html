@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cold Alert Audit</title>
+  <style>
+    :root { color-scheme: dark; font-family:'Segoe UI',sans-serif; background:#07111f; color:#e7eef9; }
+    body { margin:0; padding:32px; background:radial-gradient(circle at top left,#1e3a8a,#07111f 42%,#040711); }
+    h1 { margin:0 0 8px; font-size:30px; }
+    h2 { margin-top:30px; color:#93c5fd; }
+    .note { color:#a8b8ca; margin-bottom:24px; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; }
+    .card { border:1px solid rgba(148,163,184,.22); border-radius:18px; padding:18px; background:rgba(15,23,42,.72); }
+    .card span { display:block; color:#9fb3c8; font-size:13px; }
+    .card strong { display:block; margin-top:10px; font-size:24px; color:#f8fafc; }
+    table { width:100%; border-collapse:collapse; margin-top:12px; background:rgba(15,23,42,.68); }
+    th,td { padding:10px 11px; border-bottom:1px solid rgba(148,163,184,.16); text-align:left; font-size:13px; }
+    th { color:#bfdbfe; background:rgba(30,41,59,.92); }
+  </style>
+</head>
+<body>
+  <h1>Cold Alert Audit</h1>
+  <p class="note">只读审计：按冷门预警区间统计 2018+2022 世界杯回测表现，不修改任何模型或预测逻辑。</p>
+  <section class="cards"><div class='card'><span>Total Matches</span><strong>128</strong></div><div class='card'><span>AI Result Accuracy</span><strong>55.47%</strong></div><div class='card'><span>AI Score Accuracy</span><strong>13.28%</strong></div><div class='card'><span>45-55 Accuracy</span><strong>64.71%</strong></div><div class='card'><span>55+ Accuracy</span><strong>49.25%</strong></div></section>
+  <h2>Final Conclusion</h2><table><thead><tr><th>overall_ai_result_accuracy</th><th>cautious_45_55_accuracy</th><th>cautious_45_55_matches</th><th>cautious_45_55_obviously_below_overall</th><th>upset_55_plus_matches</th><th>upset_55_plus_accuracy</th><th>filter_55_plus_recommended</th><th>best_roi_bucket</th><th>best_roi</th><th>roi_note</th></tr></thead><tbody><tr><td>55.47</td><td>64.71</td><td>51</td><td>False</td><td>67</td><td>49.25</td><td>True</td><td>None</td><td>None</td><td>ROI is unavailable when no rows pass time-safe pre-match odds validation.</td></tr></tbody></table>
+  <h2>Upset Bucket</h2><table><thead><tr><th>upset_bucket</th><th>matches</th><th>result_accuracy</th><th>score_accuracy</th><th>draw_accuracy</th><th>predicted_draws</th><th>actual_draws</th><th>roi</th><th>profit_units</th><th>roi_sample_size</th></tr></thead><tbody><tr><td>0-30</td><td>0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0</td><td>0</td><td>None</td><td>0</td><td>0</td></tr><tr><td>30-40</td><td>3</td><td>33.33</td><td>0.0</td><td>0.0</td><td>0</td><td>0</td><td>None</td><td>0</td><td>0</td></tr><tr><td>40-45</td><td>7</td><td>57.14</td><td>0.0</td><td>0.0</td><td>0</td><td>0</td><td>None</td><td>0</td><td>0</td></tr><tr><td>45-55</td><td>51</td><td>64.71</td><td>23.53</td><td>0.0</td><td>0</td><td>11</td><td>None</td><td>0</td><td>0</td></tr><tr><td>55-65</td><td>52</td><td>44.23</td><td>9.62</td><td>23.53</td><td>17</td><td>14</td><td>None</td><td>0</td><td>0</td></tr><tr><td>65+</td><td>15</td><td>66.67</td><td>0.0</td><td>50.0</td><td>6</td><td>4</td><td>None</td><td>0</td><td>0</td></tr></tbody></table>
+  <h2>Filter Analysis</h2><table><thead><tr><th>strategy</th><th>filter_rule</th><th>matches</th><th>result_accuracy</th><th>score_accuracy</th><th>draw_accuracy</th><th>roi</th><th>profit_units</th><th>roi_sample_size</th></tr></thead><tbody><tr><td>AI_all_recommendations</td><td>none</td><td>128</td><td>55.47</td><td>13.28</td><td>30.43</td><td>None</td><td>0</td><td>0</td></tr><tr><td>filter_upset_gte_55</td><td>upset_probability &lt; 55</td><td>61</td><td>62.3</td><td>19.67</td><td>0.0</td><td>None</td><td>0</td><td>0</td></tr><tr><td>filter_upset_gte_65</td><td>upset_probability &lt; 65</td><td>113</td><td>53.98</td><td>15.04</td><td>23.53</td><td>None</td><td>0</td><td>0</td></tr></tbody></table>
+</body>
+</html>

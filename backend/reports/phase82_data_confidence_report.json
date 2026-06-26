@@ -1,0 +1,7471 @@
+{
+  "status": "ok",
+  "year": 2026,
+  "total_teams": 48,
+  "average_score": 61.79,
+  "by_level": {
+    "High": 0,
+    "Medium": 41,
+    "Low": 7,
+    "Critical": 0
+  },
+  "by_confederation": {
+    "AFC": {
+      "teams": 9,
+      "average_score": 63.0
+    },
+    "CONMEBOL": {
+      "teams": 6,
+      "average_score": 63.0
+    },
+    "CAF": {
+      "teams": 10,
+      "average_score": 62.2
+    },
+    "UEFA": {
+      "teams": 16,
+      "average_score": 61.38
+    },
+    "CONCACAF": {
+      "teams": 6,
+      "average_score": 59.0
+    },
+    "OFC": {
+      "teams": 1,
+      "average_score": 63.0
+    }
+  },
+  "lowest_confidence_teams": [
+    {
+      "team": "Bosnia and Herzegovina",
+      "confederation": "UEFA",
+      "score": 53.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "fifa_ranking",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "USA",
+      "confederation": "CONCACAF",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Turkiye",
+      "confederation": "UEFA",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Mexico",
+      "confederation": "CONCACAF",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "DR Congo",
+      "confederation": "CAF",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Czechia",
+      "confederation": "UEFA",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Canada",
+      "confederation": "CONCACAF",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Uzbekistan",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Uruguay",
+      "confederation": "CONMEBOL",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Tunisia",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    }
+  ],
+  "highest_confidence_teams": [
+    {
+      "team": "Uzbekistan",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Uruguay",
+      "confederation": "CONMEBOL",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Tunisia",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Switzerland",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Sweden",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Spain",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "South Africa",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Senegal",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Scotland",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Saudi Arabia",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    }
+  ],
+  "rows": [
+    {
+      "team": "Uzbekistan",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Uruguay",
+      "confederation": "CONMEBOL",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Tunisia",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Switzerland",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Sweden",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Spain",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "South Africa",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Senegal",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Scotland",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Saudi Arabia",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Qatar",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Portugal",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Paraguay",
+      "confederation": "CONMEBOL",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Panama",
+      "confederation": "CONCACAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Norway",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "New Zealand",
+      "confederation": "OFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Netherlands",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Morocco",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Korea Republic",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Jordan",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Japan",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Iraq",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "IR Iran",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Haiti",
+      "confederation": "CONCACAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Ghana",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Germany",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "France",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "England",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Egypt",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Ecuador",
+      "confederation": "CONMEBOL",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Curacao",
+      "confederation": "CONCACAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Croatia",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Cote d'Ivoire",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Colombia",
+      "confederation": "CONMEBOL",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Cabo Verde",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Brazil",
+      "confederation": "CONMEBOL",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Belgium",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Austria",
+      "confederation": "UEFA",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Australia",
+      "confederation": "AFC",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Argentina",
+      "confederation": "CONMEBOL",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Algeria",
+      "confederation": "CAF",
+      "score": 63.0,
+      "level": "Medium",
+      "suggested_action": "可预测，推荐降低信心和投注权重。",
+      "missing_fields": [
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "USA",
+      "confederation": "CONCACAF",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Turkiye",
+      "confederation": "UEFA",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Mexico",
+      "confederation": "CONCACAF",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "DR Congo",
+      "confederation": "CAF",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Czechia",
+      "confederation": "UEFA",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Canada",
+      "confederation": "CONCACAF",
+      "score": 55.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "recent_two_year_rating",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": false,
+          "points": 0.0,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "confederation": "UEFA",
+      "score": 53.0,
+      "level": "Low",
+      "suggested_action": "只展示预测，不建议进入推荐列表。",
+      "missing_fields": [
+        "fifa_ranking",
+        "world_cup_history_score",
+        "total_caps",
+        "average_caps",
+        "coach",
+        "projected_starting_xi",
+        "key_injuries"
+      ],
+      "components": [
+        {
+          "label": "country",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "confederation",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "elo_rating",
+          "present": true,
+          "points": 14,
+          "max_points": 14
+        },
+        {
+          "label": "fifa_ranking",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "world_cup_strength_score",
+          "present": true,
+          "points": 10,
+          "max_points": 10
+        },
+        {
+          "label": "squad_market_value_eur",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "recent_two_year_rating",
+          "present": true,
+          "points": 8,
+          "max_points": 8
+        },
+        {
+          "label": "world_cup_history_score",
+          "present": false,
+          "points": 0.0,
+          "max_points": 6
+        },
+        {
+          "label": "average_age",
+          "present": true,
+          "points": 4,
+          "max_points": 4
+        },
+        {
+          "label": "total_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "average_caps",
+          "present": false,
+          "points": 0.0,
+          "max_points": 4
+        },
+        {
+          "label": "coach",
+          "present": false,
+          "points": 0.0,
+          "max_points": 3
+        },
+        {
+          "label": "last_world_cup_finish",
+          "present": true,
+          "points": 3,
+          "max_points": 3
+        },
+        {
+          "label": "projected_starting_xi",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        },
+        {
+          "label": "key_injuries",
+          "present": false,
+          "points": 0.0,
+          "max_points": 10
+        }
+      ],
+      "source": "Transfermarkt World Cup participants and FIFA world ranking pages; Football-Data WorldCup2026Qualifiers; local WorldCup 2022 results; https://eloratings.net/World.tsv",
+      "captured_at": null
+    }
+  ],
+  "policy": "No mock data. Missing fields lower confidence and remain visible."
+}

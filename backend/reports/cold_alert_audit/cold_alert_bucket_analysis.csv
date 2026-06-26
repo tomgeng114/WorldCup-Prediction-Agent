@@ -1,0 +1,7 @@
+﻿upset_bucket,matches,result_accuracy,score_accuracy,draw_accuracy,predicted_draws,actual_draws,roi,profit_units,roi_sample_size
+0-30,0,0.0,0.0,0.0,0,0,,0,0
+30-40,3,33.33,0.0,0.0,0,0,,0,0
+40-45,7,57.14,0.0,0.0,0,0,,0,0
+45-55,51,64.71,23.53,0.0,0,11,,0,0
+55-65,52,44.23,9.62,23.53,17,14,,0,0
+65+,15,66.67,0.0,50.0,6,4,,0,0

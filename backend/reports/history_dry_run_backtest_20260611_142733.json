@@ -1,0 +1,682 @@
+{
+  "generated_at": "2026-06-11T14:27:34",
+  "mode": "dry_run_no_db_commit",
+  "red_black_state_changed": false,
+  "red_black_before": {
+    "33": false,
+    "32": true,
+    "30": false,
+    "29": true,
+    "28": false,
+    "23": false,
+    "22": false,
+    "1": true
+  },
+  "red_black_after": {
+    "33": false,
+    "32": true,
+    "30": false,
+    "29": true,
+    "28": false,
+    "23": false,
+    "22": false,
+    "1": true
+  },
+  "summary": {
+    "stored": {
+      "matches": 8,
+      "wdl_hits": 7,
+      "wdl_hit_rate": 87.5,
+      "market_hits": 3,
+      "market_hit_rate": 37.5,
+      "official_handicap_matches": 4,
+      "official_handicap_hits": 0,
+      "official_handicap_hit_rate": 0.0,
+      "one_goal_hits": 4,
+      "one_goal_hit_rate": 50.0,
+      "exact_score_hits": 2,
+      "exact_score_hit_rate": 25.0,
+      "top3_score_hits": 2,
+      "top3_score_hit_rate": 25.0,
+      "profit": -4.51,
+      "roi": -56.38
+    },
+    "dry_run_current_model": {
+      "matches": 8,
+      "wdl_hits": 7,
+      "wdl_hit_rate": 87.5,
+      "market_hits": 5,
+      "market_hit_rate": 62.5,
+      "official_handicap_matches": 4,
+      "official_handicap_hits": 2,
+      "official_handicap_hit_rate": 50.0,
+      "one_goal_hits": 6,
+      "one_goal_hit_rate": 75.0,
+      "exact_score_hits": 3,
+      "exact_score_hit_rate": 37.5,
+      "top3_score_hits": 5,
+      "top3_score_hit_rate": 62.5,
+      "profit": 1.53,
+      "roi": 19.12
+    }
+  },
+  "changed_market_recommendations": [
+    {
+      "match_id": 30,
+      "date": "2026-06-10 08:30",
+      "competition": "国际赛",
+      "match": "阿根廷 vs 冰岛",
+      "actual_score": "3-0",
+      "market_type": "HHAD",
+      "handicap": "-2",
+      "actual_result": "Home Win",
+      "actual_market_result": "Home Win",
+      "actual_one_goal_result": "Home Win",
+      "stored": {
+        "result": "Home Win",
+        "market": "Away Win",
+        "one_goal": "Home Win",
+        "score": "2-0",
+        "top_scores": [
+          "2-0",
+          "2-1",
+          "1-0"
+        ],
+        "result_hit": true,
+        "market_hit": false,
+        "one_goal_hit": true,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": -1.0
+      },
+      "dry_run_current_model": {
+        "result": "Home Win",
+        "market": "Home Win",
+        "one_goal": "Home Win",
+        "score": "3-0",
+        "top_scores": [
+          "3-0",
+          "2-0",
+          "3-1"
+        ],
+        "result_hit": true,
+        "market_hit": true,
+        "one_goal_hit": true,
+        "score_hit": true,
+        "top3_score_hit": true,
+        "profit": 1.08,
+        "market_probabilities": {
+          "home": 0.3903,
+          "draw": 0.2347,
+          "away": 0.375
+        },
+        "handicap_consistency_guard": {
+          "applied": 0.0,
+          "handicap": "-2"
+        }
+      },
+      "market_hot": "Home Win",
+      "dry_ai_vs_hot": "same"
+    },
+    {
+      "match_id": 23,
+      "date": "2026-06-09 10:00",
+      "competition": "国际赛",
+      "match": "秘鲁 vs 西班牙",
+      "actual_score": "1-3",
+      "market_type": "HHAD",
+      "handicap": "+2",
+      "actual_result": "Away Win",
+      "actual_market_result": "Draw",
+      "actual_one_goal_result": "Away Win",
+      "stored": {
+        "result": "Away Win",
+        "market": "Home Win",
+        "one_goal": "Home Win",
+        "score": "0-2",
+        "top_scores": [
+          "0-2",
+          "0-1",
+          "1-1"
+        ],
+        "result_hit": true,
+        "market_hit": false,
+        "one_goal_hit": false,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": -1.0
+      },
+      "dry_run_current_model": {
+        "result": "Away Win",
+        "market": "Away Win",
+        "one_goal": "Away Win",
+        "score": "0-3",
+        "top_scores": [
+          "0-3",
+          "0-2",
+          "0-4"
+        ],
+        "result_hit": true,
+        "market_hit": false,
+        "one_goal_hit": true,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": -1.0,
+        "market_probabilities": {
+          "home": 0.3308,
+          "draw": 0.242,
+          "away": 0.4271
+        },
+        "handicap_consistency_guard": {
+          "applied": 0.0,
+          "handicap": "+2"
+        }
+      },
+      "market_hot": "Home Win",
+      "dry_ai_vs_hot": "opposite"
+    },
+    {
+      "match_id": 22,
+      "date": "2026-06-09 03:10",
+      "competition": "国际赛",
+      "match": "法国 vs 北爱尔兰",
+      "actual_score": "3-1",
+      "market_type": "HHAD",
+      "handicap": "-2",
+      "actual_result": "Home Win",
+      "actual_market_result": "Draw",
+      "actual_one_goal_result": "Home Win",
+      "stored": {
+        "result": "Home Win",
+        "market": "Away Win",
+        "one_goal": "Home Win",
+        "score": "2-0",
+        "top_scores": [
+          "2-0",
+          "1-1",
+          "1-0"
+        ],
+        "result_hit": true,
+        "market_hit": false,
+        "one_goal_hit": true,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": -1.0
+      },
+      "dry_run_current_model": {
+        "result": "Home Win",
+        "market": "Draw",
+        "one_goal": "Home Win",
+        "score": "2-0",
+        "top_scores": [
+          "2-0",
+          "3-0",
+          "3-1"
+        ],
+        "result_hit": true,
+        "market_hit": true,
+        "one_goal_hit": true,
+        "score_hit": false,
+        "top3_score_hit": true,
+        "profit": 2.96,
+        "market_probabilities": {
+          "home": 0.327,
+          "draw": 0.2379,
+          "away": 0.4351
+        },
+        "handicap_consistency_guard": {
+          "applied": 1.0,
+          "handicap": "-2"
+        }
+      },
+      "market_hot": "Home Win",
+      "dry_ai_vs_hot": "opposite"
+    }
+  ],
+  "matches": [
+    {
+      "match_id": 33,
+      "date": "2026-06-11 04:00",
+      "competition": "国际赛",
+      "match": "英格兰 vs 哥斯达黎加",
+      "actual_score": "3-0",
+      "market_type": "HHAD",
+      "handicap": "-2",
+      "actual_result": "Home Win",
+      "actual_market_result": "Home Win",
+      "actual_one_goal_result": "Home Win",
+      "stored": {
+        "result": "Home Win",
+        "market": "Draw",
+        "one_goal": "Home Win",
+        "score": "3-0",
+        "top_scores": [
+          "3-0",
+          "2-0",
+          "3-1"
+        ],
+        "result_hit": true,
+        "market_hit": false,
+        "one_goal_hit": true,
+        "score_hit": true,
+        "top3_score_hit": true,
+        "profit": -1.0
+      },
+      "dry_run_current_model": {
+        "result": "Home Win",
+        "market": "Draw",
+        "one_goal": "Home Win",
+        "score": "3-0",
+        "top_scores": [
+          "3-0",
+          "2-0",
+          "3-1"
+        ],
+        "result_hit": true,
+        "market_hit": false,
+        "one_goal_hit": true,
+        "score_hit": true,
+        "top3_score_hit": true,
+        "profit": -1.0,
+        "market_probabilities": {
+          "home": 0.3738,
+          "draw": 0.2384,
+          "away": 0.3879
+        },
+        "handicap_consistency_guard": {
+          "applied": 1.0,
+          "handicap": "-2"
+        }
+      },
+      "market_hot": "Home Win",
+      "dry_ai_vs_hot": "opposite"
+    },
+    {
+      "match_id": 32,
+      "date": "2026-06-11 03:45",
+      "competition": "国际赛",
+      "match": "葡萄牙 vs 尼日利亚",
+      "actual_score": "2-1",
+      "market_type": "HAD",
+      "handicap": "",
+      "actual_result": "Home Win",
+      "actual_market_result": "Home Win",
+      "actual_one_goal_result": "Draw",
+      "stored": {
+        "result": "Home Win",
+        "market": "Home Win",
+        "one_goal": "Away Win",
+        "score": "2-1",
+        "top_scores": [
+          "2-1",
+          "3-1",
+          "2-0"
+        ],
+        "result_hit": true,
+        "market_hit": true,
+        "one_goal_hit": false,
+        "score_hit": true,
+        "top3_score_hit": true,
+        "profit": 0.18
+      },
+      "dry_run_current_model": {
+        "result": "Home Win",
+        "market": "Home Win",
+        "one_goal": "Home Win",
+        "score": "2-1",
+        "top_scores": [
+          "2-1",
+          "3-1",
+          "2-0"
+        ],
+        "result_hit": true,
+        "market_hit": true,
+        "one_goal_hit": false,
+        "score_hit": true,
+        "top3_score_hit": true,
+        "profit": 0.18,
+        "market_probabilities": {
+          "home": 0.7504,
+          "draw": 0.161,
+          "away": 0.0886
+        },
+        "handicap_consistency_guard": null
+      },
+      "market_hot": "Home Win",
+      "dry_ai_vs_hot": "same"
+    },
+    {
+      "match_id": 30,
+      "date": "2026-06-10 08:30",
+      "competition": "国际赛",
+      "match": "阿根廷 vs 冰岛",
+      "actual_score": "3-0",
+      "market_type": "HHAD",
+      "handicap": "-2",
+      "actual_result": "Home Win",
+      "actual_market_result": "Home Win",
+      "actual_one_goal_result": "Home Win",
+      "stored": {
+        "result": "Home Win",
+        "market": "Away Win",
+        "one_goal": "Home Win",
+        "score": "2-0",
+        "top_scores": [
+          "2-0",
+          "2-1",
+          "1-0"
+        ],
+        "result_hit": true,
+        "market_hit": false,
+        "one_goal_hit": true,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": -1.0
+      },
+      "dry_run_current_model": {
+        "result": "Home Win",
+        "market": "Home Win",
+        "one_goal": "Home Win",
+        "score": "3-0",
+        "top_scores": [
+          "3-0",
+          "2-0",
+          "3-1"
+        ],
+        "result_hit": true,
+        "market_hit": true,
+        "one_goal_hit": true,
+        "score_hit": true,
+        "top3_score_hit": true,
+        "profit": 1.08,
+        "market_probabilities": {
+          "home": 0.3903,
+          "draw": 0.2347,
+          "away": 0.375
+        },
+        "handicap_consistency_guard": {
+          "applied": 0.0,
+          "handicap": "-2"
+        }
+      },
+      "market_hot": "Home Win",
+      "dry_ai_vs_hot": "same"
+    },
+    {
+      "match_id": 29,
+      "date": "2026-06-10 01:00",
+      "competition": "国际赛",
+      "match": "匈牙利 vs 哈萨克斯坦",
+      "actual_score": "3-1",
+      "market_type": "HAD",
+      "handicap": "",
+      "actual_result": "Home Win",
+      "actual_market_result": "Home Win",
+      "actual_one_goal_result": "Home Win",
+      "stored": {
+        "result": "Home Win",
+        "market": "Home Win",
+        "one_goal": "Away Win",
+        "score": "1-1",
+        "top_scores": [
+          "1-1",
+          "1-0",
+          "2-1"
+        ],
+        "result_hit": true,
+        "market_hit": true,
+        "one_goal_hit": false,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": 0.17
+      },
+      "dry_run_current_model": {
+        "result": "Home Win",
+        "market": "Home Win",
+        "one_goal": "Home Win",
+        "score": "2-0",
+        "top_scores": [
+          "2-0",
+          "2-1",
+          "3-1"
+        ],
+        "result_hit": true,
+        "market_hit": true,
+        "one_goal_hit": true,
+        "score_hit": false,
+        "top3_score_hit": true,
+        "profit": 0.17,
+        "market_probabilities": {
+          "home": 0.757,
+          "draw": 0.1625,
+          "away": 0.0805
+        },
+        "handicap_consistency_guard": null
+      },
+      "market_hot": "Home Win",
+      "dry_ai_vs_hot": "same"
+    },
+    {
+      "match_id": 28,
+      "date": "2026-06-09 19:35",
+      "competition": "国际赛",
+      "match": "中国 vs 泰国",
+      "actual_score": "0-0",
+      "market_type": "HAD",
+      "handicap": "",
+      "actual_result": "Draw",
+      "actual_market_result": "Draw",
+      "actual_one_goal_result": "Away Win",
+      "stored": {
+        "result": "Away Win",
+        "market": "Home Win",
+        "one_goal": "Away Win",
+        "score": "1-1",
+        "top_scores": [
+          "1-1",
+          "0-1",
+          "1-2"
+        ],
+        "result_hit": false,
+        "market_hit": false,
+        "one_goal_hit": true,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": -1.0
+      },
+      "dry_run_current_model": {
+        "result": "Away Win",
+        "market": "Home Win",
+        "one_goal": "Away Win",
+        "score": "0-2",
+        "top_scores": [
+          "0-2",
+          "1-2",
+          "1-3"
+        ],
+        "result_hit": false,
+        "market_hit": false,
+        "one_goal_hit": true,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": -1.0,
+        "market_probabilities": {
+          "home": 0.5116,
+          "draw": 0.2698,
+          "away": 0.2185
+        },
+        "handicap_consistency_guard": null
+      },
+      "market_hot": "Home Win",
+      "dry_ai_vs_hot": "same"
+    },
+    {
+      "match_id": 23,
+      "date": "2026-06-09 10:00",
+      "competition": "国际赛",
+      "match": "秘鲁 vs 西班牙",
+      "actual_score": "1-3",
+      "market_type": "HHAD",
+      "handicap": "+2",
+      "actual_result": "Away Win",
+      "actual_market_result": "Draw",
+      "actual_one_goal_result": "Away Win",
+      "stored": {
+        "result": "Away Win",
+        "market": "Home Win",
+        "one_goal": "Home Win",
+        "score": "0-2",
+        "top_scores": [
+          "0-2",
+          "0-1",
+          "1-1"
+        ],
+        "result_hit": true,
+        "market_hit": false,
+        "one_goal_hit": false,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": -1.0
+      },
+      "dry_run_current_model": {
+        "result": "Away Win",
+        "market": "Away Win",
+        "one_goal": "Away Win",
+        "score": "0-3",
+        "top_scores": [
+          "0-3",
+          "0-2",
+          "0-4"
+        ],
+        "result_hit": true,
+        "market_hit": false,
+        "one_goal_hit": true,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": -1.0,
+        "market_probabilities": {
+          "home": 0.3308,
+          "draw": 0.242,
+          "away": 0.4271
+        },
+        "handicap_consistency_guard": {
+          "applied": 0.0,
+          "handicap": "+2"
+        }
+      },
+      "market_hot": "Home Win",
+      "dry_ai_vs_hot": "opposite"
+    },
+    {
+      "match_id": 22,
+      "date": "2026-06-09 03:10",
+      "competition": "国际赛",
+      "match": "法国 vs 北爱尔兰",
+      "actual_score": "3-1",
+      "market_type": "HHAD",
+      "handicap": "-2",
+      "actual_result": "Home Win",
+      "actual_market_result": "Draw",
+      "actual_one_goal_result": "Home Win",
+      "stored": {
+        "result": "Home Win",
+        "market": "Away Win",
+        "one_goal": "Home Win",
+        "score": "2-0",
+        "top_scores": [
+          "2-0",
+          "1-1",
+          "1-0"
+        ],
+        "result_hit": true,
+        "market_hit": false,
+        "one_goal_hit": true,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": -1.0
+      },
+      "dry_run_current_model": {
+        "result": "Home Win",
+        "market": "Draw",
+        "one_goal": "Home Win",
+        "score": "2-0",
+        "top_scores": [
+          "2-0",
+          "3-0",
+          "3-1"
+        ],
+        "result_hit": true,
+        "market_hit": true,
+        "one_goal_hit": true,
+        "score_hit": false,
+        "top3_score_hit": true,
+        "profit": 2.96,
+        "market_probabilities": {
+          "home": 0.327,
+          "draw": 0.2379,
+          "away": 0.4351
+        },
+        "handicap_consistency_guard": {
+          "applied": 1.0,
+          "handicap": "-2"
+        }
+      },
+      "market_hot": "Home Win",
+      "dry_ai_vs_hot": "opposite"
+    },
+    {
+      "match_id": 1,
+      "date": "2026-06-09 02:45",
+      "competition": "国际赛",
+      "match": "荷兰 vs 乌兹别克斯坦",
+      "actual_score": "2-1",
+      "market_type": "HAD",
+      "handicap": "",
+      "actual_result": "Home Win",
+      "actual_market_result": "Home Win",
+      "actual_one_goal_result": "Draw",
+      "stored": {
+        "result": "Home Win",
+        "market": "Home Win",
+        "one_goal": "Home Win",
+        "score": "1-1",
+        "top_scores": [
+          "1-1",
+          "1-0",
+          "2-0"
+        ],
+        "result_hit": true,
+        "market_hit": true,
+        "one_goal_hit": false,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": 0.14
+      },
+      "dry_run_current_model": {
+        "result": "Home Win",
+        "market": "Home Win",
+        "one_goal": "Home Win",
+        "score": "2-0",
+        "top_scores": [
+          "2-0",
+          "3-0",
+          "3-1"
+        ],
+        "result_hit": true,
+        "market_hit": true,
+        "one_goal_hit": false,
+        "score_hit": false,
+        "top3_score_hit": false,
+        "profit": 0.14,
+        "market_probabilities": {
+          "home": 0.7776,
+          "draw": 0.1515,
+          "away": 0.0709
+        },
+        "handicap_consistency_guard": null
+      },
+      "market_hot": "Home Win",
+      "dry_ai_vs_hot": "same"
+    }
+  ]
+}

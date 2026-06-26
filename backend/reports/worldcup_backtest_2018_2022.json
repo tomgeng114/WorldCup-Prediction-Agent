@@ -1,0 +1,798 @@
+﻿{
+  "title": "World Cup AI Predictor Pro 2018+2022 世界杯历史回测报告",
+  "scope": {
+    "years": [
+      2018,
+      2022
+    ],
+    "matches": 128,
+    "baseline_win_draw_loss_accuracy": 45.31,
+    "pre_draw_calibration_accuracy": 55.47,
+    "pre_draw_calibration_predicted_draw_rate": 7.03,
+    "pre_draw_calibration_draw_hit_rate": 13.79,
+    "data_source": "local world_cup_matches imported from openfootball/worldcup.json",
+    "fifa_ranking_sources": [
+      "backend/data/World_cup_2018_country.csv",
+      "backend/data/fifa_ranking-2022-10-06.csv"
+    ],
+    "strict_pre_match": true,
+    "warmup_matches": 836,
+    "leakage_control": "按比赛时间顺序逐场预测，预测后才更新 ELO、近况和世界杯经验；不使用当前比赛或未来比赛赛后数据。",
+    "odds_limitation": "本地历史库没有 2018/2022 赛前体彩官方赔率，因此体彩热门、官方让球盘、体彩赔率 ROI 不做模拟替代。"
+  },
+  "overall": {
+    "result_accuracy": {
+      "total_matches": 128,
+      "correct_count": 71,
+      "total_hit_rate": 55.47,
+      "home_win_hit_rate": 72.22,
+      "draw_hit_rate": 24.14,
+      "away_win_hit_rate": 55.56,
+      "by_actual_result": {
+        "Home Win": {
+          "actual_count": 54,
+          "correct_count": 39,
+          "hit_rate": 72.22
+        },
+        "Draw": {
+          "actual_count": 29,
+          "correct_count": 7,
+          "hit_rate": 24.14
+        },
+        "Away Win": {
+          "actual_count": 45,
+          "correct_count": 25,
+          "hit_rate": 55.56
+        }
+      },
+      "brier_score": 0.6044
+    },
+    "sporttery_hot_compare": {
+      "sample_size": 0,
+      "lowest_odds_hot_hit_rate": null,
+      "ai_hit_rate": 55.47,
+      "ai_lead": null,
+      "status": "历史库未保存 2018/2022 赛前体彩官方胜平负赔率，无法计算体彩热门命中率和领先值。"
+    },
+    "handicap_accuracy": {
+      "sample_size": 0,
+      "handicap_hit_rate": null,
+      "status": "历史库未保存 2018/2022 体彩官方让球数和让球赔率，无法计算官方让球胜平负命中率。"
+    },
+    "score_prediction": {
+      "exact_score_hit_rate": 13.28,
+      "exact_score_hits": 17,
+      "top3_score_coverage": 32.03,
+      "top3_score_hits": 41,
+      "plus_minus_one_goal_hit_rate": 53.12,
+      "plus_minus_one_goal_hits": 68
+    },
+    "total_goals": {
+      "predicted_distribution": {
+        "0球": {
+          "count": 6,
+          "rate": 4.69
+        },
+        "1球": {
+          "count": 22,
+          "rate": 17.19
+        },
+        "2球": {
+          "count": 44,
+          "rate": 34.38
+        },
+        "3球": {
+          "count": 37,
+          "rate": 28.91
+        },
+        "4球": {
+          "count": 8,
+          "rate": 6.25
+        },
+        "5球": {
+          "count": 4,
+          "rate": 3.12
+        },
+        "6+球": {
+          "count": 7,
+          "rate": 5.47
+        }
+      },
+      "actual_distribution": {
+        "0球": {
+          "count": 9,
+          "rate": 7.03
+        },
+        "1球": {
+          "count": 25,
+          "rate": 19.53
+        },
+        "2球": {
+          "count": 35,
+          "rate": 27.34
+        },
+        "3球": {
+          "count": 32,
+          "rate": 25.0
+        },
+        "4球": {
+          "count": 9,
+          "rate": 7.03
+        },
+        "5球": {
+          "count": 8,
+          "rate": 6.25
+        },
+        "6+球": {
+          "count": 10,
+          "rate": 7.81
+        }
+      },
+      "distribution_error": 21.88
+    },
+    "draw_analysis": {
+      "predicted_draw_rate": 17.97,
+      "predicted_draw_count": 23,
+      "actual_draw_rate": 22.66,
+      "actual_draw_count": 29,
+      "draw_hit_rate": 30.43,
+      "draw_hits": 7
+    },
+    "roi_analysis": {
+      "odds_sample_size": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "cumulative_roi": null,
+      "max_drawdown": 0.0,
+      "status": "无官方赛前体彩赔率样本，禁止用模拟赔率计算 ROI。"
+    }
+  },
+  "by_year": {
+    "2018": {
+      "result_accuracy": {
+        "total_matches": 64,
+        "correct_count": 36,
+        "total_hit_rate": 56.25,
+        "home_win_hit_rate": 72.0,
+        "draw_hit_rate": 21.43,
+        "away_win_hit_rate": 60.0,
+        "by_actual_result": {
+          "Home Win": {
+            "actual_count": 25,
+            "correct_count": 18,
+            "hit_rate": 72.0
+          },
+          "Draw": {
+            "actual_count": 14,
+            "correct_count": 3,
+            "hit_rate": 21.43
+          },
+          "Away Win": {
+            "actual_count": 25,
+            "correct_count": 15,
+            "hit_rate": 60.0
+          }
+        },
+        "brier_score": 0.607
+      },
+      "sporttery_hot_compare": {
+        "sample_size": 0,
+        "lowest_odds_hot_hit_rate": null,
+        "ai_hit_rate": 56.25,
+        "ai_lead": null,
+        "status": "历史库未保存 2018/2022 赛前体彩官方胜平负赔率，无法计算体彩热门命中率和领先值。"
+      },
+      "handicap_accuracy": {
+        "sample_size": 0,
+        "handicap_hit_rate": null,
+        "status": "历史库未保存 2018/2022 体彩官方让球数和让球赔率，无法计算官方让球胜平负命中率。"
+      },
+      "score_prediction": {
+        "exact_score_hit_rate": 12.5,
+        "exact_score_hits": 8,
+        "top3_score_coverage": 37.5,
+        "top3_score_hits": 24,
+        "plus_minus_one_goal_hit_rate": 54.69,
+        "plus_minus_one_goal_hits": 35
+      },
+      "total_goals": {
+        "predicted_distribution": {
+          "0球": {
+            "count": 1,
+            "rate": 1.56
+          },
+          "1球": {
+            "count": 12,
+            "rate": 18.75
+          },
+          "2球": {
+            "count": 23,
+            "rate": 35.94
+          },
+          "3球": {
+            "count": 15,
+            "rate": 23.44
+          },
+          "4球": {
+            "count": 4,
+            "rate": 6.25
+          },
+          "5球": {
+            "count": 4,
+            "rate": 6.25
+          },
+          "6+球": {
+            "count": 5,
+            "rate": 7.81
+          }
+        },
+        "actual_distribution": {
+          "0球": {
+            "count": 1,
+            "rate": 1.56
+          },
+          "1球": {
+            "count": 15,
+            "rate": 23.44
+          },
+          "2球": {
+            "count": 19,
+            "rate": 29.69
+          },
+          "3球": {
+            "count": 18,
+            "rate": 28.12
+          },
+          "4球": {
+            "count": 4,
+            "rate": 6.25
+          },
+          "5球": {
+            "count": 2,
+            "rate": 3.12
+          },
+          "6+球": {
+            "count": 5,
+            "rate": 7.81
+          }
+        },
+        "distribution_error": 18.75
+      },
+      "draw_analysis": {
+        "predicted_draw_rate": 17.19,
+        "predicted_draw_count": 11,
+        "actual_draw_rate": 21.88,
+        "actual_draw_count": 14,
+        "draw_hit_rate": 27.27,
+        "draw_hits": 3
+      },
+      "roi_analysis": {
+        "odds_sample_size": 0,
+        "stake": 0.0,
+        "profit": 0.0,
+        "cumulative_roi": null,
+        "max_drawdown": 0.0,
+        "status": "无官方赛前体彩赔率样本，禁止用模拟赔率计算 ROI。"
+      }
+    },
+    "2022": {
+      "result_accuracy": {
+        "total_matches": 64,
+        "correct_count": 35,
+        "total_hit_rate": 54.69,
+        "home_win_hit_rate": 72.41,
+        "draw_hit_rate": 26.67,
+        "away_win_hit_rate": 50.0,
+        "by_actual_result": {
+          "Home Win": {
+            "actual_count": 29,
+            "correct_count": 21,
+            "hit_rate": 72.41
+          },
+          "Draw": {
+            "actual_count": 15,
+            "correct_count": 4,
+            "hit_rate": 26.67
+          },
+          "Away Win": {
+            "actual_count": 20,
+            "correct_count": 10,
+            "hit_rate": 50.0
+          }
+        },
+        "brier_score": 0.6017
+      },
+      "sporttery_hot_compare": {
+        "sample_size": 0,
+        "lowest_odds_hot_hit_rate": null,
+        "ai_hit_rate": 54.69,
+        "ai_lead": null,
+        "status": "历史库未保存 2018/2022 赛前体彩官方胜平负赔率，无法计算体彩热门命中率和领先值。"
+      },
+      "handicap_accuracy": {
+        "sample_size": 0,
+        "handicap_hit_rate": null,
+        "status": "历史库未保存 2018/2022 体彩官方让球数和让球赔率，无法计算官方让球胜平负命中率。"
+      },
+      "score_prediction": {
+        "exact_score_hit_rate": 14.06,
+        "exact_score_hits": 9,
+        "top3_score_coverage": 26.56,
+        "top3_score_hits": 17,
+        "plus_minus_one_goal_hit_rate": 51.56,
+        "plus_minus_one_goal_hits": 33
+      },
+      "total_goals": {
+        "predicted_distribution": {
+          "0球": {
+            "count": 5,
+            "rate": 7.81
+          },
+          "1球": {
+            "count": 10,
+            "rate": 15.62
+          },
+          "2球": {
+            "count": 21,
+            "rate": 32.81
+          },
+          "3球": {
+            "count": 22,
+            "rate": 34.38
+          },
+          "4球": {
+            "count": 4,
+            "rate": 6.25
+          },
+          "5球": {
+            "count": 0,
+            "rate": 0.0
+          },
+          "6+球": {
+            "count": 2,
+            "rate": 3.12
+          }
+        },
+        "actual_distribution": {
+          "0球": {
+            "count": 8,
+            "rate": 12.5
+          },
+          "1球": {
+            "count": 10,
+            "rate": 15.62
+          },
+          "2球": {
+            "count": 16,
+            "rate": 25.0
+          },
+          "3球": {
+            "count": 14,
+            "rate": 21.88
+          },
+          "4球": {
+            "count": 5,
+            "rate": 7.81
+          },
+          "5球": {
+            "count": 6,
+            "rate": 9.38
+          },
+          "6+球": {
+            "count": 5,
+            "rate": 7.81
+          }
+        },
+        "distribution_error": 40.63
+      },
+      "draw_analysis": {
+        "predicted_draw_rate": 18.75,
+        "predicted_draw_count": 12,
+        "actual_draw_rate": 23.44,
+        "actual_draw_count": 15,
+        "draw_hit_rate": 33.33,
+        "draw_hits": 4
+      },
+      "roi_analysis": {
+        "odds_sample_size": 0,
+        "stake": 0.0,
+        "profit": 0.0,
+        "cumulative_roi": null,
+        "max_drawdown": 0.0,
+        "status": "无官方赛前体彩赔率样本，禁止用模拟赔率计算 ROI。"
+      }
+    }
+  },
+  "sample_predictions": [
+    {
+      "year": 2018,
+      "date": "2018-06-14T18:00:00",
+      "stage": "Matchday 1",
+      "home_team": "Russia",
+      "away_team": "Saudi Arabia",
+      "predicted_result": "Home Win",
+      "actual_result": "Home Win",
+      "result_hit": true,
+      "home_win_probability": 45.27,
+      "draw_probability": 28.94,
+      "away_win_probability": 25.79,
+      "predicted_score": "4-2",
+      "top3_scores": [
+        {
+          "score": "4-2",
+          "probability": 1.35
+        },
+        {
+          "score": "1-0",
+          "probability": 10.52
+        },
+        {
+          "score": "2-0",
+          "probability": 10.65
+        }
+      ],
+      "actual_score": "5-0",
+      "predicted_total_goals": 6,
+      "actual_total_goals": 5,
+      "brier_score": 0.44986747650060144,
+      "weights": {
+        "elo": 0.4064186868191186,
+        "dixon_coles": 0.31092354499950925,
+        "form": 0.014132888409068603,
+        "strength": 0.014132888409068603,
+        "fifa": 0.25439199136323487
+      }
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-15T17:00:00",
+      "stage": "Matchday 2",
+      "home_team": "Egypt",
+      "away_team": "Uruguay",
+      "predicted_result": "Away Win",
+      "actual_result": "Away Win",
+      "result_hit": true,
+      "home_win_probability": 30.01,
+      "draw_probability": 28.48,
+      "away_win_probability": 41.5,
+      "predicted_score": "0-2",
+      "top3_scores": [
+        {
+          "score": "0-2",
+          "probability": 9.29
+        },
+        {
+          "score": "0-1",
+          "probability": 11.89
+        },
+        {
+          "score": "1-2",
+          "probability": 9.03
+        }
+      ],
+      "actual_score": "0-1",
+      "predicted_total_goals": 2,
+      "actual_total_goals": 1,
+      "brier_score": 0.5133753031774915,
+      "weights": {
+        "elo": 0.4035051966578357,
+        "dixon_coles": 0.32443448135316894,
+        "form": 0.012227430201752598,
+        "strength": 0.012227430201752598,
+        "fifa": 0.24760546158549018
+      }
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-15T18:00:00",
+      "stage": "Matchday 2",
+      "home_team": "Morocco",
+      "away_team": "Iran",
+      "predicted_result": "Draw",
+      "actual_result": "Away Win",
+      "result_hit": false,
+      "home_win_probability": 40.04,
+      "draw_probability": 31.22,
+      "away_win_probability": 28.75,
+      "predicted_score": "1-1",
+      "top3_scores": [
+        {
+          "score": "1-1",
+          "probability": 14.02
+        },
+        {
+          "score": "0-0",
+          "probability": 12.93
+        },
+        {
+          "score": "2-2",
+          "probability": 3.54
+        }
+      ],
+      "actual_score": "0-1",
+      "predicted_total_goals": 2,
+      "actual_total_goals": 1,
+      "brier_score": 0.7654148069891944,
+      "weights": {
+        "elo": 0.38999409099862126,
+        "dixon_coles": 0.3151467402009061,
+        "form": 0.011818002757533978,
+        "strength": 0.011818002757533978,
+        "fifa": 0.27122316328540474
+      }
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-15T21:00:00",
+      "stage": "Matchday 2",
+      "home_team": "Portugal",
+      "away_team": "Spain",
+      "predicted_result": "Away Win",
+      "actual_result": "Draw",
+      "result_hit": false,
+      "home_win_probability": 34.14,
+      "draw_probability": 29.0,
+      "away_win_probability": 36.86,
+      "predicted_score": "0-2",
+      "top3_scores": [
+        {
+          "score": "0-2",
+          "probability": 6.52
+        },
+        {
+          "score": "0-1",
+          "probability": 9.8
+        },
+        {
+          "score": "1-2",
+          "probability": 7.85
+        }
+      ],
+      "actual_score": "3-3",
+      "predicted_total_goals": 2,
+      "actual_total_goals": 6,
+      "brier_score": 0.7565143500625003,
+      "weights": {
+        "elo": 0.3858896901188852,
+        "dixon_coles": 0.31183005262132135,
+        "form": 0.011693626973299554,
+        "strength": 0.011693626973299554,
+        "fifa": 0.2788930033131944
+      }
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-16T13:00:00",
+      "stage": "Matchday 3",
+      "home_team": "France",
+      "away_team": "Australia",
+      "predicted_result": "Home Win",
+      "actual_result": "Home Win",
+      "result_hit": true,
+      "home_win_probability": 53.8,
+      "draw_probability": 21.99,
+      "away_win_probability": 24.21,
+      "predicted_score": "2-1",
+      "top3_scores": [
+        {
+          "score": "2-1",
+          "probability": 9.62
+        },
+        {
+          "score": "1-0",
+          "probability": 11.59
+        },
+        {
+          "score": "2-0",
+          "probability": 10.43
+        }
+      ],
+      "actual_score": "2-1",
+      "predicted_total_goals": 3,
+      "actual_total_goals": 3,
+      "brier_score": 0.3203640538673488,
+      "weights": {
+        "elo": 0.38999409099862126,
+        "dixon_coles": 0.3151467402009061,
+        "form": 0.011818002757533978,
+        "strength": 0.011818002757533978,
+        "fifa": 0.27122316328540474
+      }
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-16T16:00:00",
+      "stage": "Matchday 3",
+      "home_team": "Argentina",
+      "away_team": "Iceland",
+      "predicted_result": "Home Win",
+      "actual_result": "Draw",
+      "result_hit": false,
+      "home_win_probability": 47.69,
+      "draw_probability": 24.34,
+      "away_win_probability": 27.97,
+      "predicted_score": "1-0",
+      "top3_scores": [
+        {
+          "score": "1-0",
+          "probability": 11.92
+        },
+        {
+          "score": "2-1",
+          "probability": 8.27
+        },
+        {
+          "score": "2-0",
+          "probability": 8.16
+        }
+      ],
+      "actual_score": "1-1",
+      "predicted_total_goals": 1,
+      "actual_total_goals": 2,
+      "brier_score": 0.8780920856515754,
+      "weights": {
+        "elo": 0.3875210396524053,
+        "dixon_coles": 0.3131483148706306,
+        "form": 0.011743061807648648,
+        "strength": 0.011743061807648648,
+        "fifa": 0.27584452186166675
+      }
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-16T19:00:00",
+      "stage": "Matchday 3",
+      "home_team": "Peru",
+      "away_team": "Denmark",
+      "predicted_result": "Away Win",
+      "actual_result": "Away Win",
+      "result_hit": true,
+      "home_win_probability": 29.69,
+      "draw_probability": 29.44,
+      "away_win_probability": 40.88,
+      "predicted_score": "2-4",
+      "top3_scores": [
+        {
+          "score": "2-4",
+          "probability": 1.55
+        },
+        {
+          "score": "1-2",
+          "probability": 9.42
+        },
+        {
+          "score": "0-1",
+          "probability": 7.46
+        }
+      ],
+      "actual_score": "0-1",
+      "predicted_total_goals": 6,
+      "actual_total_goals": 1,
+      "brier_score": 0.524331160212928,
+      "weights": {
+        "elo": 0.3893805309734513,
+        "dixon_coles": 0.31622418879056047,
+        "form": 0.011799410029498528,
+        "strength": 0.011799410029498528,
+        "fifa": 0.2707964601769912
+      }
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-16T21:00:00",
+      "stage": "Matchday 3",
+      "home_team": "Croatia",
+      "away_team": "Nigeria",
+      "predicted_result": "Home Win",
+      "actual_result": "Home Win",
+      "result_hit": true,
+      "home_win_probability": 41.58,
+      "draw_probability": 28.38,
+      "away_win_probability": 30.03,
+      "predicted_score": "1-0",
+      "top3_scores": [
+        {
+          "score": "1-0",
+          "probability": 12.35
+        },
+        {
+          "score": "2-1",
+          "probability": 8.17
+        },
+        {
+          "score": "2-0",
+          "probability": 8.3
+        }
+      ],
+      "actual_score": "2-0",
+      "predicted_total_goals": 1,
+      "actual_total_goals": 2,
+      "brier_score": 0.5119863458131781,
+      "weights": {
+        "elo": 0.39054354870523256,
+        "dixon_coles": 0.3187466538927555,
+        "form": 0.011834652991067656,
+        "strength": 0.011834652991067656,
+        "fifa": 0.2670404914198766
+      }
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-17T16:00:00",
+      "stage": "Matchday 4",
+      "home_team": "Costa Rica",
+      "away_team": "Serbia",
+      "predicted_result": "Draw",
+      "actual_result": "Away Win",
+      "result_hit": false,
+      "home_win_probability": 35.72,
+      "draw_probability": 30.24,
+      "away_win_probability": 34.03,
+      "predicted_score": "1-1",
+      "top3_scores": [
+        {
+          "score": "1-1",
+          "probability": 14.61
+        },
+        {
+          "score": "0-0",
+          "probability": 14.11
+        },
+        {
+          "score": "2-2",
+          "probability": 3.51
+        }
+      ],
+      "actual_score": "0-1",
+      "predicted_total_goals": 2,
+      "actual_total_goals": 1,
+      "brier_score": 0.6542331152269922,
+      "weights": {
+        "elo": 0.38876889848812096,
+        "dixon_coles": 0.31729825250343613,
+        "form": 0.011780875711761243,
+        "strength": 0.011780875711761243,
+        "fifa": 0.2703710975849205
+      }
+    },
+    {
+      "year": 2018,
+      "date": "2018-06-17T18:00:00",
+      "stage": "Matchday 4",
+      "home_team": "Germany",
+      "away_team": "Mexico",
+      "predicted_result": "Home Win",
+      "actual_result": "Away Win",
+      "result_hit": false,
+      "home_win_probability": 55.16,
+      "draw_probability": 21.95,
+      "away_win_probability": 22.88,
+      "predicted_score": "2-1",
+      "top3_scores": [
+        {
+          "score": "2-1",
+          "probability": 9.72
+        },
+        {
+          "score": "1-0",
+          "probability": 11.45
+        },
+        {
+          "score": "2-0",
+          "probability": 10.7
+        }
+      ],
+      "actual_score": "0-1",
+      "predicted_total_goals": 3,
+      "actual_total_goals": 1,
+      "brier_score": 0.9472184545935028,
+      "weights": {
+        "elo": 0.39014778325123156,
+        "dixon_coles": 0.31842364532019707,
+        "form": 0.011822660098522168,
+        "strength": 0.011822660098522168,
+        "fifa": 0.26778325123152713
+      }
+    }
+  ]
+}

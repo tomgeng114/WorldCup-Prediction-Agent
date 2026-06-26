@@ -1,0 +1,7 @@
+﻿strategy,filter_rule,matches,result_accuracy,score_accuracy,roi,profit_units
+A_all_matches,none,64,54.69,14.06,,0
+B_filter_upset_gt_50,upset_probability <= 50,18,66.67,22.22,,0
+C_filter_upset_gt_55,upset_probability <= 55,37,62.16,18.92,,0
+D_filter_upset_gt_60,upset_probability <= 60,46,58.7,19.57,,0
+E_filter_upset_gt_65,upset_probability <= 65,56,51.79,16.07,,0
+F_filter_upset_gt_70,upset_probability <= 70,63,53.97,14.29,,0

@@ -1,0 +1,890 @@
+ ⨯ ./components/dashboard-cards.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from E:\Tom\WorldCupAI2026\frontend\components\dashboard-cards.tsx
+    1: 系统找不到指定的文件。 (os error 2)
+
+Import trace for requested module:
+./components/dashboard-cards.tsx
+./app/page.tsx
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29330)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29375) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\pages\_document.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29330)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29375) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29330)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29375) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'E:\Tom\WorldCupAI2026\frontend\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'E:\Tom\WorldCupAI2026\frontend\.next\cache\webpack\client-development-fallback\0.pack.gz'
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29330)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29375) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29330)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29375) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29330)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29375) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29330)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29375) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29330)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29375) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29330)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29375) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9031)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js:2:9076) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29330)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29375) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './833.js'
+Require stack:
+- E:\Tom\WorldCupAI2026\frontend\.next\server\webpack-runtime.js
+- E:\Tom\WorldCupAI2026\frontend\.next\server\app\_not-found\page.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\require.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\load-components.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\utils.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\options.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\swc\index.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\config.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\next.js
+- E:\Tom\WorldCupAI2026\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29330)
+    at Object.<anonymous> (E:\Tom\WorldCupAI2026\frontend\.next\server\app\page.js:2:29375) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}

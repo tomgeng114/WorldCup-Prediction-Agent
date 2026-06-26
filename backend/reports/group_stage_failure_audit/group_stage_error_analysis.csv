@@ -1,0 +1,7 @@
+﻿error_type,label,matches,percentage
+A_hot_favorite_upset,热门球队爆冷,36,83.72
+B_draw_misread,平局判断失败,27,62.79
+C_market_model_aligned_failure,模型与市场一致但仍失败,40,93.02
+D_market_model_conflict_failure,模型与市场冲突且失败,3,6.98
+E_high_confidence_failure,高信心失败,0,0.0
+F_low_confidence_failure,低信心失败,34,79.07
